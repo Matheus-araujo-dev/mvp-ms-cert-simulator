@@ -252,3 +252,12 @@ npm i -g pnpm
 3) Abra a pasta no VS Code.
 4) Terminal no VS Code → `pnpm install` → `pnpm dev`
 5) Abra `http://localhost:3000`
+
+
+### Commit falha com Husky / pre-commit
+Este projeto roda validações automaticamente antes do commit.
+
+Se o commit falhar, rode manualmente para ver o erro com detalhes:
+
+```bash
+node tools/content-cli/validate-az900.mjs
