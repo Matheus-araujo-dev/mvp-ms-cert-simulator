@@ -1,0 +1,16 @@
+{
+  "id": "az900-0062",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Associe o trecho informado com a alternativa correspondente.\n\nCâmera de segurança",
+  "options": [
+    { "id": "a", "text": "Identidade e acesso" },
+    { "id": "b", "text": "Compute" },
+    { "id": "c", "text": "Segurança física" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "Câmeras de segurança são controles de segurança física (por exemplo, monitoramento e vigilância em datacenters/instalações).\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/security/fundamentals/physical-security",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

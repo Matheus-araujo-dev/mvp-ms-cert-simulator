@@ -1,0 +1,17 @@
+{
+  "id": "az900-0004",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Sua empresa tem várias unidades de negócios.\n\nCada unidade de negócios requer 20 recursos diferentes do Azure para operação diária. Todas as unidades de negócios exigem os mesmos tipos de recurso do Azure.\n\nVocê precisa recomendar uma solução para automatizar a criação dos recursos do Azure.\n\nO que você deve incluir na recomendação?",
+  "options": [
+    { "id": "a", "text": "Conjuntos de dimensionamento de máquinas virtuais" },
+    { "id": "b", "text": "Modelos do Azure Resource Manager (ARM)" },
+    { "id": "c", "text": "O serviço de Gerenciamento de API do Azure" },
+    { "id": "d", "text": "Grupos de gerenciamento" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Modelos do ARM (ARM templates) permitem descrever infraestrutura de forma declarativa (Infrastructure as Code) e fazer deployments repetíveis e consistentes, o que atende exatamente ao cenário de criar o mesmo conjunto de recursos para várias unidades.\n\nReferências (Microsoft Learn):\n- Visão geral do Azure Resource Manager: https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/overview\n- Quickstart (define ARM template como arquivo declarativo para provisionar recursos): https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-bicep?tabs=CLI",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

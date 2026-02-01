@@ -1,0 +1,15 @@
+{
+  "id": "az900-0048",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "A MFA (Autenticação Multifator do Azure) pode ser exigida para contas de usuário administrativas e não administrativas.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Sim. O Microsoft Entra ID permite exigir MFA para diferentes tipos de usuários (incluindo contas administrativas e não administrativas) por políticas como Acesso Condicional/Security Defaults.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview\n- https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-methods-manage",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "az900-0056",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": {
+    "intro": "Para cada uma das seguintes declarações, selecione Sim se a declaração for verdadeira. Caso contrário, selecione Não.",
+    "observation": "Cada seleção correta vale um ponto.",
+    "statementsTitle": "AFIRMAÇÕES",
+    "statements": [
+      "Uma solução do modelo Plataforma como Serviço (PaaS) que hospeda aplicativos Web no Azure proporciona controle completo do Sistema Operacional onde a aplicação está hospedada.",
+      "Uma solução do modelo Plataforma como Serviço (PaaS) que hospeda aplicativos Web na Azure proporciona a capacidade de escalar a plataforma automaticamente.",
+      "Uma solução do modelo Plataforma como Serviço (PaaS) que hospeda aplicativos Web na Azure permite que o cliente customize apenas a sua aplicação, sem a necessidade de gerenciar a infraestrutura."
+    ],
+    "attention": "O formato acima é equivalente ao que aparece no exame (normalmente via drag-and-drop ou dropdown). Aqui você responde marcando a combinação correta de “Sim/Não” na ordem das afirmações."
+  },
+  "options": [
+    { "id": "a", "text": "Sim, Sim e Sim" },
+    { "id": "b", "text": "Sim, Não e Não" },
+    { "id": "c", "text": "Não, Não e Não" },
+    { "id": "d", "text": "Não, Sim e Sim" }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "Resposta: Não, Sim e Sim.\n\n(1) Não: em PaaS você não tem controle total do sistema operacional subjacente (a plataforma é gerenciada pelo provedor).\n(2) Sim: PaaS normalmente oferece recursos de escalabilidade/scale (incluindo auto scale dependendo do serviço).\n(3) Sim: em PaaS você foca na aplicação e configuração; a infraestrutura/ambiente é gerenciado pelo provedor.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

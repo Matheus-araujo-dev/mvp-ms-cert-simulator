@@ -1,0 +1,15 @@
+{
+  "id": "az900-0063",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Para implementar uma solução de MFA (Autenticação Multifator do Azure), você deve sincronizar identidades locais com a nuvem.",
+  "options": [
+    { "id": "a", "text": "Não" },
+    { "id": "b", "text": "Sim" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Não. MFA é um recurso de autenticação no Azure AD/Microsoft Entra ID e pode ser aplicado a identidades na nuvem. Sincronizar identidades locais só é necessário se você quiser que usuários do AD local usem as mesmas contas (cenário híbrido), mas não é um requisito para usar MFA.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

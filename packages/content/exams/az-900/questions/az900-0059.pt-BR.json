@@ -1,0 +1,17 @@
+{
+  "id": "az900-0059",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que você pode usar para definir os recursos que deseja provisionar em um formato JSON declarativo?\n\nSelecione apenas uma resposta.",
+  "options": [
+    { "id": "a", "text": "Azure PowerShell" },
+    { "id": "b", "text": "Azure Repos" },
+    { "id": "c", "text": "CLI do Azure" },
+    { "id": "d", "text": "Modelos do Azure Resource Manager (ARM)" }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "Modelos do Azure Resource Manager (ARM). Um ARM template é um arquivo JSON que usa sintaxe declarativa para descrever os recursos do Azure que devem ser implantados/provisionados.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/pt-br/azure/virtual-machines/windows/quick-create-template?tabs=azure-powershell",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

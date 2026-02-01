@@ -1,0 +1,17 @@
+{
+  "id": "az900-0019",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que você pode usar para gerenciar servidores em plataformas de nuvem e ambientes locais?",
+  "options": [
+    { "id": "a", "text": "Azure CLI" },
+    { "id": "b", "text": "Azure Monitor" },
+    { "id": "c", "text": "Azure Arc" },
+    { "id": "d", "text": "Azure PowerShell" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "Azure Arc. O Azure Arc estende serviços e o gerenciamento do Azure para servidores e ambientes fora do Azure (por exemplo, on-premises e outras nuvens), centralizando a administração.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/hybrid/server-connectivity",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "az900-0020",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": {
+    "intro": "Você precisa gerenciar o Azure usando o Azure Cloud Shell.\n\nQual ícone do portal do Azure você deve selecionar? Para responder, selecione o ícone apropriado na área de resposta."
+  },
+  "options": [
+    { "id": "a", "text": "Ícone 1" },
+    { "id": "b", "text": "Ícone 3" },
+    { "id": "c", "text": "Ícone 2" },
+    { "id": "d", "text": "Ícone 4" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Para abrir o Azure Cloud Shell no portal, você seleciona o ícone do Cloud Shell (terminal) na barra superior do portal do Azure. Esse ícone inicia uma sessão de shell no navegador.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/is-is/azure/cloud-shell/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

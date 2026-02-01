@@ -1,0 +1,15 @@
+{
+  "id": "az900-0031",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Se você atribuir permissões para um usuário gerenciar um grupo de recursos, o usuário poderá gerenciar todos os recursos do Azure nesse grupo.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Sim. No Azure RBAC, permissões concedidas no escopo de um grupo de recursos se aplicam aos recursos dentro desse grupo (conforme o papel/role atribuído). Ou seja: ao dar um role de gerenciamento no resource group, ele passa a conseguir gerenciar os recursos contidos ali.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/role-based-access-control/scope-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

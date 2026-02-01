@@ -1,0 +1,17 @@
+{
+  "id": "az900-0049",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Selecione a resposta que completa corretamente a frase.\n\n__________ é o processo de verificação das credenciais de um usuário.",
+  "options": [
+    { "id": "a", "text": "Autorização" },
+    { "id": "b", "text": "Autenticação" },
+    { "id": "c", "text": "Ticketing" },
+    { "id": "d", "text": "Federação" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Autenticação. Autenticação é o processo de verificar credenciais/identidade (quem é o usuário). Autorização é o que o usuário pode fazer (permissões) após autenticado.\n\nReferência (Microsoft Learn):\n- https://learn.microsoft.com/en-us/entra/fundamentals/whatis",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "az900-0043",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Associe o termo com a alternativa correspondente.\n\nAutenticação multifator (MFA)",
+  "options": [
+    { "id": "a", "text": "Segurança física" },
+    { "id": "b", "text": "Identidade e acesso" },
+    { "id": "c", "text": "Compute" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Correto.\n\nMFA é um controle de identidade e acesso: exige mais de um fator para validar a identidade no processo de autenticação.\n\nReferência (Microsoft Learn):\nhttps://learn.microsoft.com/pt-br/training/modules/describe-azure-identity-access-security/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

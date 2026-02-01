@@ -1,0 +1,15 @@
+{
+  "id": "az900-0032",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Selecione Sim se a declaração for verdadeira. Caso contrário, selecione Não.\n\nEm um modelo de software como serviço (SaaS), o consumidor deve planejar a alta disponibilidade da solução.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Não. Em SaaS, o provedor é responsável por operar a aplicação e garantir a disponibilidade do serviço. O consumidor utiliza o software, sem precisar arquitetar/implementar alta disponibilidade da plataforma.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/pt-br/azure/security/fundamentals/shared-responsibility",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

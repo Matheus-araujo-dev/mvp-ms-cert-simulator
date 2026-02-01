@@ -1,0 +1,15 @@
+{
+  "id": "az900-0044",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O logon único exige que todos os usuários façam login usando o aplicativo Microsoft Authenticator.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Correto.\n\nSSO (logon único) não exige Microsoft Authenticator. Authenticator é um método comum de MFA. SSO trata de reutilizar a sessão/credenciais para acessar múltiplos aplicativos sem novo login.\n\nReferências (Microsoft Learn):\nhttps://learn.microsoft.com/pt-br/training/modules/describe-azure-identity-access-security/\nhttps://learn.microsoft.com/en-us/entra/identity-platform/msal-js-sso",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

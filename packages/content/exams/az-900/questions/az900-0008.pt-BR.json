@@ -1,0 +1,21 @@
+{
+  "id": "az900-0008",
+  "domainId": "cloud",
+  "type": "multi",
+  "prompt": {
+    "intro": "Você tem um ambiente do Azure.\nVocê precisa criar uma nova máquina virtual do Azure em um tablet que executa o sistema operacional Android.\nQuais são as três possíveis soluções? Cada resposta correta apresenta uma solução completa.",
+    "observation": "Cada seleção correta vale um ponto."
+  },
+  "options": [
+    { "id": "a", "text": "Usar o portal do Azure." },
+    { "id": "b", "text": "Usar o Bash no Azure Cloud Shell." },
+    { "id": "c", "text": "Usar o portal do PowerApps." },
+    { "id": "d", "text": "Usar o PowerShell no Azure Cloud Shell." },
+    { "id": "e", "text": "Usar o centro de administração de Segurança e Conformidade." }
+  ],
+  "correctOptionIds": ["a", "b", "d"],
+  "explanation": "Corretas: A, B e D.\n\nVocê pode criar recursos (como VMs) pelo portal do Azure via navegador. Além disso, o Azure Cloud Shell é um shell baseado em navegador acessível pelo portal e oferece ambientes de Bash e PowerShell, o que permite gerenciar/criar recursos mesmo a partir de um dispositivo Android.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/cloud-shell/features\n- https://learn.microsoft.com/pt-br/azure/cloud-shell/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

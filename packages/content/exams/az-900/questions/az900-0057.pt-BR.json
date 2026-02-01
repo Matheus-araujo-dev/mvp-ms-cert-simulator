@@ -1,0 +1,15 @@
+{
+  "id": "az900-0057",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "As identidades armazenadas em um Active Directory local podem ser sincronizadas com o Azure AD.",
+  "options": [
+    { "id": "a", "text": "Não" },
+    { "id": "b", "text": "Sim" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Sim. Identidades do Active Directory local podem ser sincronizadas para o Azure AD/Microsoft Entra ID usando ferramentas de sincronização (por exemplo, Microsoft Entra Connect/Cloud Sync), permitindo cenários híbridos.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/entra/identity/domain-services/synchronization",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

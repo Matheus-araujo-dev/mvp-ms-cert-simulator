@@ -1,0 +1,15 @@
+{
+  "id": "az900-0013",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Azure AD requer controladores de domínio em máquinas virtuais do Azure.",
+  "options": [
+    { "id": "a", "text": "Não" },
+    { "id": "b", "text": "Sim" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Não. Microsoft Entra ID (Azure AD) é um serviço de identidade na nuvem (IDaaS) e não depende de você manter controladores de domínio em VMs para ele funcionar. Controladores de domínio são um conceito do Active Directory Domain Services (AD DS); se você precisa de recursos de domínio gerenciados, existe Microsoft Entra Domain Services.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/entra/fundamentals/compare\n- https://learn.microsoft.com/en-us/entra/fundamentals/what-is-entra-id",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

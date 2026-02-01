@@ -1,0 +1,15 @@
+{
+  "id": "az900-0054",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Todos os recursos do Azure implantados em um grupo de recursos devem usar a mesma região do Azure.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Não. O grupo de recursos tem uma localização (usada para armazenar metadados do grupo), mas os recursos dentro do grupo podem estar em regiões diferentes.\n\nReferência (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-python",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

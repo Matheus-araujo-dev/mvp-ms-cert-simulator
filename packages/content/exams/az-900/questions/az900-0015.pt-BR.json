@@ -1,0 +1,16 @@
+{
+  "id": "az900-0015",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Associe a questão com a alternativa correta.\n\nO processo de identificar o nível de acesso de um usuário ou serviço.",
+  "options": [
+    { "id": "a", "text": "MFA (autenticação multifator)" },
+    { "id": "b", "text": "Autorização" },
+    { "id": "c", "text": "SSO (logon único)" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Autorização. Autenticação é provar “quem é você”; autorização é definir “o que você pode acessar/fazer” (nível de acesso). MFA e SSO são mecanismos relacionados à autenticação, não à definição de permissões.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/role-based-access-control/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

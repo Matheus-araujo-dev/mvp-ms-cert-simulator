@@ -1,0 +1,17 @@
+{
+  "id": "az900-0047",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "A ABC Organization compra uma assinatura do Microsoft 365 para todos os seus funcionários. Qual modelo de serviço em nuvem a ABC Organization adotou?",
+  "options": [
+    { "id": "a", "text": "PaaS (Platform as a Service)" },
+    { "id": "b", "text": "FaaS (Function as a Service)" },
+    { "id": "c", "text": "IaaS (Infrastructure as a Service)" },
+    { "id": "d", "text": "SaaS (Software as a Service)" }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "SaaS. O Microsoft 365 é um software pronto entregue como serviço (o provedor gerencia a infraestrutura, atualização e disponibilidade; você consome o aplicativo).\n\nReferência (Microsoft Learn):\n- https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "az900-0058",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Azure AD fornece serviços de autenticação para Azure e Microsoft 365.",
+  "options": [
+    { "id": "a", "text": "Não" },
+    { "id": "b", "text": "Sim" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Sim. O Azure AD (Microsoft Entra ID) é o serviço de identidade na nuvem da Microsoft que fornece autenticação/SSO e gerenciamento de identidades para aplicativos e serviços, incluindo Microsoft 365 e acesso a recursos no Azure.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/entra/fundamentals/what-is-entra-id",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

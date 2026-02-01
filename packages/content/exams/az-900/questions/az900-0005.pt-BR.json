@@ -1,0 +1,15 @@
+{
+  "id": "az900-0005",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Uma solução PaaS (Plataforma como Serviço) fornece memória adicional a aplicativos, bastando alterar a faixa de preço.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Sim. Em serviços PaaS como o Azure App Service, você pode fazer scale up mudando o pricing tier do plano para obter mais CPU/memória/disk (capacidade), sem precisar alterar código.\n\nReferências (Microsoft Learn):\n- Scale up no App Service (muda o pricing tier para ganhar CPU/memória etc.): https://learn.microsoft.com/en-us/azure/app-service/manage-scale-up\n- PaaS (tipos de serviço): https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

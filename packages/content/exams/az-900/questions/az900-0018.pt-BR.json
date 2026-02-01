@@ -1,0 +1,15 @@
+{
+  "id": "az900-0018",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Os usuários no Azure AD são organizados usando grupo de recursos.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Não. Grupos de recursos (resource groups) são contêineres para recursos do Azure (VMs, redes, bancos etc.). Usuários e grupos de identidade são gerenciados no Microsoft Entra ID (Azure AD), não por grupos de recursos.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

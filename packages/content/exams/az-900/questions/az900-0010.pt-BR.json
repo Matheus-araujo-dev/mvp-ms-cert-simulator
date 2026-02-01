@@ -1,0 +1,15 @@
+{
+  "id": "az900-0010",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Uma solução de plataforma como serviço (PaaS) que hospeda aplicativos Web no Azure fornece controle total dos sistemas operacionais que hospedam aplicativos.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Não. Em PaaS, o provedor de nuvem gerencia a infraestrutura e o sistema operacional subjacente; você foca no aplicativo e na configuração da plataforma, sem controle total do SO.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

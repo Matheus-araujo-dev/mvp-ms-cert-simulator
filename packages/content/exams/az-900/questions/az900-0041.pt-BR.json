@@ -1,0 +1,17 @@
+{
+  "id": "az900-0041",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Selecione a resposta que completa corretamente a frase.\n\n__________ uma plataforma comum para implantar objetos em uma infraestrutura de nuvem e para implementar consistência em todo o ambiente do Azure.",
+  "options": [
+    { "id": "a", "text": "Os modelos do Azure Resource Manager fornecem" },
+    { "id": "b", "text": "Os grupos de gerenciamento fornecem" },
+    { "id": "c", "text": "As políticas do Azure fornecem" },
+    { "id": "d", "text": "Os grupos de recursos fornecem" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Correto.\n\nModelos ARM (Azure Resource Manager templates) permitem implantações consistentes e repetíveis (infra como código), ajudando a padronizar recursos e ambientes.\n\nReferências (Microsoft Learn):\nhttps://learn.microsoft.com/pt-br/azure/azure-resource-manager/management/overview\nhttps://learn.microsoft.com/pt-br/azure/azure-resource-manager/templates/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

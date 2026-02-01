@@ -1,0 +1,15 @@
+{
+  "id": "az900-0050",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Para usar as credenciais do Azure AD para entrar em um computador que executa o Windows 10, o computador deve ser adicionado ao Azure AD.",
+  "options": [
+    { "id": "a", "text": "Não" },
+    { "id": "b", "text": "Sim" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Sim. Para autenticar no Windows 10 com credenciais do Microsoft Entra ID (Azure AD), o dispositivo precisa estar ingressado no diretório (Azure AD joined) ou em um modelo híbrido equivalente.\n\nReferência (Microsoft Learn):\n- https://learn.microsoft.com/en-us/entra/identity/devices/concept-directory-join",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

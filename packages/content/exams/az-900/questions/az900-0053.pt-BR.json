@@ -1,0 +1,20 @@
+{
+  "id": "az900-0053",
+  "domainId": "cloud",
+  "type": "multi",
+  "prompt": {
+    "intro": "Você tem um aplicativo Web do Azure.\n\nVocê precisa gerenciar as configurações do aplicativo da web a partir de um iPhone.\n\nQuais são as duas ferramentas de gerenciamento do Azure que você pode usar? Cada resposta correta apresenta uma solução completa.",
+    "observation": "NOTA: Cada seleção correta vale um ponto."
+  },
+  "options": [
+    { "id": "a", "text": "Azure Cloud Shell" },
+    { "id": "b", "text": "o portal do Azure (the Azure portal)" },
+    { "id": "c", "text": "Windows PowerShell" },
+    { "id": "d", "text": "Explorador de armazenamento do Azure (Azure Storage Explorer)" }
+  ],
+  "correctOptionIds": ["a", "b"],
+  "explanation": "Azure Cloud Shell e o portal do Azure. Ambos podem ser acessados via navegador em um iPhone. O Cloud Shell é iniciado a partir do portal e fornece um shell na nuvem para gerenciamento.\n\nReferência (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/cloud-shell/using-the-shell-window",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

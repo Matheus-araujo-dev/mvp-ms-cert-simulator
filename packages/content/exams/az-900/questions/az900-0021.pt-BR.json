@@ -1,0 +1,17 @@
+{
+  "id": "az900-0021",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual camada de gerenciamento aceita solicitações de qualquer ferramenta ou API do Azure e permite que você crie, atualize e exclua recursos em uma conta do Azure?\n\nSelecione apenas uma resposta.",
+  "options": [
+    { "id": "a", "text": "Gerenciador de Recursos do Azure (ARM)" },
+    { "id": "b", "text": "Esfera Azure (Azure Sphere)" },
+    { "id": "c", "text": "CLI do Azure" },
+    { "id": "d", "text": "Grupos de gerenciamento do Azure" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Gerenciador de Recursos do Azure (ARM). O ARM é o serviço de implantação e gerenciamento do Azure e fornece a “camada de gerenciamento” que recebe solicitações de ferramentas/APIs e executa operações como criar, atualizar e excluir recursos.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/pt-pt/azure/azure-resource-manager/management/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

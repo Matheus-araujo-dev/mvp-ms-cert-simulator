@@ -1,0 +1,21 @@
+{
+  "id": "az900-0051",
+  "domainId": "cloud",
+  "type": "multi",
+  "prompt": {
+    "intro": "Um engenheiro de suporte pretende executar várias tarefas de gerenciamento do Azure usando o CLI Azure.\n\nVocê instala a CLI em um computador.\n\nVocê precisa informar ao engenheiro de suporte quais ferramentas usar para executar o CLI.\n\nQuais duas ferramentas você deve instruir o engenheiro de suporte a usar? Cada resposta correta apresenta uma solução completa.",
+    "observation": "cada seleção correta vale um ponto."
+  },
+  "options": [
+    { "id": "a", "text": "Azure Resource Explorer" },
+    { "id": "b", "text": "Windows PowerShell" },
+    { "id": "c", "text": "Prompt de Comando" },
+    { "id": "d", "text": "Central de Rede e Compartilhamento" },
+    { "id": "e", "text": "Windows Defender Firewall" }
+  ],
+  "correctOptionIds": ["b", "c"],
+  "explanation": "Windows PowerShell e Prompt de Comando. A Azure CLI é uma ferramenta de linha de comando e pode ser executada em shells como PowerShell e cmd após a instalação.\n\nReferência (Microsoft Learn):\n- https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

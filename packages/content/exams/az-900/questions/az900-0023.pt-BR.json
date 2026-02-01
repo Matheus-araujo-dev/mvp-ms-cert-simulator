@@ -1,0 +1,17 @@
+{
+  "id": "az900-0023",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Você precisa iniciar o Azure Cloud Shell.\n\nO que você deve usar?",
+  "options": [
+    { "id": "a", "text": "O portal do Azure" },
+    { "id": "b", "text": "Interface de linha de comando (CLI) do Azure" },
+    { "id": "c", "text": "Um modelo do Azure Resource Manager (ARM)" },
+    { "id": "d", "text": "Azure PowerShell" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "O portal do Azure. O Azure Cloud Shell é um shell interativo acessível pelo navegador e é iniciado diretamente pelo portal do Azure (ou pelo endereço dedicado do Cloud Shell).\n\nReferência (Microsoft Learn): https://learn.microsoft.com/is-is/azure/cloud-shell/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

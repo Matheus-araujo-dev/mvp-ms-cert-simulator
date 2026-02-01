@@ -1,0 +1,15 @@
+{
+  "id": "az900-0029",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Autenticação é o processo de estabelecer o nível de acesso que um usuário ou serviço autenticado tem.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Não. Autenticação é verificar a identidade (quem você é). Definir o que um usuário autenticado pode fazer (nível/permissões de acesso) é autorização.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/entra/fundamentals/identity-fundamental-concepts",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "az900-0061",
+  "domainId": "cloud",
+  "type": "multi",
+  "prompt": {
+    "intro": "No modelo de serviço em nuvem de infraestrutura como serviço (IaaS), quais são os dois componentes de responsabilidade do provedor de serviços em nuvem? Cada resposta correta apresenta uma solução completa.",
+    "observation": "Cada seleção correta vale um ponto."
+  },
+  "options": [
+    { "id": "a", "text": "A instalação e configuração do sistema operacional" },
+    { "id": "b", "text": "A configuração e manutenção do armazenamento" },
+    { "id": "c", "text": "Segurança física da infraestrutura do datacenter" },
+    { "id": "d", "text": "Manutenção do hardware" },
+    { "id": "e", "text": "A configuração da rede" }
+  ],
+  "correctOptionIds": ["c", "d"],
+  "explanation": "Em IaaS, o provedor é responsável pela infraestrutura física (datacenter), incluindo segurança física e manutenção do hardware. O cliente continua responsável por itens como sistema operacional e configurações do que roda nas VMs.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

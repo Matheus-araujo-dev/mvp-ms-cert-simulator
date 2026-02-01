@@ -1,0 +1,20 @@
+{
+  "id": "az900-0028",
+  "domainId": "cloud",
+  "type": "multi",
+  "prompt": {
+    "intro": "Quais são as duas ferramentas que você pode usar para criar uma nova máquina virtual do Azure a partir de um dispositivo móvel que executa o Android?\n\nCada resposta correta apresenta solução completa.",
+    "observation": "Cada seleção correta vale um ponto."
+  },
+  "options": [
+    { "id": "a", "text": "Área de trabalho remota" },
+    { "id": "b", "text": "PowerShell no Azure Cloud Shell" },
+    { "id": "c", "text": "o portal do Azure" },
+    { "id": "d", "text": "SSH" }
+  ],
+  "correctOptionIds": ["b", "c"],
+  "explanation": "Você pode criar recursos (incluindo VMs) diretamente pelo portal do Azure (via navegador) e também pelo Azure Cloud Shell (PowerShell), que roda no navegador e não exige instalação local — então funciona em um dispositivo Android.\n\nReferências (Microsoft Learn):\n- Azure Cloud Shell: https://learn.microsoft.com/en-us/azure/cloud-shell/overview\n- Ferramentas para gerenciar/deploy (portal/Cloud Shell): https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

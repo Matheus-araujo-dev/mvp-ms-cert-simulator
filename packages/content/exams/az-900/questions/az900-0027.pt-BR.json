@@ -1,0 +1,15 @@
+{
+  "id": "az900-0027",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Sua empresa planeja migrar todos os seus dados e recursos para o Azure.\n\nO plano de migração da empresa afirma que apenas as soluções de Plataforma como Serviço (PaaS) devem ser usadas no Azure.\n\nVocê precisa implantar um ambiente Azure que atenda ao plano de migração da empresa.\n\nSolução: Você cria um Serviço de Aplicativos Azure e contas de armazenamento Azure. Isso cumpre o objetivo?",
+  "options": [
+    { "id": "a", "text": "Não" },
+    { "id": "b", "text": "Sim" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Não. O Azure App Service é PaaS, mas “contas de armazenamento” entram no conjunto de recursos de infraestrutura (IaaS) quando o Microsoft Learn descreve IaaS como incluindo compute, rede e armazenamento. Como o requisito é usar apenas PaaS, a solução proposta não atende ao objetivo.\n\nReferências (Microsoft Learn):\n- Tipos de serviço em nuvem (IaaS inclui armazenamento): https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/\n- Modelo de responsabilidade compartilhada: https://learn.microsoft.com/pt-br/azure/security/fundamentals/shared-responsibility",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

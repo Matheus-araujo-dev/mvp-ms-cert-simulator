@@ -1,0 +1,16 @@
+{
+  "id": "az900-0033",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Associe o trecho informado com a alternativa correspondente.\n\nAtualizações e patches de software.",
+  "options": [
+    { "id": "a", "text": "Segurança física" },
+    { "id": "b", "text": "Identidade e acesso" },
+    { "id": "c", "text": "Compute" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "Atualizações e patches se relacionam ao ambiente de computação (compute), como sistema operacional e componentes de execução. No modelo de responsabilidade compartilhada, quem aplica patches depende do tipo de serviço (IaaS/PaaS/SaaS), mas o tema é da camada de computação.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/pt-br/azure/security/fundamentals/shared-responsibility",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

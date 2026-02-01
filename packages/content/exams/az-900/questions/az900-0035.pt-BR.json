@@ -1,0 +1,15 @@
+{
+  "id": "az900-0035",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Os grupos do Azure AD são suporte a regras de associação dinâmica.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Correto.\n\nNo Microsoft Entra ID (Azure AD), é possível usar associação dinâmica em grupos (regras baseadas em atributos), em vez de manter membros manualmente.\n\nReferência (Microsoft Learn):\nhttps://learn.microsoft.com/pt-br/entra/identity/users/groups-dynamic-membership-rules",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -2,6 +2,6 @@
   "examCode": "AZ-900",
   "locale": "pt-BR",
   "fixedSimulations": [
-    { "id": "az900-sim-01", "title": "Simulado 01", "questionCount": 1, "timeLimitMinutes": 45 }
+    { "id": "az900-sim-01", "title": "Simulado 01", "questionCount": 63, "timeLimitMinutes": 45 }
   ]
 }

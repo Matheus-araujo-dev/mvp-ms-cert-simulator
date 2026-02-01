@@ -1,0 +1,36 @@
+{
+  "id": "az900-0025",
+  "domainId": "cloud",
+  "type": "multi",
+  "prompt": {
+    "intro": "Um administrador do Azure planeja executar um script do PowerShell que cria recursos do Azure.\n\nVocê precisa recomendar qual configuração de computador usar para executar o script.\n\nQuais três computadores podem executar o script? Cada resposta correta apresenta uma solução completa.",
+    "observation": "Cada seleção correta vale um ponto."
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": "um computador que executa o Windows 10 e tem o módulo Azure PowerShell instalado"
+    },
+    {
+      "id": "b",
+      "text": "um computador que executa o Windows 11 e tem as ferramentas CLI do Azure instaladas"
+    },
+    {
+      "id": "c",
+      "text": "um computador que executa Linux e tem as ferramentas CLI do Azure instaladas"
+    },
+    {
+      "id": "d",
+      "text": "um computador que executa macOS e tem o PowerShell Core 6.0 instalado"
+    },
+    {
+      "id": "e",
+      "text": "um computador que executa o Chrome OS e usa Azure Cloud Shell"
+    }
+  ],
+  "correctOptionIds": ["a", "d", "e"],
+  "explanation": "A, D e E.\n- (A) No Windows, você pode instalar o Azure PowerShell e executar scripts localmente.\n- (D) No macOS, você pode usar PowerShell (PowerShell Core) para executar scripts de PowerShell.\n- (E) O Azure Cloud Shell fornece uma experiência de shell (incluindo PowerShell) diretamente no navegador, então um dispositivo com Chrome OS consegue executar o script via Cloud Shell.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/is-is/azure/cloud-shell/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

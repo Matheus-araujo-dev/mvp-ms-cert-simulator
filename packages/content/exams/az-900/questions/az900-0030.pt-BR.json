@@ -1,0 +1,17 @@
+{
+  "id": "az900-0030",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Selecione a resposta que completa a frase corretamente.\n\n__________ permite(m) que os usuários autentiquem-se em vários aplicativos usando SSO (logon único).",
+  "options": [
+    { "id": "a", "text": "Azure AD" },
+    { "id": "b", "text": "Grupos de segurança de aplicativo no Azure" },
+    { "id": "c", "text": "Azure Key Vault" },
+    { "id": "d", "text": "Microsoft Defender para Nuvem" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Azure AD (Microsoft Entra ID) fornece recursos de identidade, autenticação e SSO para acessar vários aplicativos com uma única entrada.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/entra/architecture/authentication-sso",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -2,15 +2,24 @@
   "id": "az900-0001",
   "domainId": "cloud",
   "type": "single",
-  "prompt": "No modelo de consumo (pay-as-you-go), como o custo é cobrado?",
+  "prompt": {
+    "intro": "Para cada uma das afirmações a seguir, selecione Sim se a afirmação for verdadeira. Caso contrário, selecione Não.",
+    "statementsTitle": "AFIRMAÇÕES",
+    "statements": [
+      "Você deverá instalar o Azure Cloud Shell em seu computador para poder usá-lo.",
+      "A CLI (Interface de Linha de Comando) do Azure é instalada, por padrão, no Windows 11.",
+      "O Azure PowerShell pode ser usado em computadores que executam o Windows, o Linux e o macOS."
+    ],
+    "attention": "O FORMATO DA QUESTÃO ACIMA É IDÊNTICO AO QUE CAI NO EXAME AZ-900. NO EXAME VOCÊ UTILIZARÁ O RECURSO DE ARRASTAR E SOLTAR, OU UTILIZANDO DROPDOWN PARA ESCOLHER A OPÇÃO CORRETA. AQUI NA UDEMY NÃO EXISTE ESSES RECURSOS, PORTANTO RESPONDA A RESPOSTA CORRETA ASSOCIANDO AS AFIRMAÇÕES COMO \"SIM\" OU \"NÃO\" NA ORDEM CORRESPONDENTE."
+  },
   "options": [
-    { "id": "a", "text": "Pagamento antecipado de capacidade fixa" },
-    { "id": "b", "text": "Pagamento baseado no uso real de recursos" },
-    { "id": "c", "text": "Compra de hardware local para executar workloads" },
-    { "id": "d", "text": "Licença perpétua sem variação de custo" }
+    { "id": "a", "text": "A) Sim, Sim e Não" },
+    { "id": "b", "text": "B) Não, Não e Não" },
+    { "id": "c", "text": "C) Sim, Não e Sim" },
+    { "id": "d", "text": "D) Não, Não e Sim" }
   ],
-  "correctOptionIds": ["b"],
-  "explanation": "",
+  "correctOptionIds": ["d"],
+  "explanation": "Resposta: D) Não, Não e Sim.\n\n1) Cloud Shell NÃO precisa ser instalado no computador. Ele é um ambiente de shell baseado em navegador.\nReferência (Microsoft Learn): https://learn.microsoft.com/pt-br/azure/cloud-shell/get-started/cloud-shell-overview\n\n2) A Azure CLI NÃO é instalada por padrão no Windows 11. Você instala localmente (ou usa via Cloud Shell).\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows\n\n3) O Azure PowerShell (módulo Az) pode ser usado no Windows, Linux e macOS (é multiplataforma).\nReferências (Microsoft Learn):\n- Windows: https://learn.microsoft.com/en-us/powershell/azure/install-azps-windows?view=azps-15.2.0\n- Linux: https://learn.microsoft.com/en-us/powershell/azure/install-azps-linux?view=azps-15.2.0\n- macOS: https://learn.microsoft.com/en-us/powershell/azure/install-azps-macos?view=azps-15.2.0",
   "tags": [],
   "difficulty": 1,
   "locale": "pt-BR"

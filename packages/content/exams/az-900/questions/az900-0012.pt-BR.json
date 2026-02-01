@@ -1,0 +1,15 @@
+{
+  "id": "az900-0012",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Dois métodos válidos para MFA (Autenticação Multifator do Azure) são identificação de imagem e um número de passaporte.",
+  "options": [
+    { "id": "a", "text": "Não" },
+    { "id": "b", "text": "Sim" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Não. MFA usa fatores adicionais de verificação (por exemplo: aplicativo autenticador, SMS, chamada, chaves/okens, etc.). “Identificação de imagem” e “número de passaporte” não são métodos padrão de verificação de MFA conforme descrito na documentação.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

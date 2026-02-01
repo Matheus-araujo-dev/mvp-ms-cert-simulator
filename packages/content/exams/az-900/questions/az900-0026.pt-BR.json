@@ -1,0 +1,21 @@
+{
+  "id": "az900-0026",
+  "domainId": "cloud",
+  "type": "multi",
+  "prompt": {
+    "intro": "Sua empresa tem uma rede local que contém vários servidores.\n\nA empresa planeja reduzir as seguintes responsabilidades administrativas dos administradores de rede:\n\n• Backup de dados do aplicativo.\n• Substituição do hardware do servidor com falha.\n• Gerenciamento da segurança do servidor físico.\n• Atualização dos sistemas operacionais do servidor.\n• Gerenciamento de permissões para documentos compartilhados.\n\nA empresa planeja migrar vários servidores para máquinas virtuais do Azure.\n\nVocê precisa identificar quais responsabilidades administrativas serão eliminadas após a migração planejada.\n\nQuais duas responsabilidades você deve identificar? Cada resposta correta apresenta uma solução completa.",
+    "observation": "Cada seleção correta vale um ponto."
+  },
+  "options": [
+    { "id": "a", "text": "Backup de dados do aplicativo" },
+    { "id": "b", "text": "Atualização dos sistemas operacionais do servidor" },
+    { "id": "c", "text": "Substituição do hardware do servidor com falha" },
+    { "id": "d", "text": "Gerenciamento de permissões para documentos compartilhados" },
+    { "id": "e", "text": "Gerenciamento de segurança física do servidor" }
+  ],
+  "correctOptionIds": ["c", "e"],
+  "explanation": "Ao migrar para VMs do Azure (IaaS), a Microsoft passa a ser responsável pela infraestrutura física (datacenter, hardware e segurança física). Então, você elimina:\n- Substituição de hardware com falha.\n- Gerenciamento da segurança física.\n\nVocê ainda mantém responsabilidades como atualização do SO da VM, permissões e backup dos dados/aplicações (dependendo da estratégia).\n\nReferência (Microsoft Learn): https://learn.microsoft.com/pt-br/azure/security/fundamentals/shared-responsibility",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

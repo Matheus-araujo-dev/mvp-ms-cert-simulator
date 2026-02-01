@@ -1,0 +1,17 @@
+{
+  "id": "az900-0042",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual das opções a seguir não é uma categoria de computação em nuvem?",
+  "options": [
+    { "id": "a", "text": "NaaS (Rede como Serviço)" },
+    { "id": "b", "text": "IaaS (Infraestrutura como Serviço)" },
+    { "id": "c", "text": "PaaS (Plataforma como Serviço)" },
+    { "id": "d", "text": "SaaS (Software como Serviço)" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Correto.\n\nNo Microsoft Learn, as categorias (modelos de serviço) tratadas para cloud service types são IaaS, PaaS e SaaS. NaaS não é uma dessas categorias no contexto desse conteúdo.\n\nReferência (Microsoft Learn):\nhttps://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

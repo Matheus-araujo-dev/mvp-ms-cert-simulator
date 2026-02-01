@@ -1,0 +1,16 @@
+{
+  "id": "az900-0016",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Associe a questão com a alternativa correta.\n\nA capacidade de usar as mesmas credenciais para acessar vários recursos e aplicativos de diferentes provedores.",
+  "options": [
+    { "id": "a", "text": "MFA (autenticação multifator)" },
+    { "id": "b", "text": "Autorização" },
+    { "id": "c", "text": "SSO (logon único)" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "SSO (logon único). SSO permite usar um único conjunto de credenciais para acessar vários aplicativos/recursos, reduzindo a necessidade de múltiplos logins.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/security/zero-trust/identity-developer-guidance",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

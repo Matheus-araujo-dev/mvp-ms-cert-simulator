@@ -1,0 +1,17 @@
+{
+  "id": "az900-0040",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é usado para conceder permissão aos recursos da Área de Trabalho Virtual do Azure?",
+  "options": [
+    { "id": "a", "text": "funções de controle de acesso baseado em função (RBAC) (role-based access control roles)" },
+    { "id": "b", "text": "grupos de recursos (resource groups)" },
+    { "id": "c", "text": "grupos de segurança de aplicativos (application security groups)" },
+    { "id": "d", "text": "etiquetas (tags)" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Correto.\n\nPermissões a recursos no Azure são concedidas com Azure RBAC por meio de atribuições de função (roles) em um escopo (assinatura, grupo de recursos, recurso).\n\nReferência (Microsoft Learn):\nhttps://learn.microsoft.com/pt-br/azure/role-based-access-control/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

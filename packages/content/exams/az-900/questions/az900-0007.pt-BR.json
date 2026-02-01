@@ -1,0 +1,15 @@
+{
+  "id": "az900-0007",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Com SaaS (software como serviço), você deve aplicar atualizações de software.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Não. Em SaaS, o provedor entrega o software pronto e gerencia a infraestrutura/plataforma e também as atualizações. O cliente normalmente só configura e usa o serviço.\n\nReferências (Microsoft Learn):\n- SaaS (tipos de serviço): https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service\n- Shared responsibility (responsabilidades variam por modelo): https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

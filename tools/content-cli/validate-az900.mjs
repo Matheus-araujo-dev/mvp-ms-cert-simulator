@@ -52,15 +52,50 @@ function parseQuestionIdFromFile(file) {
   return file.replace(/\.(pt-BR|en-US)\.json$/, "");
 }
 
+function validatePrompt(prompt, qid) {
+  // prompt pode ser string (simples) OU objeto (PromptRich)
+  if (isNonEmptyString(prompt)) return;
+
+  assert(prompt && typeof prompt === "object", `Questão ${qid}: "prompt" deve ser string ou objeto`);
+
+  // obrigatório no prompt rico
+  assert(isNonEmptyString(prompt.intro), `Questão ${qid}: prompt.intro obrigatório`);
+
+  // opcionais (se existirem, devem ser strings não vazias)
+  if (prompt.observation !== undefined) {
+    assert(isNonEmptyString(prompt.observation), `Questão ${qid}: prompt.observation deve ser string não vazia`);
+  }
+  if (prompt.statementsTitle !== undefined) {
+    assert(isNonEmptyString(prompt.statementsTitle), `Questão ${qid}: prompt.statementsTitle deve ser string não vazia`);
+  }
+  if (prompt.attention !== undefined) {
+    assert(isNonEmptyString(prompt.attention), `Questão ${qid}: prompt.attention deve ser string não vazia`);
+  }
+
+  // statements (se existir)
+  if (prompt.statements !== undefined) {
+    assert(Array.isArray(prompt.statements), `Questão ${qid}: prompt.statements deve ser array`);
+    assert(prompt.statements.length > 0, `Questão ${qid}: prompt.statements não pode ser vazio`);
+    for (const s of prompt.statements) {
+      assert(isNonEmptyString(s), `Questão ${qid}: prompt.statements deve conter apenas strings não vazias`);
+    }
+  }
+}
+
 function validateQuestionJson(q, file) {
   assert(q && typeof q === "object", `Questão inválida (não é objeto): ${file}`);
 
   assert(isNonEmptyString(q.id), `Questão sem "id": ${file}`);
-  assert(q.id === parseQuestionIdFromFile(file), `ID interno não bate com arquivo: ${file} (id=${q.id})`);
+  assert(
+    q.id === parseQuestionIdFromFile(file),
+    `ID interno não bate com arquivo: ${file} (id=${q.id})`
+  );
 
   assert(q.type === "single" || q.type === "multi", `Questão ${q.id}: "type" deve ser "single" ou "multi"`);
 
-  assert(isNonEmptyString(q.prompt), `Questão ${q.id}: "prompt" obrigatório`);
+  // ✅ atualizado: aceita prompt string OU objeto
+  assert(q.prompt !== undefined && q.prompt !== null, `Questão ${q.id}: "prompt" obrigatório`);
+  validatePrompt(q.prompt, q.id);
 
   assert(Array.isArray(q.options), `Questão ${q.id}: "options" deve ser array`);
   assert(q.options.length >= 2, `Questão ${q.id}: precisa de pelo menos 2 opções`);
@@ -203,11 +238,19 @@ for (const entry of manifest.fixedSimulations) {
   assert(!!found, `Manifest pt-BR.json: simulado listado não existe: ${entry.id}`);
 
   const sim = found.sim;
-  assert(entry.questionCount === sim.questionIds.length, `Manifest pt-BR.json: ${entry.id}: questionCount (${entry.questionCount}) != (${sim.questionIds.length})`);
-  assert(entry.timeLimitMinutes === sim.timeLimitMinutes, `Manifest pt-BR.json: ${entry.id}: timeLimitMinutes (${entry.timeLimitMinutes}) != (${sim.timeLimitMinutes})`);
+  assert(
+    entry.questionCount === sim.questionIds.length,
+    `Manifest pt-BR.json: ${entry.id}: questionCount (${entry.questionCount}) != (${sim.questionIds.length})`
+  );
+  assert(
+    entry.timeLimitMinutes === sim.timeLimitMinutes,
+    `Manifest pt-BR.json: ${entry.id}: timeLimitMinutes (${entry.timeLimitMinutes}) != (${sim.timeLimitMinutes})`
+  );
 
-  // opcional: garantir mesmo título (mantém tudo consistente)
-  assert(entry.title === sim.title, `Manifest pt-BR.json: ${entry.id}: title ("${entry.title}") != sim.title ("${sim.title}")`);
+  assert(
+    entry.title === sim.title,
+    `Manifest pt-BR.json: ${entry.id}: title ("${entry.title}") != sim.title ("${sim.title}")`
+  );
 }
 
 ok(`Manifest pt-BR ok: ${manifest.fixedSimulations.length} simulados`);

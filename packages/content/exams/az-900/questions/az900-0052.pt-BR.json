@@ -1,0 +1,15 @@
+{
+  "id": "az900-0052",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Uma solução PaaS (Plataforma como Serviço) pode aumentar automaticamente o número de instâncias.",
+  "options": [
+    { "id": "a", "text": "Não" },
+    { "id": "b", "text": "Sim" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Sim. Plataformas PaaS podem oferecer scale-out automático (autoscale), aumentando/reduzindo instâncias de forma gerenciada, conforme regras e métricas.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/\n- https://learn.microsoft.com/en-us/training/paths/scale-apps-in-azure-app-service/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

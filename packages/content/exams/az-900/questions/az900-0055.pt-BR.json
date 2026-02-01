@@ -1,0 +1,17 @@
+{
+  "id": "az900-0055",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Você planeja migrar um aplicativo web para o Azure.\n\nO aplicativo web é acessado por usuários externos.\n\nVocê precisa recomendar uma solução de implantação em nuvem para minimizar a quantidade de esforço administrativo usado para gerenciar o aplicativo web.\n\nO que você deve incluir na recomendação?",
+  "options": [
+    { "id": "a", "text": "Database as a Service (DaaS)" },
+    { "id": "b", "text": "Platform as a Service (PaaS)" },
+    { "id": "c", "text": "Infrastructure as a Service (IaaS)" },
+    { "id": "d", "text": "Software as a Service (SaaS)" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "PaaS. Para um aplicativo web, PaaS (por exemplo, Azure App Service) reduz o esforço administrativo porque a plataforma é gerenciada pelo provedor (infraestrutura, patches do SO da plataforma, alta disponibilidade e opções de escalabilidade). Você foca no aplicativo e na configuração, sem administrar servidores.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

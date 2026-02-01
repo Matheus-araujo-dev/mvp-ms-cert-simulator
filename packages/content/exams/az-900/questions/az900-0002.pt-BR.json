@@ -1,0 +1,15 @@
+{
+  "id": "az900-0002",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Azure tem serviços internos de autenticação e autorização que fornecem acesso seguro a recursos do Azure.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Sim. No Azure, a autenticação é feita por um serviço de identidade (Microsoft Entra ID) e a autorização para acessar recursos é controlada por mecanismos como o Azure RBAC (permissões por escopo e função).\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/security/fundamentals/services-technologies",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

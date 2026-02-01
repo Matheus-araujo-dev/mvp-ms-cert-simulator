@@ -1,0 +1,15 @@
+{
+  "id": "az900-0014",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O acesso condicional usa sinais obtidos de um usuário durante o processo de login para decidir se deve permitir ou negar as solicitações de acesso.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Sim. O Acesso Condicional avalia sinais coletados no login (por exemplo: usuário, localização, dispositivo, risco) e, com base nisso, aplica a decisão/política (permitir, exigir controles como MFA, ou bloquear).\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/mem/intune/protect/conditional-access",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

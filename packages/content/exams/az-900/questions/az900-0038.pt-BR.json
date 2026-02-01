@@ -1,0 +1,15 @@
+{
+  "id": "az900-0038",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quando uma assinatura do Azure expira, o locatário do Azure AD associado é excluído automaticamente.",
+  "options": [
+    { "id": "a", "text": "Não" },
+    { "id": "b", "text": "Sim" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Correto.\n\nA assinatura e o locatário (tenant) são conceitos distintos. A expiração/cancelamento de uma assinatura não implica exclusão automática imediata do tenant; existem políticas de retenção e o tenant não é removido automaticamente nesse evento.\n\nReferência (Microsoft Learn):\nhttps://learn.microsoft.com/en-au/answers/questions/2109004/how-long-does-azure-app-service-run-after-license",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

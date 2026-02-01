@@ -1,0 +1,15 @@
+{
+  "id": "az900-0022",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Com software como serviço (SaaS), você deve aplicar atualizações de software.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Não. Em SaaS, o provedor é responsável por operar o aplicativo (incluindo manutenção e atualizações). O cliente apenas utiliza o software.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/7-describe-software-service",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

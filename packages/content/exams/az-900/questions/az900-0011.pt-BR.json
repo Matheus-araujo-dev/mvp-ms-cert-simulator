@@ -1,0 +1,15 @@
+{
+  "id": "az900-0011",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Se você atribuir uma marca a um grupo de recursos, todos os recursos do Azure nesse grupo serão atribuídos à mesma marca.",
+  "options": [
+    { "id": "a", "text": "Não" },
+    { "id": "b", "text": "Sim" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Não. Os recursos não herdam automaticamente as marcas (tags) aplicadas ao grupo de recursos; é necessário marcar os recursos diretamente (ou usar políticas/automação para padronizar tags).\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "az900-0037",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Com IaaS (infraestrutura como serviço), você deve instalar o software que deseja usar.",
+  "options": [
+    { "id": "a", "text": "Não" },
+    { "id": "b", "text": "Sim" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Correto.\n\nEm IaaS, você gerencia a VM (SO e aplicativos). Isso inclui instalar e configurar o software que será usado.\n\nReferência (Microsoft Learn):\nhttps://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

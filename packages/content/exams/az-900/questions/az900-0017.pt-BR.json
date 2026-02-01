@@ -1,0 +1,15 @@
+{
+  "id": "az900-0017",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Uma assinatura do Azure pode ser associada a vários locatários do Azure AD.",
+  "options": [
+    { "id": "a", "text": "Não" },
+    { "id": "b", "text": "Sim" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Não. Uma assinatura fica vinculada a um diretório (tenant) por vez. Se necessário, você pode associar/alterar o tenant (diretório) ao qual a assinatura está vinculada, mas não fica associada a vários simultaneamente.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/transfer-subscriptions-subscribers-csp",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

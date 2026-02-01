@@ -1,0 +1,15 @@
+{
+  "id": "az900-0036",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Backup do Azure é um exemplo de PaaS (plataforma como serviço).",
+  "options": [
+    { "id": "a", "text": "Não" },
+    { "id": "b", "text": "Sim" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Correto.\n\nPaaS é uma plataforma para desenvolver/implantar aplicativos (runtime/serviços de plataforma). O Azure Backup é um serviço gerenciado de backup/recuperação, não uma plataforma de hospedagem para desenvolvimento de apps.\n\nReferências (Microsoft Learn):\nhttps://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/\nhttps://learn.microsoft.com/pt-br/azure/backup/backup-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

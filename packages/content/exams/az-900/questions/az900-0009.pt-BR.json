@@ -1,0 +1,15 @@
+{
+  "id": "az900-0009",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Você pode alterar o locatário do Azure AD ao qual uma assinatura do Azure está associada.",
+  "options": [
+    { "id": "a", "text": "Não" },
+    { "id": "b", "text": "Sim" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Sim. Uma assinatura do Azure é associada a um diretório (locatário) e é possível alterar o diretório associado (por exemplo, para mover a assinatura para outro locatário), seguindo as regras/restrições descritas na documentação.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/entra/fundamentals/how-subscriptions-associated-directory",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

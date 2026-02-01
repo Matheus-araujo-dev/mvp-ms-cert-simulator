@@ -1,0 +1,15 @@
+{
+  "id": "az900-0006",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Uma solução de plataforma como serviço (PaaS) que hospeda aplicativos Web no Azure fornece serviços de desenvolvimento profissional para adicionar continuamente recursos a aplicativos personalizados.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Sim. Em PaaS, o provedor fornece uma plataforma gerenciada (infra/OS/middleware) e também ferramentas/serviços que suportam o ciclo de vida de aplicações Web, acelerando o desenvolvimento e as atualizações. No Azure App Service, por exemplo, é possível configurar implantação contínua (CD) e pipelines de CI/CD para publicar mudanças e evoluir um aplicativo com frequência sem gerenciar servidores.\n\nImportante: isso não significa que a Microsoft 'programa por você' — você continua responsável por desenvolver as novas funcionalidades, mas a plataforma facilita a entrega contínua.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/managed-services\n- https://learn.microsoft.com/en-us/azure/app-service/deploy-continuous-deployment\n- https://learn.microsoft.com/pt-br/azure/app-service/deploy-continuous-deployment",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

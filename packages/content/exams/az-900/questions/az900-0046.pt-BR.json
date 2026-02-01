@@ -1,0 +1,15 @@
+{
+  "id": "az900-0046",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Uma solução de plataforma como serviço (PaaS) que hospeda aplicativos Web no Azure fornece a capacidade de dimensionar a plataforma automaticamente.",
+  "options": [
+    { "id": "a", "text": "Não" },
+    { "id": "b", "text": "Sim" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Sim. Em PaaS (como Azure App Service), a plataforma gerenciada pode oferecer recursos de dimensionamento automático (autoscale), ajustando instâncias conforme regras/telemetria, sem você gerenciar servidores/SO.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/\n- https://learn.microsoft.com/en-us/training/paths/scale-apps-in-azure-app-service/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

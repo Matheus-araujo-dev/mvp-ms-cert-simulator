@@ -1,0 +1,16 @@
+{
+  "id": "az900-0034",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Em qual modelo um Web App provisionado na Azure se enquadra?",
+  "options": [
+    { "id": "a", "text": "IaaS" },
+    { "id": "b", "text": "SaaS" },
+    { "id": "c", "text": "PaaS" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "Um Web App no Azure (Azure App Service) é um exemplo de PaaS: você implanta o aplicativo e o Azure gerencia a infraestrutura e o runtime/plataforma.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/pt-br/azure/app-service/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

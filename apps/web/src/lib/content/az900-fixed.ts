@@ -9,11 +9,21 @@ export type FixedSimulation = {
   questionIds: string[];
 };
 
+export type PromptRich = {
+  intro: string;
+  observation?: string;
+  statementsTitle?: string; // ex: "AFIRMAÇÕES"
+  statements?: string[];
+  attention?: string;
+};
+
+export type PromptBlock = string | PromptRich;
+
 export type Question = {
   id: string;
   domainId: "cloud" | "arch" | "mgmt";
   type: "single" | "multi";
-  prompt: string;
+  prompt: PromptBlock;
   options: { id: string; text: string }[];
   correctOptionIds: string[];
   explanation: string;
@@ -36,7 +46,6 @@ function contentBasePath(...parts: string[]) {
   return path.join(fromWeb, ...parts);
 }
 
-
 export function loadAz900FixedSimulation(simulationId: string): FixedSimulation {
   const filePath = contentBasePath(
     "exams",
@@ -57,4 +66,10 @@ export function loadAz900QuestionPtBr(questionId: string): Question {
   );
   const raw = fs.readFileSync(filePath, "utf-8");
   return JSON.parse(raw) as Question;
+}
+
+export async function loadAz900QuestionsPublicPtBr(questionIds: string[]) {
+  const unique = Array.from(new Set(questionIds));
+  const items = await Promise.all(unique.map((id) => loadAz900QuestionPtBr(id)));
+  return items.filter(Boolean);
 }

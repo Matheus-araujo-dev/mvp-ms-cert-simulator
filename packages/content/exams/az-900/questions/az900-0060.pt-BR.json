@@ -1,0 +1,15 @@
+{
+  "id": "az900-0060",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Cada conta de usuário no Azure AD pode receber apenas uma licença do Microsoft 365.",
+  "options": [
+    { "id": "a", "text": "Sim" },
+    { "id": "b", "text": "Não" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Não. Uma conta pode receber diferentes licenças de produtos/serviços (por exemplo, uma licença base e complementos), então não existe a restrição de “apenas uma licença”. O administrador pode atribuir licenças no Microsoft 365 Admin Center.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/microsoft-365/enterprise/add-several-users-at-the-same-time?view=o365-worldwide",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}
