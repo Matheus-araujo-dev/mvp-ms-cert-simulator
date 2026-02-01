@@ -1,0 +1,7 @@
+{
+  "id": "az900-sim-01",
+  "examCode": "AZ-900",
+  "title": "Simulado 01",
+  "timeLimitMinutes": 45,
+  "questionIds": ["az900-0001"]
+}

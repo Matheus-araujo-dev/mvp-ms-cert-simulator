@@ -1,0 +1,17 @@
+{
+  "id": "az900-0001",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "No modelo de consumo (pay-as-you-go), como o custo é cobrado?",
+  "options": [
+    { "id": "a", "text": "Pagamento antecipado de capacidade fixa" },
+    { "id": "b", "text": "Pagamento baseado no uso real de recursos" },
+    { "id": "c", "text": "Compra de hardware local para executar workloads" },
+    { "id": "d", "text": "Licença perpétua sem variação de custo" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}
