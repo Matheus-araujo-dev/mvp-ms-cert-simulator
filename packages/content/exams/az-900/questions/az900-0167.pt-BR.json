@@ -1,0 +1,17 @@
+﻿{
+  "id": "az900-0167",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Serviço para armazenar e proteger chaves criptográficas usadas em aplicativos e serviços?",
+  "options": [
+    { "id": "a", "text": "A) Content Delivery Network (CDN)" },
+    { "id": "b", "text": "B) Azure Key Vault" },
+    { "id": "c", "text": "C) Azure Functions" },
+    { "id": "d", "text": "D) Banco de Dados Cosmos DB" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "✅ Correta (b): O Azure Key Vault é usado para armazenar e proteger segredos, chaves e certificados, centralizando o gerenciamento e reduzindo exposição de credenciais.\n\n❌ Incorreta (a): CDN distribui e cacheia conteúdo para melhorar desempenho/latência, não é cofre de chaves/segredos.\n\n❌ Incorreta (c): Azure Functions executa código serverless; pode consumir segredos, mas não é o repositório seguro em si.\n\n❌ Incorreta (d): Cosmos DB é banco de dados NoSQL, não serviço especializado para proteção e ciclo de vida de chaves/segredos.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/key-vault/general/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

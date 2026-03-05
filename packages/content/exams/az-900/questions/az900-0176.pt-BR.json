@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0176",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é a Autenticação Multi Fator (MFA) no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Um método de autenticação que requer apenas uma forma de identificação do usuário, como senha ou PIN."
+    },
+    {
+      "id": "b",
+      "text": "B) Um método de autenticação que utiliza várias formas de identificação do usuário, como senhas, PIN e biometria."
+    },
+    {
+      "id": "c",
+      "text": "C) Um método de autenticação que requer a participação de múltiplos usuários para obter acesso."
+    },
+    {
+      "id": "d",
+      "text": "D) Um método de autenticação exclusivo para contas administrativas."
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "✅ Correta (b): MFA (autenticação multifator) exige dois ou mais fatores/métodos de verificação (por exemplo: algo que você sabe, algo que você tem, algo que você é), elevando a segurança além de uma senha.\n\n❌ Incorreta (a): descreve autenticação de fator único (apenas senha/PIN).\n\n❌ Incorreta (c): MFA não depende de “múltiplos usuários”, e sim de múltiplos fatores do mesmo usuário.\n\n❌ Incorreta (d): MFA pode ser exigida para contas administrativas e não administrativas (políticas de acesso/condicional), não é exclusiva de admins.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

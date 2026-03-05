@@ -1,0 +1,17 @@
+{
+  "id": "az900-0124",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais tipos de planos de suporte o Azure oferece?",
+  "options": [
+    { "id": "a", "text": "Básico, Developer, Standard e Professional Direct" },
+    { "id": "b", "text": "Plano Free, Plano Pro e Plano Enterprise" },
+    { "id": "c", "text": "Plano Silver, Plano Gold e Plano Platinum" },
+    { "id": "d", "text": "Básico, Developer, Enterprise, Enterprise on-ramp" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta. O Azure oferece planos de suporte como Basic, Developer, Standard e Professional Direct (entre outros, dependendo do contrato), e esses aparecem como opções de suporte em fluxos do Azure.\n\nb) Incorreta. Essa nomenclatura não corresponde aos planos padrão de suporte do Azure.\n\nc) Incorreta. Essa nomenclatura não corresponde aos planos padrão de suporte do Azure.\n\nd) Incorreta. “Enterprise on-ramp” não é um plano padrão de suporte do Azure nesse conjunto de opções.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/pricing-calculator\n- https://learn.microsoft.com/en-us/azure/azure-portal/supportability/how-to-create-azure-support-request",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

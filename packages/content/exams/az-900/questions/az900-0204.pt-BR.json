@@ -1,0 +1,28 @@
+﻿{
+  "id": "az900-0204",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": {
+    "intro": "Qual é o objetivo principal do Portal de Conformidade da Azure?"
+  },
+  "options": [
+    { "id": "a", "text": "Criar e gerenciar recursos de nuvem na Azure." },
+    {
+      "id": "b",
+      "text": "Monitorar o tráfego de rede entre instâncias virtuais na Azure."
+    },
+    {
+      "id": "c",
+      "text": "Fornecer análise de custos e faturamento para recursos na Azure."
+    },
+    {
+      "id": "d",
+      "text": "Avaliar e garantir a conformidade dos recursos com políticas de segurança na Azure."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "A alternativa **d** é a correta porque o tema “conformidade” no Azure está ligado a avaliar se os recursos atendem políticas/requisitos (por exemplo, via dados e painéis de conformidade do **Azure Policy**).\n\nPor que as outras estão incorretas:\n- **a)** “Criar e gerenciar recursos” descreve o uso geral do portal/gerenciamento de recursos, não o objetivo do portal de conformidade.\n- **b)** Monitorar tráfego de rede é parte de monitoramento/observabilidade (ex.: Azure Monitor e ferramentas de rede), não conformidade.\n- **c)** Custos e faturamento são tratados por recursos de **Cost Management/Billing**, não por conformidade.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/governance/policy/how-to/get-compliance-data\n- https://learn.microsoft.com/en-us/azure/governance/policy/overview\n- https://learn.microsoft.com/en-us/azure/azure-monitor/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

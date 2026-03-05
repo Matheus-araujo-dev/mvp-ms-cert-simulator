@@ -1,0 +1,17 @@
+﻿{
+  "id": "az900-0164",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Serviço para armazenar dados não estruturados, como imagens, vídeos e arquivos de áudio ________________.",
+  "options": [
+    { "id": "a", "text": "A) Azure Blob Storage" },
+    { "id": "b", "text": "B) Azure Cosmos DB" },
+    { "id": "c", "text": "C) Azure File Storage" },
+    { "id": "d", "text": "D) Azure Table Storage" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "✅ Correta (a): O Azure Blob Storage é o serviço de armazenamento de objetos do Azure, voltado para dados não estruturados (imagens, vídeos, áudios, documentos e backups).\n\n❌ Incorreta (b): Azure Cosmos DB é um banco de dados NoSQL distribuído globalmente para dados estruturados/semi-estruturados (documentos, chave-valor, grafo etc.), não um serviço de armazenamento de objetos para mídia/arquivos.\n\n❌ Incorreta (c): Azure Files é armazenamento de arquivos (file shares) para cenários de compartilhamento SMB/NFS, não o serviço típico para objetos como vídeo/imagem.\n\n❌ Incorreta (d): Table Storage é armazenamento NoSQL do tipo chave/atributo (tabela), não voltado para armazenar arquivos de mídia como objetos.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/storage/blobs/storage-blobs-introduction\n- https://learn.microsoft.com/pt-br/azure/storage/files/storage-files-introduction\n- https://learn.microsoft.com/pt-br/azure/storage/tables/table-storage-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

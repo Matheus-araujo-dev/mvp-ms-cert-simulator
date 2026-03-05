@@ -1,0 +1,17 @@
+{
+  "id": "az900-0070",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual serviço do Azure é usado para criar aplicativos e serviços de back-end em tempo real com recursos em tempo real?",
+  "options": [
+    { "id": "a", "text": "Azure Functions" },
+    { "id": "b", "text": "Monitoramento e Diagnóstico" },
+    { "id": "c", "text": "Azure SignalR Service" },
+    { "id": "d", "text": "Banco de Dados SQL do Azure" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Azure SignalR Service é correto porque o serviço simplifica a adição de funcionalidade web em tempo real (push de atualizações para clientes conectados), evitando que o cliente precise ficar fazendo polling.\n\na) Azure Functions é incorreto porque é computação serverless para executar código orientado a eventos; pode ser usado junto com SignalR, mas não é o serviço específico de comunicação em tempo real.\n\nb) Monitoramento e Diagnóstico é incorreto porque está relacionado a observabilidade (coleta/análise de telemetria, logs e métricas), não a entrega de mensagens/atualizações em tempo real para clientes.\n\nd) Banco de Dados SQL do Azure é incorreto porque é um banco de dados relacional gerenciado; pode armazenar dados do sistema, mas não fornece um mecanismo de push em tempo real para clientes.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-overview\n- https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview\n- https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/overview\n- https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

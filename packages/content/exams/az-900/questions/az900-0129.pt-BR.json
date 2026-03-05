@@ -1,0 +1,29 @@
+{
+  "id": "az900-0129",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são os principais benefícios de usar uma VPN do Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Redução dos custos de largura de banda, integração com serviços de diretório local e maior disponibilidade de recursos na nuvem."
+    },
+    {
+      "id": "b",
+      "text": "Acesso seguro e privado a recursos na nuvem do Azure, estabelecimento de comunicação criptografada e extensão da rede local para a nuvem."
+    },
+    {
+      "id": "c",
+      "text": "Otimização do desempenho de recursos na nuvem do Azure, gerenciamento de identidade e acesso e proteção contra ameaças cibernéticas."
+    },
+    {
+      "id": "d",
+      "text": "Backup e recuperação de máquinas virtuais e bancos de dados, aumento da escalabilidade de recursos e monitoramento de tráfego de rede."
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Correta. VPN Gateway permite enviar tráfego criptografado entre uma VNet e locais on-premises (ou entre VNets), estendendo a rede local para a nuvem com conexão segura.\n\na) Incorreta. VPN não é sobre “reduzir custo de largura de banda” nem integração de diretório; o foco é conectividade segura e criptografada.\n\nc) Incorreta. Identidade e proteção contra ameaças são outros domínios (Entra/Defender). VPN é conectividade.\n\nd) Incorreta. Backup/recuperação e escalabilidade são outros serviços/funcionalidades, não benefícios centrais de VPN.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/pt-br/azure/vpn-gateway/vpn-gateway-about-vpngateways",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "az900-0102",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é Single Sign-On (SSO) no contexto do Microsoft Entra ID?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Um recurso que permite que os usuários façam login em vários aplicativos com um único conjunto de credenciais."
+    },
+    {
+      "id": "b",
+      "text": "Um mecanismo que restringe o acesso a aplicativos específicos, impedindo que os usuários acessem recursos não autorizados."
+    },
+    {
+      "id": "c",
+      "text": "Uma ferramenta para criptografar dados confidenciais durante a autenticação."
+    },
+    {
+      "id": "d",
+      "text": "Um serviço que permite a criação de usuários e grupos no Microsoft Entra ID."
+    }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta. SSO é um método de autenticação que permite entrar em vários sistemas/aplicativos usando um único conjunto de credenciais, reduzindo a necessidade de logins repetidos.\n\nb) Incorreta. Isso descreve autorização/controle de acesso (quem pode acessar o quê), não o conceito de single sign-on.\n\nc) Incorreta. Criptografia de dados durante autenticação não define SSO.\n\nd) Incorreta. Criação de usuários/grupos é parte de identidade e administração do diretório, não SSO.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,20 @@
+﻿{
+  "id": "az900-0188",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais sistemas operacionais são suportados pelo serviço Azure Virtual Desktop para serem usados como desktops virtuais?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Apenas Windows 10 Enterprise multi-sessão e Windows Server."
+    },
+    { "id": "b", "text": "B) Apenas Windows 10 Pro e macOS." },
+    { "id": "c", "text": "C) Windows 10 Pro, Windows 11 e Linux." },
+    { "id": "d", "text": "D) Windows Server e Windows 7." }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Correta (A): O Azure Virtual Desktop dá suporte a sessões em Windows Enterprise multi-session (Windows 10/11) e também a Windows Server para cenários de virtualização. Entre as alternativas, a (A) é a que corresponde ao que é suportado (as outras citam Pro, Linux ou Windows 7).\n\nIncorretas:\nB) macOS não é sistema operacional de “host” para AVD; e Windows 10 Pro não é a edição esperada para multi-session.\nC) Linux não é host suportado no modelo descrito; e Windows Pro não é a edição indicada.\nD) Windows 7 não é a base de host típica suportada (e está fora do foco atual de suporte).\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/virtual-desktop/overview\nReferência (Microsoft Learn - multi-session): https://learn.microsoft.com/en-us/azure/virtual-desktop/windows-10-multisession-faq",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

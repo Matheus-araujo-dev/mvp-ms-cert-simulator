@@ -1,0 +1,17 @@
+{
+  "id": "az900-0136",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual é o principal conceito usado no Azure Data Factory para definir a orquestração do fluxo de dados?",
+  "options": [
+    { "id": "a", "text": "Fluxos de Dados (Data Flows)" },
+    { "id": "b", "text": "Tarefas (Tasks)" },
+    { "id": "c", "text": "Conjuntos de Dados (Datasets)" },
+    { "id": "d", "text": "Pipelines" }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "d) Correta. No Azure Data Factory, pipelines são o contêiner lógico que agrupa atividades e define a orquestração do fluxo (ordem/execução) de integração de dados.\n\na) Incorreta. Data flows são para transformação de dados (ETL/ELT) com design visual, mas o conceito principal de orquestração no ADF é o pipeline.\n\nb) Incorreta. “Tasks” não é o conceito principal do ADF (o ADF usa atividades dentro de pipelines).\n\nc) Incorreta. Datasets representam dados/estruturas e conexões (inputs/outputs) usadas por atividades, mas não são o mecanismo de orquestração.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

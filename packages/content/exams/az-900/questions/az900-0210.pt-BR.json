@@ -1,0 +1,36 @@
+﻿{
+  "id": "az900-0210",
+  "domainId": "cloud",
+  "type": "multi",
+  "prompt": {
+    "intro": "No contexto dos serviços de segurança da Azure, selecione as 3 alternativas que os correlacionem com as suas verdadeiras funções:",
+    "observation": "Selecione 3 alternativas."
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": "Azure Active Directory (Azure AD) - Fornece serviços de autenticação e autorização para controlar o acesso a recursos e aplicativos na nuvem da Azure."
+    },
+    {
+      "id": "b",
+      "text": "Azure Sentinel - Gerencia informações e eventos de segurança (SIEM) nativo da nuvem, que ajuda a detectar, investigar e responder a ameaças em tempo real."
+    },
+    {
+      "id": "c",
+      "text": "Azure Key Vault - Oferece um local seguro para armazenar e gerenciar chaves de criptografia, senhas e outros segredos usados por aplicativos e serviços."
+    },
+    {
+      "id": "d",
+      "text": "Azure Firewall - Oferece monitoramento de segurança centralizado, avaliação de vulnerabilidades e recomendações para melhorar a postura de segurança dos recursos da Azure."
+    },
+    {
+      "id": "e",
+      "text": "Azure Security Center - Fornece uma camada de proteção avançada para os recursos da Azure, permitindo controlar o tráfego de entrada e saída entre a nuvem e a Internet."
+    }
+  ],
+  "correctOptionIds": ["a", "b", "c"],
+  "explanation": "As alternativas **a**, **b** e **c** estão corretas:\n- **a) Azure AD/Microsoft Entra ID**: serviço de identidade para autenticação e controle de acesso.\n- **b) Microsoft Sentinel**: SIEM/SOAR nativo em nuvem para coletar, detectar, investigar e responder a ameaças.\n- **c) Azure Key Vault**: armazenamento seguro de segredos/chaves/certificados.\n\nPor que as outras estão incorretas:\n- **d)** A descrição apresentada (postura de segurança, recomendações, avaliação) corresponde ao **Microsoft Defender for Cloud** (antigo “Security Center”), não ao Azure Firewall.\n- **e)** A descrição apresentada (controlar tráfego de entrada/saída) é característica de **firewall**; isso se alinha ao **Azure Firewall**, não ao Security Center/Defender for Cloud.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/entra/fundamentals/what-is-entra\n- https://learn.microsoft.com/en-us/azure/sentinel/overview\n- https://learn.microsoft.com/en-us/azure/key-vault/general/overview\n- https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction\n- https://learn.microsoft.com/en-us/azure/firewall/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "az900-0152",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Azure Functions é um serviço PaaS que permite executar código sem servidor e responder a eventos de forma automatizada.",
+  "options": [
+    { "id": "a", "text": "Verdadeiro" },
+    { "id": "b", "text": "Falso" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta (pela característica principal). Azure Functions é computação sem servidor (serverless) orientada a eventos: você executa código por triggers sem gerenciar infraestrutura. Em muitos materiais introdutórios, serverless é tratado como parte do “modelo PaaS” por abstrair a infraestrutura.\n\nb) Incorreta. A definição de Azure Functions descreve execução de código em resposta a eventos sem gerenciamento de servidores.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

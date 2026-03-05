@@ -1,0 +1,17 @@
+﻿{
+  "id": "az900-0186",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Você é um administrador de TI responsável por automatizar o processo de aprovação de solicitações de férias de funcionários em sua empresa. O processo atual envolve muitos e-mails e aprovações manuais, levando a atrasos e confusões. Qual serviço da Azure é mais adequado para automatizar esse fluxo de trabalho e enviar notificações automáticas aos gerentes para aprovação?",
+  "options": [
+    { "id": "a", "text": "A) Azure Logic Apps" },
+    { "id": "b", "text": "B) Azure Functions" },
+    { "id": "c", "text": "C) Azure App Service" },
+    { "id": "d", "text": "D) Azure Virtual Machines" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Correta (A): Azure Logic Apps é voltado para automação de fluxos de trabalho com gatilhos, ações e conectores (ex.: e-mail/approvals), reduzindo esforço manual.\n\nIncorretas:\nB) Functions executa código sob demanda, mas não é, por si só, uma plataforma de orquestração de workflows com conectores prontos no mesmo nível do Logic Apps.\nC) App Service hospeda aplicações web/APIs; não é o serviço primário para orquestrar aprovações e integrações.\nD) VMs exigem administração do SO e da solução, aumentando esforço operacional.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

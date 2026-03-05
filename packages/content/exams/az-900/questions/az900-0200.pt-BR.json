@@ -1,0 +1,15 @@
+﻿{
+  "id": "az900-0200",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "As regiões do Azure estão restritas a áreas urbanas e metropolitanas em cada país.",
+  "options": [
+    { "id": "a", "text": "a) Verdadeiro" },
+    { "id": "b", "text": "b) Falso" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Correta (b): A Microsoft define regiões por disponibilidade de datacenters e critérios de infraestrutura/mercado/compliance; não existe regra de que elas sejam “restritas a áreas urbanas e metropolitanas”.\n\nIncorreta (a): Seria verdadeiro apenas se existisse essa restrição formal, o que não é apresentado na documentação de infraestrutura global.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/global-infrastructure/regions",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

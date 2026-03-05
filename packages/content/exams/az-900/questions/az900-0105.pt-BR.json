@@ -1,0 +1,17 @@
+{
+  "id": "az900-0105",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quantas Assinaturas podem ser associadas a uma única Conta no Azure?",
+  "options": [
+    { "id": "a", "text": "Apenas 1 Assinatura." },
+    { "id": "b", "text": "Até 5 Assinaturas." },
+    { "id": "c", "text": "Até 10 Assinaturas." },
+    { "id": "d", "text": "Um número ilimitado de Assinaturas." }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "d) Correta (entre as alternativas). Em termos conceituais, uma conta pode ter múltiplas assinaturas (não é limitada a 1/5/10 como regra geral). Na prática, limites de criação podem variar conforme o tipo de contrato/conta de cobrança (por exemplo, em alguns cenários existe limite de criação/quantidade).\n\na) Incorreta. Não é “apenas 1”: é comum uma organização ter várias assinaturas.\n\nb) Incorreta. “Até 5” pode existir em cenários específicos de contrato, mas não é uma regra geral para o Azure como conceito.\n\nc) Incorreta. Não existe um limite geral “até 10” como conceito.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/powershell/azure/manage-subscriptions-azureps?view=azps-15.3.0\n- https://learn.microsoft.com/en-us/azure/cost-management-billing/troubleshoot-subscription/create-subscriptions-deploy-resources",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

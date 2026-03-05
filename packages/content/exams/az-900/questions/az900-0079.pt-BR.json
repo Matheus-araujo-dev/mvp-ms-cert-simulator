@@ -1,0 +1,29 @@
+{
+  "id": "az900-0079",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é um Grupo de Escalonamento de VMs (VMSS) no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Um serviço de backup e recuperação de dados que protege máquinas virtuais e bancos de dados na nuvem."
+    },
+    {
+      "id": "b",
+      "text": "Um serviço de monitoramento de desempenho que rastreia o tráfego de rede e a latência entre os recursos do Azure."
+    },
+    {
+      "id": "c",
+      "text": "Um conjunto de máquinas virtuais que compartilham uma imagem e configuração idênticas e são dimensionadas automaticamente com base na demanda."
+    },
+    {
+      "id": "d",
+      "text": "Um serviço de firewall gerenciado que protege os recursos e aplicativos hospedados no Azure contra ameaças cibernéticas."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. VM Scale Sets permitem criar e gerenciar um grupo de VMs idênticas e usar autoscale para aumentar/diminuir instâncias conforme a demanda.\n\na) Incorreta. Isso descreve backup/recuperação (ex.: Azure Backup), não scale sets.\n\nb) Incorreta. Isso descreve monitoramento (ex.: Azure Monitor), não scale sets.\n\nd) Incorreta. Isso descreve firewall/WAF, não scale sets.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview\n- https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-autoscale-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

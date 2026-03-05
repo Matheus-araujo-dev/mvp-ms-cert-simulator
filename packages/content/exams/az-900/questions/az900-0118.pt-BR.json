@@ -1,0 +1,17 @@
+{
+  "id": "az900-0118",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Banco de dados NoSQL globalmente distribuído que oferece latência baixa e alta disponibilidade ______",
+  "options": [
+    { "id": "a", "text": "Content Delivery Network (CDN)" },
+    { "id": "b", "text": "Monitoramento e Diagnóstico" },
+    { "id": "c", "text": "Armazenamento" },
+    { "id": "d", "text": "Banco de Dados Cosmos DB" }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "d) Correta. Azure Cosmos DB é um banco de dados NoSQL totalmente gerenciado, distribuído globalmente, projetado para baixa latência e alta disponibilidade.\n\na) Incorreta. CDN é para cache/distribuição de conteúdo em borda, não banco de dados.\n\nb) Incorreta. Monitoramento/diagnóstico (Azure Monitor) é observabilidade, não persistência de dados.\n\nc) Incorreta. Azure Storage armazena objetos/arquivos/filas/tabelas; não é o serviço NoSQL global distribuído com as características descritas.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/cosmos-db/introduction\n- https://learn.microsoft.com/pt-br/azure/azure-monitor/overview\n- https://learn.microsoft.com/en-us/azure/architecture/best-practices/cdn",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

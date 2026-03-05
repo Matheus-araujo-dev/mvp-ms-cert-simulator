@@ -1,0 +1,17 @@
+{
+  "id": "az900-0068",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Fornece uma plataforma gerenciada para hospedar bancos de dados NoSQL, como chave-valor, coluna larga, gráfico e documentos",
+  "options": [
+    { "id": "a", "text": "Banco de Dados Cosmos DB" },
+    { "id": "b", "text": "Funções do Azure" },
+    { "id": "c", "text": "Máquinas Virtuais (VMs)" },
+    { "id": "d", "text": "Azure Monitor" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Banco de Dados Cosmos DB é correto porque o Azure Cosmos DB é um banco de dados NoSQL totalmente gerenciado, com suporte a diferentes modelos/APIs (por exemplo, documento e grafo) e escalabilidade para aplicações modernas.\n\nb) Funções do Azure é incorreto porque é serviço de computação serverless para executar código, não um banco de dados NoSQL gerenciado.\n\nc) Máquinas Virtuais (VMs) é incorreto porque VMs são infraestrutura de computação; você até pode instalar um banco NoSQL em uma VM, mas isso não é uma plataforma NoSQL totalmente gerenciada pelo Azure.\n\nd) Azure Monitor é incorreto porque é um serviço de observabilidade/monitoramento (métricas, logs, alertas), não armazenamento de dados NoSQL.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/cosmos-db/overview\n- https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview\n- https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/overview\n- https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

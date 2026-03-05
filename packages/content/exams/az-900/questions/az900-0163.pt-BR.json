@@ -1,0 +1,21 @@
+{
+  "id": "az900-0163",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": {
+    "intro": "Quando você precisa criar VMs para a sua empresa, qual ícone no Portal do Azure você deve clicar para iniciar uma implementação mais rápida desses recursos? (selecione o número abaixo do ícone)"
+  },
+  "options": [
+    { "id": "a", "text": "A) 1" },
+    { "id": "b", "text": "B) 2" },
+    { "id": "c", "text": "C) 3" },
+    { "id": "d", "text": "D) 4" },
+    { "id": "e", "text": "E) 5" },
+    { "id": "f", "text": "F) 6" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Por que a alternativa correta é correta:\n- B) 2: no atalho/tile do portal, o número 2 corresponde a **Máquinas virtuais**. É por ali que você inicia a criação/implantação de VMs no Portal do Azure.\n\nPor que as incorretas estão incorretas:\n- A/C/D/E/F: são outros atalhos/ícones do portal e não representam o caminho direto para criar/implantar VMs.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/virtual-machines/windows/quick-create-portal\n- https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

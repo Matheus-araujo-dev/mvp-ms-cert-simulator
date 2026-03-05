@@ -1,0 +1,29 @@
+{
+  "id": "az900-0099",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual é o propósito principal de ter várias regiões em diferentes locais geográficos no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Aumentar a capacidade de armazenamento de dados em nuvem."
+    },
+    {
+      "id": "b",
+      "text": "Reduzir o tempo de resposta das solicitações dos usuários."
+    },
+    {
+      "id": "c",
+      "text": "Oferecer opções de instalação local para clientes específicos."
+    },
+    {
+      "id": "d",
+      "text": "Fornecer um backup adicional para os dados na nuvem."
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Correta. Ter regiões em diferentes localidades permite escolher regiões geograficamente próximas aos usuários para reduzir latência e melhorar a experiência (tempo de resposta).\n\na) Incorreta. Capacidade de armazenamento não é o motivo principal de existir múltiplas regiões; regiões existem por disponibilidade, resiliência, conformidade e performance (latência), entre outros.\n\nc) Incorreta. “Instalação local” não é objetivo de regiões do Azure; isso se relaciona a soluções híbridas/on-premises (ex.: Azure Stack/Arc), não a “regiões”.\n\nd) Incorreta. Backup/DR pode usar múltiplas regiões (replicação/recuperação), mas não é o propósito principal de ter várias regiões; é um uso/benefício secundário.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/reliability/regions-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

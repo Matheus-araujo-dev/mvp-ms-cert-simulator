@@ -1,0 +1,17 @@
+{
+  "id": "az900-0117",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Oferece opções de armazenamento em nuvem, como Blobs, Tabelas e Discos Gerenciados ______",
+  "options": [
+    { "id": "a", "text": "Serviço de Aplicativo" },
+    { "id": "b", "text": "Azure Active Directory (Azure AD)" },
+    { "id": "c", "text": "Armazenamento" },
+    { "id": "d", "text": "Banco de Dados Cosmos DB" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Azure Storage oferece serviços como Blob e Table storage (entre outros) e é a base de armazenamento na nuvem para dados e vários cenários (incluindo armazenamento associado a VMs, como discos gerenciados).\n\na) Incorreta. App Service é PaaS para hospedar aplicações web/APIs, não a categoria de serviços de armazenamento.\n\nb) Incorreta. Azure AD é identidade e acesso.\n\nd) Incorreta. Cosmos DB é um banco NoSQL gerenciado, não a categoria geral de armazenamento (Blob/Table).\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/storage/common/storage-introduction\n- https://learn.microsoft.com/pt-br/azure/storage/blobs/storage-blobs-introduction\n- https://learn.microsoft.com/pt-br/azure/storage/tables/table-storage-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

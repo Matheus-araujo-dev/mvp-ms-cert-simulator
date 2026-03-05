@@ -1,0 +1,17 @@
+{
+  "id": "az900-0141",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são os sistemas operacionais suportados pelo Azure Virtual Machines?",
+  "options": [
+    { "id": "a", "text": "Apenas Windows Server." },
+    { "id": "b", "text": "Apenas Linux." },
+    { "id": "c", "text": "Apenas Windows Server e Linux." },
+    { "id": "d", "text": "Apenas Windows 10." }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta (entre as alternativas). O Azure Virtual Machines oferece suporte a workloads Windows e Linux.\n\na) Incorreta. Não é apenas Windows Server.\n\nb) Incorreta. Não é apenas Linux.\n\nd) Incorreta. Não é apenas Windows 10.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/virtual-machines/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

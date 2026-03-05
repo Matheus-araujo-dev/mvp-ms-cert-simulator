@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0177",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são os principais componentes do Controle de Acesso Baseado em Função (RBAC) no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Usuários, grupos, aplicativos e grupos de segurança."
+    },
+    {
+      "id": "b",
+      "text": "B) Funções, diretrizes de segurança, certificados digitais e políticas de acesso."
+    },
+    {
+      "id": "c",
+      "text": "C) Assinaturas, políticas de segurança, senhas e chaves de autenticação."
+    },
+    {
+      "id": "d",
+      "text": "D) Grupos de recursos, máquinas virtuais, bancos de dados e redes virtuais."
+    }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "✅ Correta (a): No RBAC, você concede permissões atribuindo funções (roles) a *principais de segurança* (como usuários, grupos e identidades de aplicativo) dentro de um escopo. A alternativa descreve justamente o “quem” recebe permissões.\n\n❌ Incorreta (b): mistura conceitos (certificados/políticas) que não são “componentes” do RBAC.\n\n❌ Incorreta (c): inclui itens que não definem RBAC (senhas/chaves) e mistura com assinatura.\n\n❌ Incorreta (d): lista recursos/containers de recursos (o “onde”), mas não os principais do RBAC.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/role-based-access-control/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

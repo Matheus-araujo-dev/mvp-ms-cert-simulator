@@ -1,0 +1,17 @@
+{
+  "id": "az900-0135",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual serviço do Azure DevOps é usado para automatizar a compilação, teste e implantação contínua de aplicativos?",
+  "options": [
+    { "id": "a", "text": "Azure Repos" },
+    { "id": "b", "text": "Azure Boards" },
+    { "id": "c", "text": "Azure Pipelines" },
+    { "id": "d", "text": "Azure Test Plans" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Azure Pipelines é o serviço de CI/CD do Azure DevOps para automatizar build, testes e deploy.\n\na) Incorreta. Azure Repos é para repositórios Git/controle de versão, não para orquestrar CI/CD.\n\nb) Incorreta. Azure Boards é para gestão de trabalho (backlog, boards), não para CI/CD.\n\nd) Incorreta. Azure Test Plans é para gestão/execução de testes (principalmente manuais), não para pipelines de CI/CD.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,20 @@
+﻿{
+  "id": "az900-0166",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Serviço que permite implantar aplicativos e máquinas virtuais em contêineres sem gerenciar a infraestrutura subjacente ________________.",
+  "options": [
+    { "id": "a", "text": "A) Serviço de Kubernetes do Azure" },
+    { "id": "b", "text": "B) Azure Functions" },
+    {
+      "id": "c",
+      "text": "C) Máquinas Virtuais Escala de Conjunto de Dimensionamento"
+    },
+    { "id": "d", "text": "D) Serviço de Aplicativo" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "✅ Correta (a): O AKS (Azure Kubernetes Service) é um serviço gerenciado do Kubernetes para implantar, gerenciar e dimensionar aplicações em contêineres (orquestração), reduzindo o trabalho de gerenciar infraestrutura do cluster.\n\n❌ Incorreta (b): Azure Functions executa código serverless (funções) com triggers, não orquestra contêineres/VMs como um cluster Kubernetes.\n\n❌ Incorreta (c): VM Scale Sets (VMSS) gerencia grupos de VMs com autoscale/balanceamento, mas não é uma plataforma de orquestração de contêineres.\n\n❌ Incorreta (d): Azure App Service hospeda aplicações web/APIs como PaaS, mas não é o serviço típico para orquestrar e implantar contêineres/VMs em escala como Kubernetes.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/aks/core-aks-concepts\n- https://learn.microsoft.com/pt-br/azure/virtual-machine-scale-sets/overview\n- https://learn.microsoft.com/pt-br/azure/azure-functions/functions-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "az900-0120",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual serviço do Azure fornece uma plataforma gerenciada para hospedar aplicativos web, APIs e back-ends móveis?",
+  "options": [
+    { "id": "a", "text": "Banco de Dados Cosmos DB" },
+    { "id": "b", "text": "Content Delivery Network (CDN)" },
+    { "id": "c", "text": "Serviço de Aplicativo" },
+    { "id": "d", "text": "Monitoramento e Diagnóstico" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Azure App Service (Serviço de Aplicativo) é PaaS para hospedar web apps, APIs e back-ends (inclusive mobile), sem gerenciar infraestrutura.\n\na) Incorreta. Cosmos DB é banco NoSQL.\n\nb) Incorreta. CDN é para entrega/cache de conteúdo.\n\nd) Incorreta. Monitoramento/diagnóstico é observabilidade.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/app-service/overview\n- https://learn.microsoft.com/pt-br/azure/cosmos-db/introduction\n- https://learn.microsoft.com/en-us/azure/architecture/best-practices/cdn\n- https://learn.microsoft.com/pt-br/azure/azure-monitor/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

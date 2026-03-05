@@ -1,0 +1,29 @@
+{
+  "id": "az900-0077",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são algumas das vantagens do Azure DNS em relação ao uso de servidores DNS locais?",
+  "options": [
+    {
+      "id": "a",
+      "text": "O Azure DNS oferece alta disponibilidade, escalabilidade e suporte para DNSSEC (Domain Name System Security Extensions)."
+    },
+    {
+      "id": "b",
+      "text": "Os servidores DNS locais têm menor latência de rede em comparação com o Azure DNS."
+    },
+    {
+      "id": "c",
+      "text": "Os servidores DNS locais têm melhor desempenho de resolução de nomes em comparação com o Azure DNS."
+    },
+    {
+      "id": "d",
+      "text": "O Azure DNS não oferece suporte para registros DNS personalizados, ao contrário dos servidores DNS locais."
+    }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta. A documentação do Azure DNS destaca alta disponibilidade e desempenho, e o Azure Public DNS suporta DNSSEC.\n\nb) Incorreta. A afirmação generaliza: a latência depende de arquitetura e localização. Não é uma “vantagem” inerente de DNS local frente ao Azure DNS.\n\nc) Incorreta. Também é uma generalização sem base como vantagem “por padrão”. O Azure DNS é um serviço global projetado para alta disponibilidade e bom desempenho.\n\nd) Incorreta. No Azure DNS você gerencia zonas e registros DNS (ou seja, suporta registros DNS). A afirmação diz o contrário.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/dns/public-dns-overview\n- https://learn.microsoft.com/en-us/azure/dns/dns-faq\n- https://learn.microsoft.com/en-us/azure/dns/dnssec",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

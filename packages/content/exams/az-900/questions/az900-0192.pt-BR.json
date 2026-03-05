@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0192",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual é o objetivo do pilar de \"Custos\" no Well-Architected Framework da Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Garantir que os recursos sejam provisionados automaticamente para atender à demanda em tempo real."
+    },
+    {
+      "id": "b",
+      "text": "B) Otimizar o uso dos recursos e evitar gastos desnecessários na nuvem."
+    },
+    {
+      "id": "c",
+      "text": "C) Garantir que a arquitetura seja projetada para a alta disponibilidade e continuidade dos serviços."
+    },
+    {
+      "id": "d",
+      "text": "D) Monitorar continuamente o desempenho dos aplicativos e garantir que eles atendam aos requisitos de carga."
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Correta (B): O pilar de otimização de custos trata de maximizar valor e reduzir desperdícios (gastos desnecessários) usando práticas de governança, dimensionamento e escolhas de arquitetura.\n\nIncorretas:\nA) Está mais ligado a escalabilidade/desempenho.\nC) Refere-se ao pilar de confiabilidade.\nD) Refere-se ao pilar de excelência operacional/desempenho.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

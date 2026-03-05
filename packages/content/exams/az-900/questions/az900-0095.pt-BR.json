@@ -1,0 +1,15 @@
+{
+  "id": "az900-0095",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Azure Kubernetes Service (AKS) é um serviço que fornece gerenciamento de contêineres e orquestração usando o Kubernetes.",
+  "options": [
+    { "id": "a", "text": "Verdadeiro" },
+    { "id": "b", "text": "Falso" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta. O AKS é um serviço gerenciado de Kubernetes no Azure para implantar, gerenciar e dimensionar aplicativos em contêineres.\n\nb) Incorreta. A afirmação é verdadeira: AKS existe justamente para orquestração e gerenciamento de contêineres com Kubernetes.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/pt-br/azure/aks/what-is-aks",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

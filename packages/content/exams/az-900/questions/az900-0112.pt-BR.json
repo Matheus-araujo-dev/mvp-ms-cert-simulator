@@ -1,0 +1,22 @@
+{
+  "id": "az900-0112",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": {
+    "intro": "Você gostaria de mudar a aparência e o idioma do seu portal Azure. Através de qual ícone isso é possível? (selecione o número abaixo do ícone)",
+    "observation": "O ícone correto é o de Configurações (Settings) na barra superior do portal."
+  },
+  "options": [
+    { "id": "a", "text": "1" },
+    { "id": "b", "text": "2" },
+    { "id": "c", "text": "3" },
+    { "id": "d", "text": "4" },
+    { "id": "e", "text": "5" },
+    { "id": "f", "text": "6" }
+  ],
+  "correctOptionIds": ["f"],
+  "explanation": "f) Correta. Para alterar idioma e aparência do portal, você abre as preferências em Portal settings usando o ícone de Configurações (Settings) nos controles globais (canto superior direito).\n\nAs demais opções (1–5) são incorretas porque não abrem o menu de configurações/preferências do portal onde ficam as opções de idioma e aparência.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/azure-portal/set-preferences",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

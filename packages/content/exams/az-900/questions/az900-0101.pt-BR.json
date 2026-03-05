@@ -1,0 +1,29 @@
+{
+  "id": "az900-0101",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são alguns dos benefícios de uma nuvem híbrida?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Maior segurança e conformidade, mas sem flexibilidade para escalar recursos sob demanda."
+    },
+    {
+      "id": "b",
+      "text": "Menor custo, mas sem integração com outros serviços em nuvem pública."
+    },
+    {
+      "id": "c",
+      "text": "Flexibilidade para escalar recursos sob demanda, além de maior segurança e conformidade."
+    },
+    {
+      "id": "d",
+      "text": "Maior controle sobre os recursos, mas com menor capacidade de implantação rápida."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Nuvem híbrida combina serviços de nuvem pública com infraestrutura local. Isso dá flexibilidade (usar e escalar recursos na nuvem quando necessário) e pode ajudar em exigências de conformidade/controle (por manter parte on-premises).\n\na) Incorreta. Híbrida não elimina flexibilidade de escalar; na prática, um dos motivos do híbrido é justamente combinar controle/compliance com elasticidade do cloud.\n\nb) Incorreta. Híbrida pressupõe integração entre on-premises e nuvem pública. Dizer “sem integração” contradiz o conceito.\n\nd) Incorreta. A nuvem híbrida pode aumentar controle (parte local), mas não é correto afirmar que ela necessariamente reduz a capacidade de implantação rápida — você continua podendo implantar rapidamente na nuvem pública.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/hybrid-considerations\n- https://learn.microsoft.com/en-us/azure/app-modernization-guidance/plan/plan-an-application-modernization-strategy",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "az900-0128",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é o Azure Advisor?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Uma ferramenta de monitoramento que rastreia o consumo de recursos no Azure."
+    },
+    {
+      "id": "b",
+      "text": "Um serviço de banco de dados gerenciado que oferece alta disponibilidade e escalabilidade."
+    },
+    {
+      "id": "c",
+      "text": "Um assistente de segurança que protege máquinas virtuais contra ameaças cibernéticas."
+    },
+    {
+      "id": "d",
+      "text": "Um serviço de recomendações que fornece orientações para otimizar o desempenho e a segurança dos recursos do Azure."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "d) Correta. O Azure Advisor fornece recomendações personalizadas (por categorias como Reliability, Security, Performance, Cost e Operational Excellence) para melhorar seus recursos.\n\na) Incorreta. Isso descreve monitoramento/telemetria (Azure Monitor), não recomendações do Advisor.\n\nb) Incorreta. Isso descreve um serviço de dados (banco), não o Advisor.\n\nc) Incorreta. Isso descreve proteção/segurança (por exemplo, Defender for Cloud), não o Advisor.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/advisor/advisor-overview\n- https://learn.microsoft.com/pt-br/azure/azure-monitor/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

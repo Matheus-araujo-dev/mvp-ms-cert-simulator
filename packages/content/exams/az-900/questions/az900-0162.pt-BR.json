@@ -1,0 +1,29 @@
+{
+  "id": "az900-0162",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais clientes podem utilizar as regiões restritas (geopolíticas e soberanas) da Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Todos os clientes da Azure, independentemente da localização geográfica."
+    },
+    {
+      "id": "b",
+      "text": "B) Apenas clientes empresariais que possuam uma assinatura Enterprise Agreement."
+    },
+    {
+      "id": "c",
+      "text": "C) Somente clientes que têm presença ou operações nos países ou regiões específicas dessas regiões."
+    },
+    {
+      "id": "d",
+      "text": "D) Apenas clientes que pagam uma taxa adicional para acessar essas regiões exclusivas."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "Por que a alternativa correta é correta:\n- C) Algumas regiões pertencem a **geografias soberanas** e são disponibilizadas para **alguns clientes** em áreas geográficas específicas com exigências de residência de dados (não são abertas para todos).\n\nPor que as incorretas estão incorretas:\n- A) “Todos os clientes”: contradiz a definição de regiões soberanas com disponibilidade restrita.\n- B) “Apenas Enterprise Agreement”: a restrição é por **geografia/eligibilidade**, não por um tipo específico de contrato.\n- D) “Apenas taxa adicional”: não é a regra geral descrita; o ponto é elegibilidade e requisitos regulatórios.\n\nReferência (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/reliability/regions-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

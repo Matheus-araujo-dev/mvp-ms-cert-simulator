@@ -1,0 +1,17 @@
+{
+  "id": "az900-0122",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual serviço do Azure oferece uma solução para proteger, fazer backup e recuperar seus dados e aplicativos na nuvem?",
+  "options": [
+    { "id": "a", "text": "Armazenamento" },
+    { "id": "b", "text": "Content Delivery Network (CDN)" },
+    { "id": "c", "text": "Backup do Azure" },
+    { "id": "d", "text": "Banco de Dados SQL do Azure" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Azure Backup é a solução gerenciada para backup e recuperação de dados/workloads no Azure.\n\na) Incorreta. Storage armazena dados, mas não é a solução de backup/recuperação (políticas, cofres, orquestração) por si só.\n\nb) Incorreta. CDN é entrega/cache de conteúdo.\n\nd) Incorreta. Azure SQL Database é banco relacional gerenciado; embora tenha recursos de backup internos, a pergunta está sobre a solução do Azure voltada a backup/recuperação para dados e aplicativos.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/backup/backup-overview\n- https://learn.microsoft.com/pt-br/azure/storage/common/storage-introduction\n- https://learn.microsoft.com/en-us/azure/architecture/best-practices/cdn",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

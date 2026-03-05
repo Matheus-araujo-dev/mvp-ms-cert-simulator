@@ -1,0 +1,29 @@
+{
+  "id": "az900-0111",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Como o Azure Resource Manager (ARM) se relaciona com os Blueprints no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "O Azure Resource Manager (ARM) é um Blueprint que define a configuração de recursos na nuvem."
+    },
+    {
+      "id": "b",
+      "text": "Os Blueprints são uma extensão do Azure Resource Manager (ARM) que fornecem recursos adicionais para IAC."
+    },
+    {
+      "id": "c",
+      "text": "Os Blueprints usam o Azure Resource Manager (ARM) como base para definir a configuração de recursos na nuvem."
+    },
+    {
+      "id": "d",
+      "text": "O Azure Resource Manager (ARM) usa Blueprints para fornecer interfaces gráficas para gerenciar recursos na nuvem."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Azure Blueprints orquestra a implantação de artefatos como modelos ARM, atribuições de política e de função (RBAC). Ou seja, ele usa ARM templates (ARM) como um dos blocos para definir e implantar configurações.\n\na) Incorreta. ARM é a camada de gerenciamento/implantação do Azure, não um “blueprint”.\n\nb) Incorreta. Blueprints não é “extensão do ARM” no sentido de adicionar recursos de IaC ao ARM; ele é uma forma declarativa de orquestrar artefatos (incluindo ARM templates).\n\nd) Incorreta. ARM não “usa Blueprints” para UI; a interface gráfica é o portal.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/governance/blueprints/overview\n- https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/overview\n- https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

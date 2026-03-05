@@ -1,0 +1,17 @@
+﻿{
+  "id": "az900-0185",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Sua empresa precisa processar um grande conjunto de dados de dados de maneira distribuída. Qual tecnologia de código aberto é amplamente utilizada no Azure HDInsight para esse tipo de necessidade?",
+  "options": [
+    { "id": "a", "text": "A) Apache Spark" },
+    { "id": "b", "text": "B) Apache Cassandra" },
+    { "id": "c", "text": "C) Apache HBase" },
+    { "id": "d", "text": "D) Apache Redis" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Correta (A): O HDInsight oferece clusters de código aberto e um dos principais motores para processamento distribuído e analytics em larga escala é o Apache Spark.\n\nIncorretas:\nB) Cassandra é um banco NoSQL distribuído (armazenamento), não o motor típico “principal” para processamento distribuído em HDInsight.\nC) HBase é um armazenamento NoSQL (colunar) sobre Hadoop.\nD) Redis é tipicamente cache/memória, não plataforma de processamento distribuído de big data.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

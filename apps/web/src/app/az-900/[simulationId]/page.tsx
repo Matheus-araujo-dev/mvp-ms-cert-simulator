@@ -14,13 +14,27 @@ export default async function Page({
   const { simulationId } = await params;
   const sp = searchParams ? await searchParams : undefined;
 
-  const sim = await loadAz900FixedSimulation(simulationId);
+  const sim = loadAz900FixedSimulation(simulationId);
 
   if (!sim) {
     return <div className="p-6">Simulado não encontrado.</div>;
   }
 
-  const questions = await loadAz900QuestionsPublicPtBr(sim.questionIds);
+  const { questions, missing } = loadAz900QuestionsPublicPtBr(sim.questionIds);
+
+  if (missing.length > 0) {
+    return (
+      <div className="p-6 space-y-2">
+        <div className="font-semibold">Conteúdo incompleto</div>
+        <div className="text-sm text-gray-600">
+          Este simulado referencia questões que não foram encontradas:
+        </div>
+        <pre className="rounded border p-3 text-sm whitespace-pre-wrap">
+          {missing.join("\n")}
+        </pre>
+      </div>
+    );
+  }
 
   const modeParam = (sp?.mode ?? "").toLowerCase();
   const runMode: "study" | "exam" = modeParam === "study" ? "study" : "exam";

@@ -1,0 +1,23 @@
+﻿{
+  "id": "az900-0203",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são os tipos de contas de usuário que podem acessar o Portal do Azure?",
+  "options": [
+    { "id": "a", "text": "A) Apenas contas de administrador do Azure." },
+    { "id": "b", "text": "B) Contas da Microsoft (Outlook, Hotmail, etc.)." },
+    {
+      "id": "c",
+      "text": "C) Apenas contas de administrador do Active Directory."
+    },
+    {
+      "id": "d",
+      "text": "D) Contas de administrador do Azure e contas da Microsoft."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "Correta (D): O portal pode ser acessado por contas organizacionais (Microsoft Entra ID / work or school) e também por contas Microsoft (dependendo do cenário), então a alternativa que combina esses tipos é a correta.\n\nIncorretas:\nA) Não é “apenas” admin; o acesso depende de identidade e permissões (RBAC), mas não se limita ao tipo “admin”.\nB) Contas Microsoft podem acessar em alguns cenários, mas a questão pede os tipos e a alternativa correta combina ambos.\nC) “Apenas” admin do AD não faz sentido como limitação para acesso ao portal.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-sign-in",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

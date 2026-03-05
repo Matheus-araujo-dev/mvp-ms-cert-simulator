@@ -1,0 +1,33 @@
+﻿{
+  "id": "az900-0209",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": {
+    "intro": "Através do portal da Azure, onde é possível visualizar as mensagens e alertas que a Azure envia para você?",
+    "observation": "Selecione o número abaixo do ícone.",
+    "figure": {
+      "description": "Print do portal do Azure com ícones numerados na barra superior.",
+      "labels": [
+        "1) + Criar um recurso.",
+        "2) Máquinas virtuais.",
+        "3) Azure Cloud Shell.",
+        "4) Filtro de diretório e assinatura.",
+        "5) Notificações (ícone do sino) — onde você vê mensagens/alertas do portal.",
+        "6) Configurações do portal."
+      ]
+    }
+  },
+  "options": [
+    { "id": "1", "text": "1" },
+    { "id": "2", "text": "2" },
+    { "id": "3", "text": "3" },
+    { "id": "4", "text": "4" },
+    { "id": "5", "text": "5" },
+    { "id": "6", "text": "6" }
+  ],
+  "correctOptionIds": ["5"],
+  "explanation": "A alternativa **5** é a correta porque mensagens/alertas enviados e exibidos no portal ficam em **Notificações** (ícone de sino) na barra superior.\n\nPor que as outras estão incorretas:\n- **1)** cria recursos.\n- **2)** atalho para VMs.\n- **3)** abre o Cloud Shell.\n- **4)** troca diretório/assinatura.\n- **6)** abre configurações do portal.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-overview\n- https://learn.microsoft.com/en-us/troubleshoot/azure/azure-notification-hubs/aad-authentication-failed#check-notifications-in-azure-portal",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

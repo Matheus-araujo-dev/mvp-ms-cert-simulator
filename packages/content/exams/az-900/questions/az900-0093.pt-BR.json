@@ -1,0 +1,29 @@
+{
+  "id": "az900-0093",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais informações são necessárias para usar o Azure Pricing Calculator?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Informações pessoais do usuário, como nome e endereço de e-mail."
+    },
+    {
+      "id": "b",
+      "text": "Detalhes do cartão de crédito ou pagamento para fazer uma estimativa."
+    },
+    {
+      "id": "c",
+      "text": "Tipo de serviço ou recurso que será implantado e a quantidade desejada."
+    },
+    {
+      "id": "d",
+      "text": "Informações sobre a concorrência e preços de outros provedores de nuvem."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. O Pricing Calculator é usado para estimar custo com base nos serviços escolhidos e nas configurações/quantidades (por exemplo, região, tipo/sku, horas de uso, armazenamento, transferências etc.).\n\na) Incorreta. Não é necessário fornecer dados pessoais para montar uma estimativa.\n\nb) Incorreta. Não exige cartão/dados de pagamento para calcular uma estimativa.\n\nd) Incorreta. Não depende de preços de concorrentes; a calculadora estima custos de serviços do Azure.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/pricing-calculator",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

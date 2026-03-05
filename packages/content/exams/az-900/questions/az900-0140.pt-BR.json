@@ -1,0 +1,29 @@
+{
+  "id": "az900-0140",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual é um caso de uso adequado para o serviço Azure Cosmos DB em cenários de Internet das Coisas (IoT)?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Armazenamento de logs de eventos do sistema operacional de servidores."
+    },
+    {
+      "id": "b",
+      "text": "Gerenciamento de transações financeiras em uma instituição bancária."
+    },
+    {
+      "id": "c",
+      "text": "Rastreamento de dados de sensores em dispositivos IoT distribuídos globalmente."
+    },
+    {
+      "id": "d",
+      "text": "Armazenamento de documentos de texto em um servidor de arquivos local."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. O Azure Cosmos DB é um banco NoSQL distribuído globalmente, desenhado para baixa latência e alta disponibilidade — características úteis quando você coleta/consulta dados de sensores em escala e em múltiplas regiões.\n\na) Incorreta. Logs de sistema operacional em geral são cenário típico de logging/observabilidade (ex.: Log Analytics), não um caso “padrão” que define Cosmos DB.\n\nb) Incorreta. Cosmos DB pode ser usado em vários domínios, mas “transações financeiras” costuma exigir requisitos relacionais/ACID específicos e não é o caso clássico apresentado para Cosmos DB.\n\nd) Incorreta. Armazenamento local não é um caso de uso do Azure Cosmos DB.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/cosmos-db/introduction",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

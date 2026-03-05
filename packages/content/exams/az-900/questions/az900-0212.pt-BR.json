@@ -1,0 +1,22 @@
+﻿{
+  "id": "az900-0212",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual é o propósito das tags no Microsoft Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Rastrear o consumo de largura de banda em recursos de rede."
+    },
+    {
+      "id": "b",
+      "text": "Organizar e categorizar recursos para gerenciamento e faturamento."
+    },
+    { "id": "c", "text": "Automatizar a implantação de máquinas virtuais." }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Correta (b): Tags são pares chave/valor aplicados a recursos para organização, governança e relatórios (incluindo custo/faturamento por agrupamento).\n\nIncorretas:\n- (a) Tags não são um recurso de telemetria de rede; isso é parte de monitoramento/rede (ex.: Azure Monitor, Network Watcher).\n- (c) Tags não automatizam deploy de VM; automação é feita por IaC (ARM/Bicep/Terraform), pipelines etc.\n\nReferências (Microsoft Learn):\n- Tags (organização): https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources\n- Visão geral de monitoramento (para contraste com a alternativa a): https://learn.microsoft.com/en-us/azure/azure-monitor/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

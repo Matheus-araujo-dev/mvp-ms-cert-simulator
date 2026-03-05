@@ -1,0 +1,26 @@
+{
+  "id": "az900-0139",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual é a principal diferença entre Opex (Despesas Operacionais) e Capex (Despesas de Capital) em Cloud Computing?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Opex refere-se ao custo inicial de aquisição de hardware e software, enquanto Capex refere-se aos custos contínuos de operação e manutenção."
+    },
+    { "id": "b", "text": "Opex é mais caro do que Capex em longo prazo." },
+    {
+      "id": "c",
+      "text": "Opex é mais adequado para investimentos de curto prazo, enquanto Capex é mais adequado para investimentos de longo prazo."
+    },
+    {
+      "id": "d",
+      "text": "Opex é baseado em pagamento conforme o uso (pay-as-you-go), enquanto Capex envolve custos fixos e pré-pagos."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "d) Correta. Em nuvem, OpEx geralmente se relaciona a despesas operacionais (pagamento conforme o uso), enquanto CapEx é investimento antecipado (compra/infra própria, custos pré-pagos).\n\na) Incorreta. Está invertido: custos iniciais e compra são CapEx; custos operacionais recorrentes são OpEx.\n\nb) Incorreta. Não é uma regra. Depende de consumo, arquitetura e horizonte.\n\nc) Incorreta. Pode até ser uma consequência em alguns cenários, mas não define a diferença “principal”.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/training/modules/describe-cloud-concepts/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

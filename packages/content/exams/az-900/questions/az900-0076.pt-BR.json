@@ -1,0 +1,29 @@
+{
+  "id": "az900-0076",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que cada letra representa no RBAC (Controle de Acesso Baseado em Função)?",
+  "options": [
+    {
+      "id": "a",
+      "text": "R - Regras de acesso, B - Blocos de permissão, A - Autorização detalhada, C - Controle centralizado."
+    },
+    {
+      "id": "b",
+      "text": "R - Requisições de acesso, B - Beneficiários do sistema, A - Atribuições de privilégios, C - Controle de sessão."
+    },
+    {
+      "id": "c",
+      "text": "R - Regras de atribuição, B - Beneficiários de recursos, A - Autorização de segurança, C - Controle de autenticação."
+    },
+    {
+      "id": "d",
+      "text": "R - Recursos, B - Beneficiários, A - Atribuição, C - Controle."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "d) Correta. Azure RBAC é um sistema de autorização para gerenciar acesso a recursos. Na prática, o controle de acesso ocorre quando você faz uma atribuição (role assignment) ligando um beneficiário (principal de segurança) a permissões (papel/role) em um recurso/escopo.\n\na) Incorreta. A descrição não corresponde aos elementos usados pelo Azure RBAC (principal de segurança, definições de função/roles, escopo e atribuições de função).\n\nb) Incorreta. “Controle de sessão” não é um componente do modelo do Azure RBAC.\n\nc) Incorreta. “Controle de autenticação” não descreve RBAC (RBAC é autorização; autenticação é outro processo).\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/role-based-access-control/overview\n- https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

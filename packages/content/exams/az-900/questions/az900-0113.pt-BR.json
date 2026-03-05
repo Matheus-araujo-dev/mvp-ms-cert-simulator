@@ -1,0 +1,15 @@
+{
+  "id": "az900-0113",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Microsoft Entra ID é uma solução da Microsoft projetada exclusivamente para gerenciar identidades e acesso em ambientes locais.",
+  "options": [
+    { "id": "a", "text": "Verdadeiro" },
+    { "id": "b", "text": "Falso" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Correta. Microsoft Entra ID é um serviço de identidade e gerenciamento de acesso baseado em nuvem (multilocatário), usado para controlar acesso a apps e recursos (por exemplo, Microsoft 365, portal do Azure e apps SaaS).\n\na) Incorreta. Não é “exclusivamente” para ambientes locais; ele é cloud-based e justamente habilita acesso a recursos na nuvem (e também cenários híbridos).\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/entra/fundamentals/what-is-entra",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

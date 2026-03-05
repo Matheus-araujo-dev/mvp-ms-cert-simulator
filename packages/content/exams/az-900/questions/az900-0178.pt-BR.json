@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0178",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual tipo de recomendações o Azure Advisor pode fornecer?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Recomendações para otimizar recursos do Azure, mas não inclui recomendações de segurança."
+    },
+    {
+      "id": "b",
+      "text": "B) Recomendações apenas para otimização de custos de recursos no Azure."
+    },
+    {
+      "id": "c",
+      "text": "C) Recomendações para otimizar o desempenho, a confiabilidade e a segurança dos recursos do Azure."
+    },
+    {
+      "id": "d",
+      "text": "D) Recomendações exclusivamente para máquinas virtuais implantadas no Azure."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "✅ Correta (c): O Azure Advisor fornece recomendações em múltiplas categorias para melhorar postura e operação no Azure (por exemplo: custo, segurança, confiabilidade, excelência operacional e desempenho).\n\n❌ Incorreta (a): Advisor também cobre recomendações de segurança.\n\n❌ Incorreta (b): custos é apenas uma das categorias.\n\n❌ Incorreta (d): as recomendações não se limitam a VMs; abrangem diferentes recursos/serviços.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/advisor/advisor-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

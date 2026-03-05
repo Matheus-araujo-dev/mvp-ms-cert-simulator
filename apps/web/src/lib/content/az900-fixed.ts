@@ -43,33 +43,60 @@ function contentBasePath(...parts: string[]) {
 
   // Caso 2: quando o cwd é apps/web (subir 2 níveis até a raiz)
   const fromWeb = path.join(cwd, "..", "..", "packages", "content");
+  if (fs.existsSync(fromWeb)) {
+    return path.join(fromWeb, ...parts);
+  }
+
   return path.join(fromWeb, ...parts);
 }
 
-export function loadAz900FixedSimulation(simulationId: string): FixedSimulation {
+export function loadAz900FixedSimulation(
+  simulationId: string,
+): FixedSimulation | null {
   const filePath = contentBasePath(
     "exams",
     "az-900",
     "fixed-simulations",
-    `${simulationId}.json`
+    `${simulationId}.json`,
   );
-  const raw = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(raw) as FixedSimulation;
+
+  if (!fs.existsSync(filePath)) return null;
+
+  try {
+    const raw = fs.readFileSync(filePath, "utf-8");
+    return JSON.parse(raw) as FixedSimulation;
+  } catch {
+    return null;
+  }
 }
 
-export function loadAz900QuestionPtBr(questionId: string): Question {
+export function loadAz900QuestionPtBr(questionId: string): Question | null {
   const filePath = contentBasePath(
     "exams",
     "az-900",
     "questions",
-    `${questionId}.pt-BR.json`
+    `${questionId}.pt-BR.json`,
   );
-  const raw = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(raw) as Question;
+
+  if (!fs.existsSync(filePath)) return null;
+
+  try {
+    const raw = fs.readFileSync(filePath, "utf-8");
+    return JSON.parse(raw) as Question;
+  } catch {
+    return null;
+  }
 }
 
-export async function loadAz900QuestionsPublicPtBr(questionIds: string[]) {
-  const unique = Array.from(new Set(questionIds));
-  const items = await Promise.all(unique.map((id) => loadAz900QuestionPtBr(id)));
-  return items.filter(Boolean);
+export function loadAz900QuestionsPublicPtBr(questionIds: string[]) {
+  const questions: Question[] = [];
+  const missing: string[] = [];
+
+  for (const id of questionIds) {
+    const q = loadAz900QuestionPtBr(id);
+    if (q) questions.push(q);
+    else missing.push(id);
+  }
+
+  return { questions, missing };
 }

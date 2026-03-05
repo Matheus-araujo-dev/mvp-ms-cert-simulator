@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0179",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são alguns dos benefícios do Azure ExpressRoute em comparação com conexões de rede pela Internet pública?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Maior latência, menor largura de banda e menor segurança."
+    },
+    {
+      "id": "b",
+      "text": "B) Conexão mais rápida, menor latência e maior segurança."
+    },
+    {
+      "id": "c",
+      "text": "C) Maior disponibilidade, maior escalabilidade e menor custo."
+    },
+    {
+      "id": "d",
+      "text": "D) Menor desempenho, menor segurança e maior complexidade."
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "✅ Correta (b): ExpressRoute fornece conectividade privada/dedicada entre a rede local e a nuvem Microsoft, o que tende a melhorar previsibilidade, latência e segurança em comparação com a Internet pública.\n\n❌ Incorreta (a): descreve o oposto do objetivo do ExpressRoute.\n\n❌ Incorreta (c): ExpressRoute não é “mais barato” por padrão; é uma conectividade privada/dedicada.\n\n❌ Incorreta (d): ExpressRoute não visa reduzir desempenho/segurança; ele existe para fortalecer conectividade.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/training/modules/intro-to-azure-expressroute/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

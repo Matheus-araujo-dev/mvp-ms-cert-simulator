@@ -1,0 +1,17 @@
+{
+  "id": "az900-0154",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quantas regiões do Azure existem globalmente?",
+  "options": [
+    { "id": "a", "text": "A) 12 regiões" },
+    { "id": "b", "text": "B) 25 regiões" },
+    { "id": "c", "text": "C) 54 regiões" },
+    { "id": "d", "text": "D) Mais de 80 regiões" }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "Por que a alternativa correta é correta:\n- D) Mais de 80 regiões: a Microsoft descreve que o Azure fornece **mais de 70 regiões** globalmente e continua expandindo. Entre as alternativas, esta é a única que representa uma quantidade acima de 54 e está na ordem de grandeza correta.\n\nPor que as incorretas estão incorretas:\n- A) 12 regiões: muito abaixo do número de regiões globais informado pela Microsoft.\n- B) 25 regiões: muito abaixo do número de regiões globais informado pela Microsoft.\n- C) 54 regiões: ainda abaixo do número de regiões globais informado pela Microsoft.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/reliability/regions-overview\n- https://learn.microsoft.com/en-us/azure/reliability/regions-list",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

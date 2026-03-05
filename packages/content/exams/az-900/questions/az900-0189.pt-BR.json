@@ -1,0 +1,21 @@
+﻿{
+  "id": "az900-0189",
+  "domainId": "cloud",
+  "type": "multi",
+  "prompt": {
+    "intro": "Quais dos seguintes são exemplos de serviços SaaS da Azure? (selecione 2 alternativas)",
+    "observation": "Cada seleção correta vale um ponto."
+  },
+  "options": [
+    { "id": "a", "text": "A) Microsoft 365" },
+    { "id": "b", "text": "B) Dynamic 365" },
+    { "id": "c", "text": "C) Azure Virtual Machines" },
+    { "id": "d", "text": "D) Azure Kubernetes Service (AKS)" },
+    { "id": "e", "text": "E) Azure DevOps" }
+  ],
+  "correctOptionIds": ["a", "b"],
+  "explanation": "Corretas (A, B): Microsoft 365 e Dynamics 365 são exemplos clássicos de Software as a Service (SaaS), onde o provedor entrega o software pronto e gerenciado.\n\nIncorretas:\nC) VMs são IaaS (você gerencia o SO e grande parte da configuração).\nD) AKS é um serviço gerenciado para Kubernetes (mais alinhado a PaaS/containers), não “software pronto” para o usuário final.\nE) Azure DevOps pode existir como serviço em nuvem, mas nesta questão o simulado marcou como exemplos clássicos de SaaS os produtos Microsoft 365 e Dynamics 365.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-describe-software-as-a-service",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

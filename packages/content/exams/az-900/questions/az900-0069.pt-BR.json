@@ -1,0 +1,17 @@
+{
+  "id": "az900-0069",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual serviço do Azure fornece uma plataforma para criar, implantar e gerenciar aplicativos de Internet das Coisas (IoT)?",
+  "options": [
+    { "id": "a", "text": "Hub IoT do Azure" },
+    { "id": "b", "text": "Rede de Distribuição de Conteúdo" },
+    { "id": "c", "text": "Gerenciador de API" },
+    { "id": "d", "text": "Banco de Dados Cosmos DB" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Hub IoT do Azure é correto porque o IoT Hub é um serviço gerenciado que atua como hub central de mensagens em soluções IoT, permitindo comunicação confiável e segura em escala entre a aplicação IoT e os dispositivos.\n\nb) Rede de Distribuição de Conteúdo (CDN) é incorreto porque CDN é para distribuição/cache de conteúdo web em borda para reduzir latência, não para gerenciamento e comunicação com dispositivos IoT.\n\nc) Gerenciador de API (API Management) é incorreto porque é uma plataforma para publicar, proteger e gerenciar APIs (gateway, políticas, portal), não um hub de mensagens/dispositivos IoT.\n\nd) Banco de Dados Cosmos DB é incorreto porque é banco de dados NoSQL gerenciado; pode armazenar telemetria, mas não faz o papel de hub de comunicação/gerenciamento de dispositivos.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/iot-hub/iot-concepts-and-iot-hub\n- https://learn.microsoft.com/en-us/azure/architecture/best-practices/cdn\n- https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts\n- https://learn.microsoft.com/en-us/azure/cosmos-db/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

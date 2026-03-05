@@ -1,0 +1,17 @@
+{
+  "id": "az900-0115",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual categoria de recomendação o Assistente do Azure fornece para otimizar o desempenho e a confiabilidade dos recursos da sua infraestrutura na nuvem?",
+  "options": [
+    { "id": "a", "text": "Categorias de Segurança" },
+    { "id": "b", "text": "Categorias de Custos" },
+    { "id": "c", "text": "Categorias de Desempenho" },
+    { "id": "d", "text": "Categorias de Conformidade" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. O Azure Advisor organiza recomendações por categorias como Reliability, Security, Performance, Cost e Operational Excellence; para otimizar desempenho (e melhorar a experiência/velocidade), a categoria é Performance.\n\na) Incorreta. Security foca em reduzir riscos e vulnerabilidades, não em performance.\n\nb) Incorreta. Cost foca em reduzir gastos e otimizar custos.\n\nd) Incorreta. “Conformidade” não é uma categoria padrão do Azure Advisor (as categorias típicas incluem Reliability/Security/Performance/Cost/Operational Excellence).\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/advisor/advisor-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "az900-0087",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Você é um administrador de sistemas responsável por manter e monitorar o desempenho de um aplicativo de comércio eletrônico altamente escalável executado em várias regiões geográficas. Qual recurso do Azure Application Insights pode ser mais útil para visualizar a taxa de erros e falhas de solicitações em diferentes regiões?",
+  "options": [
+    { "id": "a", "text": "Logs" },
+    { "id": "b", "text": "Monitoramento em tempo real" },
+    { "id": "c", "text": "Painel de métricas" },
+    { "id": "d", "text": "Mapa de aplicativos" }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "d) Correta. O Mapa de aplicativos (Application Map) do Application Insights ajuda a visualizar a topologia do aplicativo e suas dependências, mostrando integridade, falhas e desempenho por componentes — o que facilita comparar comportamentos quando o app roda distribuído (por exemplo, em múltiplas instâncias/regiões).\n\na) Incorreta. Logs são ótimos para investigação detalhada via consultas, mas não são a visualização mais direta para enxergar dependências e falhas de forma “mapa/topologia”.\n\nb) Incorreta. O monitoramento em tempo real (Live Metrics) mostra telemetria quase em tempo real, mas é menos adequado para uma visualização de dependências/topologia e comparação por componentes.\n\nc) Incorreta. Métricas ajudam a acompanhar indicadores, mas o “mapa” é mais específico para visualizar relacionamento entre componentes/serviços e onde as falhas ocorrem na cadeia.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-map\n- https://learn.microsoft.com/en-us/azure/azure-monitor/app/live-stream\n- https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-query-overview\n- https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/metrics-supported",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

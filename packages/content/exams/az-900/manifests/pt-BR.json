@@ -2,6 +2,29 @@
   "examCode": "AZ-900",
   "locale": "pt-BR",
   "fixedSimulations": [
-    { "id": "az900-sim-01", "title": "Simulado 01", "questionCount": 63, "timeLimitMinutes": 45 }
+    {
+      "id": "az900-sim-01",
+      "title": "Simulado 01",
+      "questionCount": 63,
+      "timeLimitMinutes": 45
+    },
+    {
+      "id": "az900-sim-02",
+      "title": "Simulado 02",
+      "questionCount": 50,
+      "timeLimitMinutes": 45
+    },
+    {
+      "id": "az900-sim-03",
+      "title": "Simulado 03",
+      "questionCount": 50,
+      "timeLimitMinutes": 45
+    },
+    {
+      "id": "az900-sim-04",
+      "title": "Simulado 04",
+      "questionCount": 50,
+      "timeLimitMinutes": 45
+    }
   ]
 }

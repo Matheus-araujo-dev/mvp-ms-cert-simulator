@@ -1,0 +1,17 @@
+﻿{
+  "id": "az900-0165",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Solução de análise de big data que permite explorar e visualizar dados de forma interativa ________________.",
+  "options": [
+    { "id": "a", "text": "A) Monitoramento e Diagnóstico" },
+    { "id": "b", "text": "B) Power BI" },
+    { "id": "c", "text": "C) Azure Functions" },
+    { "id": "d", "text": "D) Banco de Dados Cosmos DB" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "✅ Correta (b): O Power BI é a plataforma de análise de negócios (BI) da Microsoft para conectar, explorar, visualizar e compartilhar dados por meio de relatórios e dashboards interativos.\n\n❌ Incorreta (a): Monitoramento e Diagnóstico (ex.: Azure Monitor) é para telemetria, métricas e logs de recursos/aplicações, não uma ferramenta de BI para exploração visual interativa.\n\n❌ Incorreta (c): Azure Functions é computação serverless orientada a eventos, não uma solução de visualização/BI.\n\n❌ Incorreta (d): Cosmos DB é banco de dados NoSQL, não a camada de visualização interativa de dados.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/power-bi/fundamentals/power-bi-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

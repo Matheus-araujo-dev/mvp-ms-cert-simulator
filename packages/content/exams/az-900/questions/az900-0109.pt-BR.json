@@ -1,0 +1,29 @@
+{
+  "id": "az900-0109",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual é a relação entre Grupo de Recursos, Zonas de Disponibilidade e Regiões no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Cada Grupo de Recursos abrange uma Região, que contém várias Zonas de Disponibilidade."
+    },
+    {
+      "id": "b",
+      "text": "Cada Região abrange várias Zonas de Disponibilidade, que contêm vários Grupos de Recursos."
+    },
+    {
+      "id": "c",
+      "text": "Cada Região abrange um único Grupo de Recursos, que pode ser replicado em várias Zonas de Disponibilidade."
+    },
+    {
+      "id": "d",
+      "text": "Cada Zona de Disponibilidade abrange um Grupo de Recursos específico em uma Região."
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Correta (entre as alternativas). Regiões podem oferecer várias Zonas de Disponibilidade, e os recursos (organizados em grupos de recursos) podem ser implantados nessa região e, quando aplicável, distribuídos entre zonas para alta disponibilidade.\n\na) Incorreta. Um grupo de recursos não “abrange uma região” como regra: ele é um contêiner lógico na assinatura. O agrupamento não é definido por região.\n\nc) Incorreta. Não existe “um único grupo de recursos por região”, nem o conceito de replicar um grupo de recursos entre zonas.\n\nd) Incorreta. Zonas não “contêm” grupos de recursos.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/reliability/availability-zones-overview\n- https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,19 @@
+﻿{
+  "id": "az900-0205",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": {
+    "intro": "Sua empresa precisa expandir seus negócios ao redor do mundo e garantir alta disponibilidade e desempenho para seus aplicativos.\n\nQual serviço do Azure você recomendaria para atender a essa necessidade?"
+  },
+  "options": [
+    { "id": "a", "text": "Azure Content Delivery Network (CDN)" },
+    { "id": "b", "text": "Azure Virtual Machines (VMs)" },
+    { "id": "c", "text": "Azure Traffic Manager" },
+    { "id": "d", "text": "Azure Cosmos DB" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "A alternativa **c** é a correta porque o **Azure Traffic Manager** faz roteamento global de tráfego (baseado em DNS) para melhorar disponibilidade e desempenho ao direcionar usuários para endpoints mais adequados/saudáveis.\n\nPor que as outras estão incorretas:\n- **a)** CDN acelera entrega de conteúdo (principalmente cache/edge), mas não é o serviço principal para roteamento global entre endpoints/regiões visando HA do aplicativo como um todo.\n- **b)** VMs são computação (onde o app roda), não um serviço de roteamento/gerenciamento global de tráfego.\n- **d)** Cosmos DB é banco de dados; pode ser globalmente distribuído, mas não resolve roteamento global de tráfego do aplicativo.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\n- https://learn.microsoft.com/en-us/azure/cdn/cdn-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

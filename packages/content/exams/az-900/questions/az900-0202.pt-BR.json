@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0202",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são os desafios comuns enfrentados pelas empresas ao adotar uma estratégia de nuvem híbrida?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Falta de flexibilidade para escolher provedores de nuvem pública, além de alta latência para acessar recursos em nuvem privada."
+    },
+    {
+      "id": "b",
+      "text": "B) Dificuldades na integração de recursos de diferentes provedores de nuvem pública."
+    },
+    {
+      "id": "c",
+      "text": "C) Conflitos de conformidade e segurança ao migrar dados e aplicativos para a nuvem pública."
+    },
+    {
+      "id": "d",
+      "text": "D) Desafios de gerenciamento e complexidade ao lidar com ambientes híbridos."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "Correta (D): Um desafio recorrente em nuvem híbrida é a complexidade de gerenciamento e governança (monitorar, proteger e operar recursos distribuídos entre ambientes diferentes).\n\nIncorretas:\nA) “Falta de flexibilidade para escolher provedores” não é um desafio típico definidor de híbrido.\nB) Isso descreve mais um cenário multi-cloud (entre provedores públicos), não necessariamente híbrido.\nC) Conformidade/segurança podem ser desafios, mas a alternativa que melhor resume o desafio clássico do híbrido é a complexidade operacional/gerencial.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-describe-cloud-deployment-models",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

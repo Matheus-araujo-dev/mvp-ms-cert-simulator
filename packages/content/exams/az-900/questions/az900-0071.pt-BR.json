@@ -1,0 +1,17 @@
+{
+  "id": "az900-0071",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual serviço do Azure é usado para criar, implantar e gerenciar aplicativos de machine learning?",
+  "options": [
+    { "id": "a", "text": "Azure Functions" },
+    { "id": "b", "text": "Azure Machine Learning" },
+    { "id": "c", "text": "Serviço de Aplicativo" },
+    { "id": "d", "text": "Content Delivery Network (CDN)" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Azure Machine Learning é correto porque é um serviço de nuvem para acelerar e gerenciar o ciclo de vida de projetos de ML (treinar, implantar modelos e gerenciar operações/MLOps).\n\na) Azure Functions é incorreto porque é computação serverless para executar código; pode acionar pipelines/serviços, mas não é a plataforma principal para gerenciar o ciclo de vida de ML.\n\nc) Serviço de Aplicativo (App Service) é incorreto porque é PaaS para hospedar apps Web/APIs/back-ends; não é o serviço específico para treinamento e gestão de modelos de ML.\n\nd) CDN é incorreto porque é para distribuição/cache de conteúdo em borda, não para criação/implantação/gestão de modelos e workloads de ML.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-machine-learning?view=azureml-api-2\n- https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview\n- https://learn.microsoft.com/en-us/azure/app-service/overview\n- https://learn.microsoft.com/en-us/azure/architecture/best-practices/cdn",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

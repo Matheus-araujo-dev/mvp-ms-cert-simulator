@@ -1,0 +1,29 @@
+{
+  "id": "az900-0127",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é o Controle de Acesso Baseado em Função (RBAC) no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Um mecanismo de autenticação que verifica a identidade dos usuários por meio de certificados digitais."
+    },
+    {
+      "id": "b",
+      "text": "Um mecanismo de criptografia que protege os dados armazenados no Azure."
+    },
+    {
+      "id": "c",
+      "text": "Um modelo de segurança que concede permissões aos usuários com base em suas funções dentro da organização."
+    },
+    {
+      "id": "d",
+      "text": "Um sistema de monitoramento que rastreia o acesso e o uso dos recursos do Azure"
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Azure RBAC é um sistema de autorização para gerenciar quem pode fazer o quê em quais recursos (permissões baseadas em funções/roles).\n\na) Incorreta. Isso descreve autenticação (provar identidade), não autorização por função.\n\nb) Incorreta. Criptografia protege dados, mas não define permissões por função.\n\nd) Incorreta. Monitoramento/auditoria é observabilidade e logs, não o mecanismo de concessão de permissões.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/pt-br/azure/role-based-access-control/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

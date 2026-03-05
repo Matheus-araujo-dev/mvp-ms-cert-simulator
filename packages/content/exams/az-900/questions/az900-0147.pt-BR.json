@@ -1,0 +1,15 @@
+{
+  "id": "az900-0147",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Azure Blob Storage é um serviço de armazenamento de objetos altamente escalável, adequado apenas para armazenar dados não estruturados.",
+  "options": [
+    { "id": "a", "text": "Verdadeiro" },
+    { "id": "b", "text": "Falso" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta (no contexto do serviço). O Azure Blob Storage é armazenamento de objetos voltado a dados não estruturados (texto e binário), como documentos, imagens, vídeos, logs e backups.\n\nb) Incorreta. A descrição do Blob Storage na documentação é justamente como armazenamento para dados não estruturados.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

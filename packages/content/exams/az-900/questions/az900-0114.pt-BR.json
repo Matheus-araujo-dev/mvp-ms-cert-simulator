@@ -1,0 +1,17 @@
+{
+  "id": "az900-0114",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual serviço da Azure é usado para criar e gerenciar redes virtuais?",
+  "options": [
+    { "id": "a", "text": "Azure Virtual Network" },
+    { "id": "b", "text": "Azure DNS" },
+    { "id": "c", "text": "Azure Traffic Manager" },
+    { "id": "d", "text": "Azure Load Balancer" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta. Azure Virtual Network (VNet) é o serviço do Azure para criar e gerenciar redes virtuais privadas na nuvem.\n\nb) Incorreta. Azure DNS é para hospedagem/gerenciamento de zonas e registros DNS, não para criar redes virtuais.\n\nc) Incorreta. Azure Traffic Manager faz roteamento global de tráfego (DNS-based) para melhorar disponibilidade/desempenho, não cria redes virtuais.\n\nd) Incorreta. Azure Load Balancer distribui tráfego entre instâncias (balanceamento L4), não cria redes virtuais.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/virtual-network/virtual-networks-overview\n- https://learn.microsoft.com/pt-br/azure/dns/dns-overview\n- https://learn.microsoft.com/pt-br/azure/traffic-manager/traffic-manager-overview\n- https://learn.microsoft.com/pt-br/azure/load-balancer/load-balancer-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

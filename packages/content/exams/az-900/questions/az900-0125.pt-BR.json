@@ -1,0 +1,25 @@
+{
+  "id": "az900-0125",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais benefícios estão incluídos no Plano Básico de suporte do Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Suporte 24x7, tempos de resposta mais rápidos e consultas de cobrança"
+    },
+    {
+      "id": "b",
+      "text": "Suporte 24x7, tempo de resposta mais rápido e acesso ao Azure Advisor"
+    },
+    {
+      "id": "c",
+      "text": "Suporte 24x7, consultas de cobrança e acesso ao Azure Advisor"
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta (entre as alternativas). O Azure fornece suporte para gerenciamento de assinatura (inclui cobrança e ajustes de cota/conta) mesmo sem um plano pago, e o Azure Advisor é um serviço disponível para ajudar com recomendações.\n\na) Incorreta. “Tempos de resposta mais rápidos” sugere SLA de suporte técnico; para suporte técnico, normalmente é necessário um plano de suporte (não apenas o básico incluído com a assinatura).\n\nb) Incorreta. Mesma falha do item (a): “tempo de resposta mais rápido” é característica associada a planos de suporte técnico (pago), não ao que vem por padrão.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/azure-portal/supportability/how-to-create-azure-support-request\n- https://learn.microsoft.com/en-us/azure/advisor/advisor-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

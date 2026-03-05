@@ -1,0 +1,15 @@
+{
+  "id": "az900-0094",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Azure Virtual Machines é um serviço que permite executar aplicativos em servidores virtuais baseados em nuvem.",
+  "options": [
+    { "id": "a", "text": "Verdadeiro" },
+    { "id": "b", "text": "Falso" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta. As Máquinas Virtuais do Azure (Azure Virtual Machines) são um serviço de computação IaaS que permite executar aplicativos e workloads em servidores virtuais na nuvem.\n\nb) Incorreta. A afirmação é verdadeira: VMs do Azure são exatamente a oferta de servidores virtuais para rodar aplicativos/workloads.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/pt-br/azure/virtual-machines/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

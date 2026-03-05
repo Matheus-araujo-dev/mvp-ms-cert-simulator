@@ -1,0 +1,29 @@
+{
+  "id": "az900-0161",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Para qual público as regiões federadas (governamentais) da Azure são destinadas?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Empresas privadas que precisam de recursos dedicados e isolados na nuvem."
+    },
+    {
+      "id": "b",
+      "text": "B) Instituições acadêmicas e de pesquisa que necessitam de ambientes de computação especializados."
+    },
+    {
+      "id": "c",
+      "text": "C) Entidades governamentais que possuem requisitos específicos de conformidade e segurança."
+    },
+    {
+      "id": "d",
+      "text": "D) Startups e empresas de tecnologia que buscam serviços exclusivos de big data."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "Por que a alternativa correta é correta:\n- C) Regiões/soberanias governamentais (sovereign cloud geographies) têm **restrições** e são disponibilizadas para **alguns clientes** em áreas/regulações específicas, tipicamente governo e cenários com exigências fortes de residência e conformidade.\n\nPor que as incorretas estão incorretas:\n- A) Empresas privadas em geral: não define o público-alvo; essas regiões não são “para qualquer empresa”, existem requisitos de elegibilidade.\n- B) Acadêmico/pesquisa: não é a definição de regiões governamentais.\n- D) Startups/big data: não tem relação com o propósito de regiões governamentais.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/reliability/regions-overview\n- https://learn.microsoft.com/en-us/azure/azure-government/compare-azure-government-global-azure",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0187",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual das seguintes opções é uma das principais vantagens do serviço Azure Virtual Desktop em comparação com soluções de desktop remoto tradicionais?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Implementação somente no local (on-premises) para maior controle de dados."
+    },
+    {
+      "id": "b",
+      "text": "B) Capacidade de suportar apenas aplicativos baseados em navegador."
+    },
+    {
+      "id": "c",
+      "text": "C) Integração nativa com ambientes de virtualização baseados em VMware."
+    },
+    {
+      "id": "d",
+      "text": "D) Acesso seguro e otimizado a desktops e aplicativos usando protocolo de streaming de alta latência."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "Correta (D): O Azure Virtual Desktop fornece acesso remoto a desktops e aplicativos com foco em segurança e gerenciamento centralizado na nuvem.\n\nIncorretas:\nA) A proposta não é “somente on-premises”; é um serviço do Azure.\nB) Não é limitado a apps de navegador.\nC) Não depende de VMware como premissa principal.\n\nObservação: a frase “alta latência” está estranha; o benefício real descrito na documentação é o acesso remoto otimizado (em geral, buscando boa experiência/baixa latência).\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/virtual-desktop/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

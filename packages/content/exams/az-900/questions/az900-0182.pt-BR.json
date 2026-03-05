@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0182",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são alguns dos recursos fornecidos pelo Azure API Management?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Dimensionamento automático de recursos, monitoramento de integridade da rede e análise de comportamento de usuários."
+    },
+    {
+      "id": "b",
+      "text": "B) Proteção contra ataques DDoS distribuídos, mitigação em tempo real e escalonamento de recursos de forma elástica."
+    },
+    {
+      "id": "c",
+      "text": "C) Gateway de API para entrada de solicitações, autenticação baseada em token, gerenciamento de chaves de API e políticas de API personalizadas."
+    },
+    {
+      "id": "d",
+      "text": "D) Bloqueio de endereços IP suspeitos, criptografia de dados em trânsito e monitoramento de desempenho de máquinas virtuais."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "✅ Correta (c): API Management fornece gateway, publicação e governança de APIs, com políticas (transformação, rate limiting, validações), autenticação/autorização e controle de acesso, além de chaves/assinaturas.\n\n❌ Incorreta (a): autoscale e integridade de rede não são a proposta central do APIM.\n\n❌ Incorreta (b): isso descreve DDoS Protection.\n\n❌ Incorreta (d): isso mistura firewall/segurança de rede e monitoramento de VMs, não APIM.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

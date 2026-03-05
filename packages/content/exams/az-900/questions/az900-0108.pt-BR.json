@@ -1,0 +1,29 @@
+{
+  "id": "az900-0108",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual é a finalidade das Zonas de Disponibilidade no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Fornecer locais geograficamente distribuídos para acesso a recursos em várias Regiões."
+    },
+    {
+      "id": "b",
+      "text": "Oferecer opções de planos de suporte diferentes para cada Grupo de Recursos."
+    },
+    {
+      "id": "c",
+      "text": "Garantir alta disponibilidade e tolerância a falhas para recursos implantados em uma mesma Região."
+    },
+    {
+      "id": "d",
+      "text": "Limitar o número de recursos que podem ser criados em um único Grupo de Recursos."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Zonas de Disponibilidade são datacenters fisicamente separados dentro de uma mesma região. Distribuir recursos entre zonas aumenta resiliência e alta disponibilidade contra falhas de datacenter.\n\na) Incorreta. “Locais em várias regiões” descreve arquitetura multi-região; Zonas são dentro de uma única região.\n\nb) Incorreta. Planos de suporte não têm relação com Zonas de Disponibilidade.\n\nd) Incorreta. Zonas não limitam quantidade de recursos em grupos de recursos.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/reliability/availability-zones-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

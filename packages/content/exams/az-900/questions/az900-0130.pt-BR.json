@@ -1,0 +1,29 @@
+{
+  "id": "az900-0130",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual é a abordagem recomendada para aplicar regras de Security Group no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Criar uma regra que permita todo o tráfego de entrada e saída para todos os recursos na rede virtual."
+    },
+    {
+      "id": "b",
+      "text": "Criar regras específicas para permitir apenas o tráfego necessário para recursos específicos com base nas necessidades do aplicativo."
+    },
+    {
+      "id": "c",
+      "text": "Criar uma única regra que negue todo o tráfego de entrada e saída para garantir a segurança máxima."
+    },
+    {
+      "id": "d",
+      "text": "Não é necessário aplicar regras de Security Group no Azure, pois a plataforma fornece segurança automática para todos os recursos."
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Correta. A prática recomendada é aplicar o princípio do menor privilégio: permitir apenas o tráfego necessário (regras específicas) e negar o restante.\n\na) Incorreta. Permitir todo o tráfego amplia a superfície de ataque e não segue o princípio do menor privilégio.\n\nc) Incorreta. Negar tudo pode quebrar a comunicação necessária do aplicativo; segurança eficaz é permitir o necessário e restringir o resto.\n\nd) Incorreta. O Azure fornece controles, mas você ainda precisa configurar regras (por exemplo, NSG) conforme o cenário.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/pt-br/azure/virtual-network/network-security-groups-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

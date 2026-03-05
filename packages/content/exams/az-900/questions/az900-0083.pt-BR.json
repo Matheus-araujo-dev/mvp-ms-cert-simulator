@@ -1,0 +1,16 @@
+{
+  "id": "az900-0083",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual camada de armazenamento (tier) do Azure Blob Storage é a mais adequada para dados que são acessados com frequência e requerem uma baixa latência de acesso?",
+  "options": [
+    { "id": "a", "text": "Quente" },
+    { "id": "b", "text": "Fria" },
+    { "id": "c", "text": "Arquivo" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta. O Hot tier é uma camada online otimizada para dados acessados ou modificados com frequência (maior custo de armazenamento, menor custo de acesso).\n\nb) Incorreta. Camadas frias são voltadas para dados pouco acessados (menor custo de armazenamento, maior custo de acesso e restrições de retenção mínima), então não é a mais adequada quando acesso é frequente e a latência precisa ser baixa.\n\nc) Incorreta. Archive é uma camada offline para dados raramente acessados e com latência flexível (ordem de horas), portanto não atende baixa latência.\n\nReferência (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

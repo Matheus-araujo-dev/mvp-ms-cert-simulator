@@ -1,0 +1,15 @@
+﻿{
+  "id": "az900-0197",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O IaaS (Infraestrutura como Serviço) permite que os usuários gerenciem a infraestrutura subjacente, incluindo redes, servidores e sistemas operacionais.",
+  "options": [
+    { "id": "a", "text": "a) Verdadeiro" },
+    { "id": "b", "text": "b) Falso" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Correta (a): Em IaaS, o provedor fornece a infraestrutura física e o cliente geralmente gerencia o que roda nela (por exemplo, SO, configurações de rede e aplicações nas VMs).\n\nIncorreta (b): É falso porque essa é exatamente a característica do modelo IaaS na responsabilidade compartilhada.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

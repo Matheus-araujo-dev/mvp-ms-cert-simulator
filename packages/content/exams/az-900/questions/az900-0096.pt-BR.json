@@ -1,0 +1,15 @@
+{
+  "id": "az900-0096",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Azure Machine Learning é um serviço que oferece apenas suporte para a criação de modelos de aprendizado de máquina pré-treinados.",
+  "options": [
+    { "id": "a", "text": "Verdadeiro" },
+    { "id": "b", "text": "Falso" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Correta. O Azure Machine Learning acelera e gerencia o ciclo de vida de ML (treinar, implantar modelos e gerenciar MLOps). Ou seja, não é “apenas” para modelos pré-treinados.\n\na) Incorreta. Azure Machine Learning não se limita a modelos pré-treinados; ele suporta criação/treinamento/implantação e operação de modelos (inclusive com frameworks open-source).\n\nReferência (Microsoft Learn): https://learn.microsoft.com/pt-br/azure/machine-learning/overview-what-is-azure-machine-learning?view=azureml-api-2",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

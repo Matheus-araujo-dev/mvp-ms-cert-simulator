@@ -1,0 +1,17 @@
+{
+  "id": "az900-0116",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Permite criar e gerenciar máquinas virtuais Windows ou Linux na nuvem ______",
+  "options": [
+    { "id": "a", "text": "Azure Functions" },
+    { "id": "b", "text": "Azure Active Directory (Azure AD)" },
+    { "id": "c", "text": "Máquinas Virtuais (VMs)" },
+    { "id": "d", "text": "Banco de Dados SQL do Azure" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Azure Virtual Machines é o serviço de computação IaaS para provisionar e gerenciar VMs Windows e Linux.\n\na) Incorreta. Azure Functions é computação serverless (execução de código por eventos), não provisionamento de VMs.\n\nb) Incorreta. Azure AD (Microsoft Entra ID) é identidade e controle de acesso, não compute.\n\nd) Incorreta. Azure SQL Database é banco de dados relacional gerenciado, não compute de VMs.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/virtual-machines/overview\n- https://learn.microsoft.com/pt-br/azure/azure-functions/functions-overview\n- https://learn.microsoft.com/en-us/entra/fundamentals/what-is-entra\n- https://learn.microsoft.com/pt-br/azure/azure-sql/database/sql-database-paas-overview?view=azuresql",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

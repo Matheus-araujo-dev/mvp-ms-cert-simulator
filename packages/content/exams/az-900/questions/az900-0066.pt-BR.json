@@ -1,0 +1,17 @@
+{
+  "id": "az900-0066",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Serviço usado para criar, implantar e gerenciar aplicativos móveis para Android, iOS e Windows",
+  "options": [
+    { "id": "a", "text": "Kubernetes do Azure" },
+    { "id": "b", "text": "Funções do Azure" },
+    { "id": "c", "text": "Serviço de Aplicativo" },
+    { "id": "d", "text": "Rede de Distribuição de Conteúdo" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Serviço de Aplicativo (Azure App Service) é correto porque é uma plataforma (PaaS) para hospedar aplicações Web, APIs e também back-ends móveis, sem precisar gerenciar a infraestrutura subjacente.\n\na) Kubernetes do Azure (AKS) é incorreto porque é um serviço de orquestração de contêineres; não é a oferta principal para criar/implantar/gerenciar back-ends móveis como serviço PaaS.\n\nb) Funções do Azure é incorreto porque é computação serverless para executar código orientado a eventos; pode compor partes de um back-end, mas não é o serviço “plataforma” descrito na pergunta.\n\nd) Rede de Distribuição de Conteúdo (CDN) é incorreto porque CDN acelera entrega de conteúdo (cache em borda), não é um serviço para hospedar e gerenciar aplicativos/back-ends móveis.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/app-service/overview\n- https://learn.microsoft.com/en-us/azure/aks/what-is-aks\n- https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview\n- https://learn.microsoft.com/en-us/azure/architecture/best-practices/cdn",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

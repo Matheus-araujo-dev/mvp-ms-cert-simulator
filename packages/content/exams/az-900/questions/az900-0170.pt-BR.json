@@ -1,0 +1,17 @@
+﻿{
+  "id": "az900-0170",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Serviço usado para criar e gerenciar ambientes de desenvolvimento e testes ________________.",
+  "options": [
+    { "id": "a", "text": "A) Monitoramento e Diagnóstico" },
+    { "id": "b", "text": "B) Serviço de Aplicativo" },
+    { "id": "c", "text": "C) Azure DevTest Labs" },
+    { "id": "d", "text": "D) Content Delivery Network (CDN)" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "✅ Correta (c): Azure DevTest Labs ajuda a criar rapidamente ambientes/labs de desenvolvimento e teste na nuvem (com controle de custos via políticas/quotas e automações).\n\n❌ Incorreta (a): Monitoramento/Diagnóstico é para telemetria e logs, não para provisionar labs.\n\n❌ Incorreta (b): App Service hospeda aplicações (PaaS), não é ferramenta de criação/gestão de labs.\n\n❌ Incorreta (d): CDN distribui conteúdo, não cria ambientes de dev/test.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/devtest-labs/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

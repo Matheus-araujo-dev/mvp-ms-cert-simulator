@@ -1,0 +1,17 @@
+{
+  "id": "az900-0090",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual dos seguintes serviços da Azure é um exemplo de Software como Serviço (SaaS) voltado para colaboração e produtividade?",
+  "options": [
+    { "id": "a", "text": "Azure DevOps." },
+    { "id": "b", "text": "Azure Active Directory." },
+    { "id": "c", "text": "Microsoft 365." },
+    { "id": "d", "text": "Azure Logic Apps." }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Microsoft 365 é um conjunto de aplicações de produtividade e colaboração entregue como SaaS.\n\na) Incorreta. Azure DevOps é uma plataforma para DevOps (repos, pipelines, boards), não um pacote SaaS de produtividade para usuários finais.\n\nb) Incorreta. Azure AD (Microsoft Entra ID) é identidade e acesso (IAM), não produtividade/colaboração.\n\nd) Incorreta. Logic Apps é um serviço para automação e integração (workflows), não um pacote SaaS de produtividade.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/\n- https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

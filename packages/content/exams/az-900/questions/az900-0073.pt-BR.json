@@ -1,0 +1,17 @@
+{
+  "id": "az900-0073",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Você está gerenciando uma fábrica inteligente e precisa monitorar dados de sensores em tempo real para detectar anomalias nos equipamentos e evitar falhas. Qual serviço do Azure é mais adequado para essa necessidade?",
+  "options": [
+    { "id": "a", "text": "Azure Machine Learning" },
+    { "id": "b", "text": "Azure Stream Analytics" },
+    { "id": "c", "text": "Azure Cognitive Services" },
+    { "id": "d", "text": "Azure Data Factory" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Azure Stream Analytics é correto porque é um serviço totalmente gerenciado para analisar e processar fluxos de dados em tempo real (streaming), muito comum em cenários de IoT/sensores, permitindo detectar padrões/anomalias e acionar ações.\n\na) Azure Machine Learning é incorreto porque é a plataforma para o ciclo de vida de ML (treino/implantação/MLOps). Ele pode ser usado para modelos de detecção de anomalia, mas a necessidade descrita é especificamente de processamento/monitoramento de streaming em tempo real (papel típico do Stream Analytics).\n\nc) Azure Cognitive Services é incorreto porque (hoje como parte de Azure AI services) é focado em capacidades de IA pré-treinadas (ex.: visão, linguagem, fala) para incorporar “cognição” em apps; não é um motor de processamento de streams em tempo real.\n\nd) Azure Data Factory é incorreto porque é um serviço de integração/ETL para orquestrar movimentação e transformação de dados em pipelines (mais orientado a cargas e workflows de dados), não um motor de análise de eventos em tempo real.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction\n- https://learn.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-machine-learning?view=azureml-api-2\n- https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services\n- https://learn.microsoft.com/en-us/azure/data-factory/introduction",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

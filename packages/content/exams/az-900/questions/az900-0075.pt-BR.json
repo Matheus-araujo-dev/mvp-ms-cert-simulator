@@ -1,0 +1,29 @@
+{
+  "id": "az900-0075",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Como o Azure Databricks ajuda no processamento de big data?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Oferecendo um ambiente de desenvolvimento para a criação de aplicativos de aprendizado de máquina."
+    },
+    {
+      "id": "b",
+      "text": "Permitindo a criação e implantação de modelos de machine learning em produção."
+    },
+    {
+      "id": "c",
+      "text": "Fornecendo uma plataforma para armazenar e consultar grandes volumes de dados estruturados."
+    },
+    {
+      "id": "d",
+      "text": "Capacitando análises de big data em tempo real e em escala usando Apache Spark."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "d) Correta. O Azure Databricks é uma plataforma de análises unificada e o Apache Spark é a tecnologia que alimenta os clusters de computação do Databricks, permitindo processamento/análises de dados em escala (incluindo cenários de big data).\n\na) Incorreta. Embora o Databricks possa ser usado em cenários de ML, “ambiente para criar aplicativos de ML” é mais diretamente associado a uma plataforma de ML dedicada (ex.: Azure Machine Learning), não ao foco principal descrito aqui (big data/Spark).\n\nb) Incorreta. “Criar e implantar modelos de ML em produção” é descrito diretamente como parte do ciclo de vida de ML no Azure Machine Learning (treinar, implantar e gerenciar modelos/MLOps).\n\nc) Incorreta. “Armazenar e consultar grandes volumes de dados estruturados” é mais alinhado a serviços de banco relacional/data warehouse (ex.: Azure SQL / Azure Synapse), não ao propósito principal do Databricks (analytics/Spark).\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/databricks/introduction/\n- https://learn.microsoft.com/en-us/azure/databricks/spark/\n- https://learn.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-machine-learning?view=azureml-api-2\n- https://learn.microsoft.com/en-us/azure/synapse-analytics/overview-what-is",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "az900-0131",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são algumas das características do Azure DDoS Protection Standard?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Bloqueio de endereços IP suspeitos, criptografia de dados em trânsito e monitoramento de integridade da rede."
+    },
+    {
+      "id": "b",
+      "text": "Inspeção profunda de pacotes, filtragem de tráfego mal-intencionado e aprendizado de máquina para detecção de anomalias."
+    },
+    {
+      "id": "c",
+      "text": "Proteção automatizada contra ataques DDoS distribuídos, mitigação em tempo real e escalonamento de recursos de forma elástica."
+    },
+    {
+      "id": "d",
+      "text": "Análise de comportamento de usuários, controle de acesso com base em funções e criptografia de dados em repouso."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta (parte principal). O Azure DDoS Protection Standard fornece mitigação automática de ataques DDoS com monitoramento e mitigação em tempo real para recursos em VNets, ajudando a manter disponibilidade durante ataques.\n\na) Incorreta. Criptografia em trânsito e “bloqueio de IP” não definem DDoS Standard; isso mistura conceitos de segurança de transporte e firewall.\n\nb) Incorreta. “Inspeção profunda de pacotes” é típico de firewalls/appliances, não a descrição principal do DDoS Protection Standard.\n\nd) Incorreta. RBAC e criptografia em repouso são controles de identidade/dados; não são características de DDoS Protection.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/pt-br/azure/ddos-protection/ddos-protection-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

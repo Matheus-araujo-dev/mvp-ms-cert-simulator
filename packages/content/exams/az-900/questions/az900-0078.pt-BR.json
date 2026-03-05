@@ -1,0 +1,29 @@
+{
+  "id": "az900-0078",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é o Azure ExpressRoute?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Um serviço de firewall gerenciado que protege os recursos e aplicativos hospedados no Azure contra ameaças cibernéticas."
+    },
+    {
+      "id": "b",
+      "text": "Um serviço de monitoramento de desempenho que rastreia o tráfego de rede e a latência entre os recursos do Azure."
+    },
+    {
+      "id": "c",
+      "text": "Um serviço de conectividade que permite estabelecer uma conexão dedicada e privada entre redes locais e as redes do Azure."
+    },
+    {
+      "id": "d",
+      "text": "Um serviço de migração que ajuda a transferir dados e cargas de trabalho entre ambientes no local e na nuvem do Azure."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. O ExpressRoute permite estender redes locais para a nuvem da Microsoft por meio de uma conexão privada, com ajuda de um provedor de conectividade.\n\na) Incorreta. Isso descreve uma solução de firewall/WAF, não conectividade privada.\n\nb) Incorreta. Isso descreve monitoramento/observabilidade (ex.: Azure Monitor), não conectividade dedicada.\n\nd) Incorreta. Migração é outro domínio de serviços (ex.: Azure Migrate), não ExpressRoute.\n\nReferência (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/expressroute/expressroute-introduction",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

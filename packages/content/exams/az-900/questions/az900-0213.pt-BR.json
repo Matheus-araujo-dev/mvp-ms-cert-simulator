@@ -1,0 +1,26 @@
+﻿{
+  "id": "az900-0213",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual das seguintes opções melhor descreve como é composta uma zona de disponibilidade no Microsoft Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Uma região geográfica que abriga múltiplas instâncias de um mesmo serviço."
+    },
+    {
+      "id": "b",
+      "text": "Um conjunto de servidores físicos dedicados a um único cliente."
+    },
+    { "id": "c", "text": "Um grupo de data centers distribuídos globalmente." },
+    {
+      "id": "d",
+      "text": "Um conjunto de data centers virtualmente conectados, em que cada um contém suas próprias fontes de energia e resfriamento."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "Correta (d): Availability Zones são locais fisicamente separados dentro de uma mesma região, com infraestrutura independente (energia, resfriamento e rede), conectados por links de baixa latência.\n\nIncorretas:\n- (a) Isso descreve “região”, não “zona”.\n- (b) Servidores dedicados a um cliente é outro conceito (dedicated host/isolamento), não define zona de disponibilidade.\n- (c) “Distribuídos globalmente” descreve presença global do Azure, não uma zona dentro de uma região.\n\nReferências (Microsoft Learn):\n- Regiões e Availability Zones: https://learn.microsoft.com/en-us/azure/reliability/availability-zones-overview\n- Infraestrutura global (regiões/geografias): https://learn.microsoft.com/en-us/azure/global-infrastructure/regions",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

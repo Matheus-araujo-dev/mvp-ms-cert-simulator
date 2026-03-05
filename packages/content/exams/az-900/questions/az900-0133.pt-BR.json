@@ -1,0 +1,29 @@
+{
+  "id": "az900-0133",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é o Azure Blob Storage?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Um serviço de monitoramento de desempenho que rastreia o tráfego de rede e a latência entre os recursos do Azure."
+    },
+    {
+      "id": "b",
+      "text": "Um serviço de backup e recuperação de dados que protege máquinas virtuais e bancos de dados na nuvem."
+    },
+    {
+      "id": "c",
+      "text": "Um serviço de armazenamento em nuvem altamente escalável e econômico, projetado para armazenar e gerenciar dados não estruturados, como arquivos de mídia, documentos e backups de banco de dados."
+    },
+    {
+      "id": "d",
+      "text": "Um conjunto de regras de segurança que define quais tráfegos de rede são permitidos ou negados para recursos no Azure."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Azure Blob Storage é o serviço de armazenamento de objetos (object storage) para dados não estruturados (texto/binário), projetado para escala e custo eficiente.\n\na) Incorreta. Isso descreve monitoramento (Azure Monitor), não armazenamento.\n\nb) Incorreta. Isso descreve backup (Azure Backup), não armazenamento de objetos.\n\nd) Incorreta. Isso descreve regras de rede (ex.: NSG), não armazenamento.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/storage/blobs/storage-blobs-introduction\n- https://learn.microsoft.com/pt-br/azure/azure-monitor/overview\n- https://learn.microsoft.com/pt-br/azure/backup/backup-overview\n- https://learn.microsoft.com/pt-br/azure/virtual-network/network-security-groups-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

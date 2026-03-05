@@ -1,0 +1,15 @@
+﻿{
+  "id": "az900-0195",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Azure App Service é um serviço que permite criar, implantar e escalar aplicativos web, móveis e APIs com facilidade.",
+  "options": [
+    { "id": "a", "text": "a) Verdadeiro" },
+    { "id": "b", "text": "b) Falso" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Correta (a): O Azure App Service é uma oferta PaaS para hospedar aplicações web, APIs e back-ends móveis com recursos de implantação e escala gerenciados.\n\nIncorreta (b): É falso porque a descrição corresponde ao propósito do App Service.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/app-service/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

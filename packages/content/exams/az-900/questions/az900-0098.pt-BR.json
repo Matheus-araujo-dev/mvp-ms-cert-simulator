@@ -1,0 +1,29 @@
+{
+  "id": "az900-0098",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são os principais recursos oferecidos pelo Azure Policy?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Monitoramento de segurança, análise de tráfego e otimização de desempenho."
+    },
+    {
+      "id": "b",
+      "text": "Criação de máquinas virtuais, configuração de redes e gerenciamento de bancos de dados."
+    },
+    {
+      "id": "c",
+      "text": "Definição e aplicação de políticas de conformidade em recursos do Azure."
+    },
+    {
+      "id": "d",
+      "text": "Backup e recuperação de desastres para proteção de dados na nuvem."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. O Azure Policy serve para impor padrões organizacionais e avaliar conformidade em escala, ajudando a manter recursos aderentes a regras e requisitos.\n\na) Incorreta. Monitoramento/análise de tráfego/desempenho é domínio de observabilidade e rede (ex.: Azure Monitor), não do Azure Policy.\n\nb) Incorreta. Criar VMs/redes/bancos é provisionamento de recursos (compute/network/data), não a função do Azure Policy.\n\nd) Incorreta. Backup e recuperação de desastre é outro conjunto de serviços (ex.: Azure Backup/Site Recovery), não Azure Policy.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/governance/policy/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

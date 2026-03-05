@@ -1,0 +1,17 @@
+﻿{
+  "id": "az900-0168",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Sua Organização deseja criar, implantar e gerenciar bots para interações com clientes em vários canais de atendimento.\n\nO que você pode recomendar para esse propósito?",
+  "options": [
+    { "id": "a", "text": "A) Azure Functions" },
+    { "id": "b", "text": "B) Azure Bot Services" },
+    { "id": "c", "text": "C) Monitoramento e Diagnóstico" },
+    { "id": "d", "text": "D) Banco de Dados SQL do Azure" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "✅ Correta (b): O Azure Bot Service (Azure AI Bot Service) fornece plataforma/integração para construir, hospedar e conectar bots a canais (ex.: Teams e outros), usando o Bot Framework.\n\n❌ Incorreta (a): Functions pode ser usada como parte do backend do bot (webhook/execução), mas não é a plataforma de bot/canais.\n\n❌ Incorreta (c): Monitoramento e Diagnóstico é para observabilidade (logs/métricas), não criação/gestão de bots.\n\n❌ Incorreta (d): Azure SQL Database armazena dados relacionais; pode suportar o bot, mas não cria/gerencia bots.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-pt/azure/bot-service/?view=azure-bot-service-4.0\n- https://learn.microsoft.com/pt-br/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

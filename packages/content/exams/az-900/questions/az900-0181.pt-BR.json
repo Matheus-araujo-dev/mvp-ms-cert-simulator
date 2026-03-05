@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0181",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são alguns dos recursos oferecidos pelo Azure Web Application Firewall (WAF)?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Análise de comportamento de usuários, controle de acesso com base em funções e criptografia de dados em repouso."
+    },
+    {
+      "id": "b",
+      "text": "B) Proteção contra ataques DDoS distribuídos, mitigação em tempo real e escalonamento de recursos de forma elástica."
+    },
+    {
+      "id": "c",
+      "text": "C) Bloqueio de endereços IP suspeitos, criptografia de dados em trânsito e monitoramento de integridade da rede."
+    },
+    {
+      "id": "d",
+      "text": "D) Bloqueio de solicitações maliciosas, filtragem de tráfego baseada em regras e logs detalhados de tráfego da web."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "✅ Correta (d): O WAF protege aplicações web contra explorações comuns (ex.: SQL injection, XSS), aplica regras (CRS/OWASP), permite logs/monitoramento de eventos e políticas.\n\n❌ Incorreta (a): RBAC e criptografia em repouso não são funções do WAF.\n\n❌ Incorreta (b): descreve DDoS Protection, não WAF.\n\n❌ Incorreta (c): IP blocking pode existir em regras, mas “criptografia em trânsito” não é recurso do WAF (isso é TLS/HTTPS); e “integridade de rede” é outra categoria.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/web-application-firewall/overview\n- https://learn.microsoft.com/pt-br/azure/web-application-firewall/ag/ag-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

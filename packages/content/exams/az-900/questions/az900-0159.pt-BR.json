@@ -1,0 +1,17 @@
+{
+  "id": "az900-0159",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual dos seguintes sistemas operacionais é suportado nativamente pelas Máquinas Virtuais (VMs) do Azure?",
+  "options": [
+    { "id": "a", "text": "A) Windows apenas." },
+    { "id": "b", "text": "B) Linux apenas." },
+    { "id": "c", "text": "C) Mac apenas." },
+    { "id": "d", "text": "D) Windows, Linux." }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "Por que a alternativa correta é correta:\n- D) Windows e Linux: o Azure Virtual Machines dá suporte a **Windows e Linux** (entre outros workloads/sistemas suportados por imagens).\n\nPor que as incorretas estão incorretas:\n- A) “Windows apenas”: incorreto porque Linux também é suportado.\n- B) “Linux apenas”: incorreto porque Windows também é suportado.\n- C) “Mac apenas”: macOS não é oferecido como sistema convidado padrão nas VMs do Azure.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/virtual-machines/overview\n- https://learn.microsoft.com/pt-br/azure/security/fundamentals/virtual-machines-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

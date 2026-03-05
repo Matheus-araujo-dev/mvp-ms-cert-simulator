@@ -1,0 +1,25 @@
+{
+  "id": "az900-0074",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais tipos de suporte estão incluídos no Plano Standard do Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Suporte Comercial, Suporte Técnico e Suporte para Solução de Problemas"
+    },
+    {
+      "id": "b",
+      "text": "Suporte Comercial, Suporte Técnico e Suporte de Atendimento"
+    },
+    {
+      "id": "c",
+      "text": "Suporte Técnico, Suporte de Atendimento e Suporte para Solução de Problemas"
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. No Azure, você consegue abrir solicitações de suporte por categorias como suporte técnico e suporte relacionado a cobrança/assinatura (subscription management). Além disso, o portal centraliza “Support + Troubleshooting” (suporte e solução de problemas) como ponto de entrada para atendimento e diagnóstico.\n\na) Incorreta. “Suporte Comercial” (pré-vendas/comercial) não é o tipo de solicitação de suporte padrão descrito nos fluxos oficiais de suporte do Azure (as categorias típicas são técnico, cobrança e gerenciamento de assinatura/limites).\n\nb) Incorreta. Mesma falha do item (a): inclui “Suporte Comercial”.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/azure-portal/supportability/how-to-create-azure-support-request\n- https://learn.microsoft.com/en-us/rest/api/support/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

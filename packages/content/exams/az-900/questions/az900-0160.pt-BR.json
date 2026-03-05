@@ -1,0 +1,29 @@
+{
+  "id": "az900-0160",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que o Portal de Conformidade da Azure faz após identificar uma não conformidade em relação a políticas de segurança?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Corrige automaticamente a não conformidade sem intervenção do usuário."
+    },
+    {
+      "id": "b",
+      "text": "B) Fornece sugestões de ações corretivas para o usuário aplicar manualmente."
+    },
+    {
+      "id": "c",
+      "text": "C) Ignora a não conformidade e continua monitorando o recurso."
+    },
+    {
+      "id": "d",
+      "text": "D) Encerra a instância virtual não conforme imediatamente."
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Por que a alternativa correta é correta:\n- B) A experiência de conformidade (ex.: Azure Policy/Defender for Cloud) mostra o estado de conformidade e permite **remediação** (tarefas/ações para trazer recursos para conformidade), o que na prática significa orientar e/ou executar remediações configuradas.\n\nPor que as incorretas estão incorretas:\n- A) “Corrige automaticamente sempre”: nem toda política tem remediação automática; isso depende do efeito (por exemplo, deployIfNotExists/modify) e de tarefas de remediação.\n- C) “Ignora”: o objetivo é avaliar conformidade e permitir correção, não ignorar.\n- D) “Encerra instância imediatamente”: não é o comportamento padrão de conformidade/políticas.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/governance/policy/overview\n- https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

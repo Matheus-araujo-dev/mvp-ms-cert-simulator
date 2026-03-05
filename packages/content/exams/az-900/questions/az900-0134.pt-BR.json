@@ -1,0 +1,17 @@
+{
+  "id": "az900-0134",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são as três camadas de armazenamento (tiers) disponíveis no Azure Blob Storage?",
+  "options": [
+    { "id": "a", "text": "Standard, Premium e Backup" },
+    { "id": "b", "text": "Hot, Cool e Archive" },
+    { "id": "c", "text": "Primary, Secondary e Tertiary" },
+    { "id": "d", "text": "Basic, Advanced e Enterprise" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Correta. O Azure Blob Storage usa camadas de acesso (access tiers) Hot, Cool e Archive para otimizar custo x frequência de acesso.\n\na) Incorreta. “Standard/Premium” é terminologia usada para tipos de conta/performances, não para as camadas de acesso de blobs; “Backup” não é um tier do Blob.\n\nc) Incorreta. Esses termos não são camadas do Azure Blob Storage.\n\nd) Incorreta. Esses termos não são camadas do Azure Blob Storage.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0194",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual dos seguintes cenários pode ser estimado usando o Azure Pricing Calculator?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) O número de transações de banco de dados realizadas por um aplicativo no Azure."
+    },
+    {
+      "id": "b",
+      "text": "B) O custo total de propriedade de um servidor físico em um data center local."
+    },
+    {
+      "id": "c",
+      "text": "C) O consumo de energia de uma máquina virtual no Azure."
+    },
+    {
+      "id": "d",
+      "text": "D) O custo mensal de armazenamento de arquivos no Azure Blob Storage."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "Correta (D): O Pricing Calculator é usado para estimar custos de serviços do Azure (como armazenamento no Blob Storage).\n\nIncorretas:\nA) A calculadora estima custos a partir de configurações/quantidades do serviço, não “conta transações reais” de um app (isso é dado de uso/telemetria).\nB) Para comparar custo local vs nuvem, o recurso típico é o TCO Calculator, não o Pricing Calculator.\nC) Consumo de energia não é o foco da estimativa no Pricing Calculator.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/pricing-calculator",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

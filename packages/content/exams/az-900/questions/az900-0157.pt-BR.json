@@ -1,0 +1,29 @@
+{
+  "id": "az900-0157",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são os benefícios do Single Sign-On (SSO) do Microsoft Entra ID?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Aumenta o risco de violações de segurança, pois os usuários têm que digitar suas credenciais apenas uma vez."
+    },
+    {
+      "id": "b",
+      "text": "B) Reduz a produtividade dos usuários, pois eles precisam fornecer credenciais em cada aplicativo separadamente."
+    },
+    {
+      "id": "c",
+      "text": "C) Melhora a experiência do usuário, reduzindo a quantidade de senhas que precisam ser lembradas."
+    },
+    {
+      "id": "d",
+      "text": "D) Limita o acesso apenas a aplicativos específicos, fornecendo um ambiente mais seguro."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "Por que a alternativa correta é correta:\n- C) SSO permite entrar com **um conjunto de credenciais** e acessar vários aplicativos, reduzindo logins repetidos e melhorando a experiência do usuário.\n\nPor que as incorretas estão incorretas:\n- A) “Aumenta risco”: não é um benefício; SSO é um método de autenticação para simplificar o acesso (o impacto em segurança depende de controles adicionais, como MFA e Conditional Access).\n- B) “Reduz produtividade”: é o oposto do objetivo do SSO; com SSO, o usuário não precisa autenticar em cada app separadamente.\n- D) “Limita acesso apenas a apps específicos”: isso é mais relacionado a autorização/controle de acesso, não ao conceito de SSO em si.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/entra/identity/enterprise-apps/what-is-single-sign-on",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

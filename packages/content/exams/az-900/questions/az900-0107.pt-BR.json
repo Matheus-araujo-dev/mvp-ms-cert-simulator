@@ -1,0 +1,29 @@
+{
+  "id": "az900-0107",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual das seguintes afirmações descreve corretamente a relação entre Contas, Assinaturas e Grupos de Recursos no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Uma Assinatura pode conter várias Contas, e uma Conta pode conter vários Grupos de Recursos."
+    },
+    {
+      "id": "b",
+      "text": "Uma Conta pode conter várias Assinaturas, e uma Assinatura pode conter vários Grupos de Recursos."
+    },
+    {
+      "id": "c",
+      "text": "Uma Conta pode conter vários Grupos de Recursos, e um Grupo de Recursos pode conter várias Assinaturas."
+    },
+    {
+      "id": "d",
+      "text": "Uma Assinatura pode conter várias Contas, e um Grupo de Recursos pode conter várias Assinaturas."
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Correta. Uma conta/organização pode ter múltiplas assinaturas, e dentro de cada assinatura você cria grupos de recursos para organizar recursos.\n\na) Incorreta. “Assinatura conter várias contas” não descreve corretamente o relacionamento padrão.\n\nc) Incorreta. Um grupo de recursos pertence a uma única assinatura; ele não “contém várias assinaturas”.\n\nd) Incorreta. Grupo de recursos não pode conter várias assinaturas.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

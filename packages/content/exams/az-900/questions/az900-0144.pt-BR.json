@@ -1,0 +1,29 @@
+{
+  "id": "az900-0144",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é o Azure Pricing Calculator?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Uma ferramenta para monitorar o desempenho de recursos no Azure."
+    },
+    {
+      "id": "b",
+      "text": "Uma plataforma para comparar preços entre diferentes provedores de nuvem."
+    },
+    {
+      "id": "c",
+      "text": "Uma calculadora para estimar os custos de serviços e recursos no Azure."
+    },
+    {
+      "id": "d",
+      "text": "Uma plataforma para gerenciar o uso e as assinaturas do Azure."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. O Azure Pricing Calculator serve para estimar custos com base nos serviços e configurações selecionadas.\n\na) Incorreta. Monitorar desempenho é papel do Azure Monitor.\n\nb) Incorreta. A calculadora não é para comparar provedores; é específica para preços/estimativas do Azure.\n\nd) Incorreta. Gerenciamento de assinaturas/uso é feito por portal e serviços de billing/cost management, não pela calculadora.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/pricing-calculator",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

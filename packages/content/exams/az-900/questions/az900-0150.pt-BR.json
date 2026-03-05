@@ -1,0 +1,15 @@
+{
+  "id": "az900-0150",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Azure Policy é aplicável apenas a recursos na nuvem da Microsoft Azure e não oferece suporte a outras nuvens?",
+  "options": [
+    { "id": "a", "text": "Verdadeiro" },
+    { "id": "b", "text": "Falso" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Correta. O Azure Policy também pode ser aplicado em cenários híbridos usando Azure Arc (por exemplo, políticas para Kubernetes/servidores conectados), indo além de recursos \"apenas\" do Azure nativo.\n\na) Incorreta. A afirmação ignora o suporte de governança via Azure Arc.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/governance/policy/overview\n- https://learn.microsoft.com/en-us/azure/governance/policy/concepts/azure-arc",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

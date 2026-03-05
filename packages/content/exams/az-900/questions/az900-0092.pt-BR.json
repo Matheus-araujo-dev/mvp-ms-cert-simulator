@@ -1,0 +1,17 @@
+{
+  "id": "az900-0092",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual serviço do Azure permite criar orçamentos para monitorar os gastos em uma assinatura?",
+  "options": [
+    { "id": "a", "text": "Azure Cost Management + Billing." },
+    { "id": "b", "text": "Azure Monitor." },
+    { "id": "c", "text": "Azure Advisor." },
+    { "id": "d", "text": "Azure Policy." }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta. O Azure Cost Management + Billing permite criar e gerenciar budgets (orçamentos) para acompanhar gastos e disparar alertas conforme limites definidos.\n\nb) Incorreta. Azure Monitor é para métricas/logs/alertas operacionais, não para criação de budgets de custos.\n\nc) Incorreta. Azure Advisor fornece recomendações (incluindo otimização de custos), mas não é onde você cria budgets.\n\nd) Incorreta. Azure Policy aplica padrões e conformidade via políticas; não é ferramenta de orçamento.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

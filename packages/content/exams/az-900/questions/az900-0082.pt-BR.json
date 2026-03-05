@@ -1,0 +1,17 @@
+{
+  "id": "az900-0082",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual dos seguintes tipos de blobs do Azure Blob Storage é otimizado para armazenar grandes volumes de dados não estruturados, como arquivos de log, dados de sensores ou backups de banco de dados?",
+  "options": [
+    { "id": "a", "text": "Blob de bloco (Block Blob)" },
+    { "id": "b", "text": "Blob de página (Page Blob)" },
+    { "id": "c", "text": "Blob apêndice (Append Blob)" },
+    { "id": "d", "text": "Blob de arquivo (File Blob)" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta. Block blobs são o tipo padrão para armazenar texto e dados binários (dados não estruturados) em Blob Storage.\n\nb) Incorreta. Page blobs são otimizados para acesso aleatório (ex.: discos/VHD de VMs), não para o padrão geral de armazenamento de arquivos/dados não estruturados.\n\nc) Incorreta. Append blobs são otimizados para operações de anexar (append), sendo muito usados para logging. Porém, a alternativa mais geral e “padrão” para grandes volumes de dados não estruturados é o block blob.\n\nd) Incorreta. “File Blob” não é o tipo principal de blob usado no Azure Blob Storage (os tipos descritos oficialmente são block, append e page blobs).\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\n- https://learn.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

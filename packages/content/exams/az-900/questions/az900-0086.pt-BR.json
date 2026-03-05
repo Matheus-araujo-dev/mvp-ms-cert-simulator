@@ -1,0 +1,20 @@
+{
+  "id": "az900-0086",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Para qual tipo de aplicação o Azure Cognitive Services de Reconhecimento de Fala é mais adequado?",
+  "options": [
+    { "id": "a", "text": "Aplicativos de análise de dados." },
+    { "id": "b", "text": "Aplicativos de monitoramento de rede." },
+    { "id": "c", "text": "Aplicativos de processamento de linguagem natural." },
+    {
+      "id": "d",
+      "text": "Aplicativos de interação por voz e controle de dispositivos."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "d) Correta. O serviço de Fala (Speech) é usado para cenários de interação por voz, como converter fala em texto (speech-to-text), comandos de voz e experiências conversacionais/controle por voz.\n\na) Incorreta. Análise de dados é outro tipo de workload (BI/analytics), não um caso típico de reconhecimento de fala.\n\nb) Incorreta. Monitoramento de rede é observabilidade/telemetria, não reconhecimento de fala.\n\nc) Incorreta. Processamento de linguagem natural é uma área ampla; reconhecimento de fala é especificamente focado em fala/áudio (embora possa integrar com NLP, a alternativa que descreve melhor o uso direto do Speech é a interação por voz).\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/ai-services/speech-service/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "az900-0121",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual serviço do Azure é usado para fornecer serviços de banco de dados relacionais, como o SQL Server, na nuvem?",
+  "options": [
+    { "id": "a", "text": "Banco de Dados SQL do Azure" },
+    { "id": "b", "text": "Armazenamento" },
+    { "id": "c", "text": "Máquinas Virtuais (VMs)" },
+    { "id": "d", "text": "Monitoramento e Diagnóstico" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta. Azure SQL Database é um serviço de banco de dados relacional gerenciado (PaaS) baseado no SQL Server.\n\nb) Incorreta. Armazenamento (Storage) guarda objetos/arquivos/filas/tabelas; não é um serviço de banco relacional SQL.\n\nc) Incorreta. Em VMs você pode instalar SQL Server, mas isso seria IaaS (você gerencia SO e o SQL). A pergunta pede o serviço de banco relacional na nuvem como serviço gerenciado.\n\nd) Incorreta. Monitoramento/diagnóstico é observabilidade.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/azure-sql/database/sql-database-paas-overview?view=azuresql\n- https://learn.microsoft.com/pt-br/azure/virtual-machines/overview\n- https://learn.microsoft.com/pt-br/azure/storage/common/storage-introduction",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

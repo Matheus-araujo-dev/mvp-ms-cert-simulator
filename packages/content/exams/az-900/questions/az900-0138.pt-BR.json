@@ -1,0 +1,29 @@
+{
+  "id": "az900-0138",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que são os Azure Cognitive Services?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Uma coleção de serviços de computação em nuvem para análise de dados."
+    },
+    {
+      "id": "b",
+      "text": "Servidores físicos dedicados para armazenar e processar informações na nuvem."
+    },
+    {
+      "id": "c",
+      "text": "Um conjunto de APIs de IA (Inteligência Artificial) e ML (Machine Learning) para adicionar recursos de IA a aplicativos."
+    },
+    {
+      "id": "d",
+      "text": "Uma plataforma de gerenciamento de bancos de dados na nuvem."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Os serviços de IA do Azure (antes chamados de Cognitive Services) oferecem APIs/modelos pré-construídos para adicionar capacidades de IA (ex.: visão, fala, linguagem) a aplicações.\n\na) Incorreta. “Serviços de computação para análise de dados” descreve analytics/compute, não APIs de IA.\n\nb) Incorreta. Cognitive Services não é sobre servidores físicos dedicados.\n\nd) Incorreta. Gerenciamento de banco de dados é outro tipo de serviço.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

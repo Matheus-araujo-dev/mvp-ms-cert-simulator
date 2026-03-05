@@ -1,0 +1,15 @@
+﻿{
+  "id": "az900-0196",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Azure SQL Database é um serviço de banco de dados gerenciado que oferece suporte apenas para bancos de dados SQL Server.",
+  "options": [
+    { "id": "a", "text": "a) Verdadeiro" },
+    { "id": "b", "text": "b) Falso" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Correta (b): A afirmação está incorreta no contexto do ecossistema do Azure, porque o Azure oferece outros serviços de banco de dados gerenciados para engines diferentes (por exemplo, MySQL e PostgreSQL). Embora o Azure SQL Database seja baseado em SQL Server, “apenas SQL Server” como generalização de suporte gerenciado no Azure torna a frase incorreta.\n\nIncorreta (a): Marcá-la como verdadeira ignora que existem outros bancos gerenciados no Azure além de Azure SQL.\n\nReferências (Microsoft Learn):\nhttps://learn.microsoft.com/en-us/azure/azure-sql/database/azure-sql-database-overview\nhttps://learn.microsoft.com/en-us/azure/mysql/flexible-server/overview\nhttps://learn.microsoft.com/en-us/azure/postgresql/flexible-server/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

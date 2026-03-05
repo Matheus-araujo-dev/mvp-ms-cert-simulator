@@ -1,0 +1,25 @@
+﻿{
+  "id": "az900-0175",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são os principais benefícios do Plano Standard do Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Gerente de conta técnico, suporte técnico 24x7 e suporte para implantações de produção"
+    },
+    {
+      "id": "b",
+      "text": "B) Gerente de conta técnico, suporte técnico 24x7 e suporte de atendimento"
+    },
+    {
+      "id": "c",
+      "text": "C) Gerente de conta técnico, suporte de atendimento e suporte para implantações de produção"
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "✅ Correta (b): O plano Standard amplia o suporte, incluindo cobertura 24x7 para suporte técnico (especialmente para cenários de produção) e mantém suporte de atendimento (billing/assinatura).\n\n❌ Incorreta (a): “suporte para implantações de produção” é uma formulação que não descreve o conjunto típico do plano (o foco é suporte técnico e tempos de resposta, não “implantar por você”).\n\n❌ Incorreta (c): remove o 24x7 técnico, que é um diferencial importante de planos pagos.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/training/modules/describe-azure-support-plans/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

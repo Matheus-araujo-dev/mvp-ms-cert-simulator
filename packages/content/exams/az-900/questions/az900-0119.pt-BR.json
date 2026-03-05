@@ -1,0 +1,17 @@
+{
+  "id": "az900-0119",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual serviço do Azure permite responder a eventos e acionadores (\"triggers\") específicos sem a necessidade de gerenciar infraestrutura?",
+  "options": [
+    { "id": "a", "text": "Monitoramento e Diagnóstico" },
+    { "id": "b", "text": "Banco de Dados Cosmos DB" },
+    { "id": "c", "text": "Azure Functions" },
+    { "id": "d", "text": "Azure Active Directory (Azure AD)" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Azure Functions é um serviço serverless orientado a eventos, executando código em resposta a gatilhos (triggers) sem você gerenciar servidores.\n\na) Incorreta. Monitoramento/diagnóstico (Azure Monitor) coleta métricas/logs, não executa código por triggers.\n\nb) Incorreta. Cosmos DB é banco NoSQL; não é o serviço de execução de código por eventos.\n\nd) Incorreta. Azure AD é identidade e acesso.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/azure-functions/functions-overview\n- https://learn.microsoft.com/pt-br/azure/azure-monitor/overview\n- https://learn.microsoft.com/pt-br/azure/cosmos-db/introduction\n- https://learn.microsoft.com/en-us/entra/fundamentals/what-is-entra",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

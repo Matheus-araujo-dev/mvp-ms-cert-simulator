@@ -1,0 +1,29 @@
+{
+  "id": "az900-0142",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são alguns dos benefícios do uso de serviços Plataforma como Serviço (PaaS) em comparação com a infraestrutura local?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Escalabilidade automática, maior segurança e menor latência de rede."
+    },
+    {
+      "id": "b",
+      "text": "Menor custo, maior controle sobre a infraestrutura física e maior flexibilidade."
+    },
+    {
+      "id": "c",
+      "text": "Implantação rápida, gerenciamento de servidores físicos e controle total sobre o sistema operacional."
+    },
+    {
+      "id": "d",
+      "text": "Maior controle sobre a configuração de rede, implantação rápida e maior isolamento de recursos."
+    }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta (no contexto da questão). Em PaaS, a plataforma gerencia grande parte da infraestrutura e oferece recursos como escalabilidade e integrações de segurança, reduzindo a carga operacional do cliente. Além disso, por ser um serviço em nuvem com presença global, você consegue implantar mais perto dos usuários, reduzindo latência.\n\nb) Incorreta. “Maior controle sobre a infraestrutura física” é característica de on-premises (ou IaaS), não PaaS.\n\nc) Incorreta. PaaS não exige gerenciamento de servidores físicos e não entrega “controle total do SO” (isso é mais IaaS).\n\nd) Incorreta. “Maior controle sobre configuração de rede” tende a ser mais associado a IaaS; PaaS abstrai boa parte do ambiente.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/\n- https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

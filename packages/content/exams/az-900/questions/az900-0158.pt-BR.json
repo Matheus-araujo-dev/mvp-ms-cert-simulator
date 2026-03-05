@@ -1,0 +1,23 @@
+{
+  "id": "az900-0158",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual é o principal objetivo do Portal do Azure?",
+  "options": [
+    { "id": "a", "text": "A) Gerenciar apenas máquinas virtuais." },
+    { "id": "b", "text": "B) Monitorar a atividade do usuário na plataforma." },
+    {
+      "id": "c",
+      "text": "C) Fornecer uma interface gráfica para gerenciar recursos e serviços do Azure."
+    },
+    {
+      "id": "d",
+      "text": "D) Apenas visualizar informações sobre a conta do usuário."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "Por que a alternativa correta é correta:\n- C) O Azure portal é um console web unificado para **criar e gerenciar recursos** do Azure via interface gráfica.\n\nPor que as incorretas estão incorretas:\n- A) “Apenas VMs”: o portal gerencia todos os tipos de recursos, não só VMs.\n- B) “Monitorar atividade do usuário”: o portal pode exibir métricas/monitoramento, mas não é “o principal objetivo”.\n- D) “Apenas visualizar conta”: o portal permite criar, configurar, implantar e monitorar recursos.\n\nReferência (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

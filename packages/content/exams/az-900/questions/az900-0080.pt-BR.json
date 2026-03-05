@@ -1,0 +1,29 @@
+{
+  "id": "az900-0080",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é o Azure Web Application Firewall (WAF)?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Um serviço de monitoramento de desempenho que rastreia o tráfego de rede e a latência entre os recursos do Azure."
+    },
+    {
+      "id": "b",
+      "text": "Um serviço de backup e recuperação de dados que protege máquinas virtuais e bancos de dados na nuvem."
+    },
+    {
+      "id": "c",
+      "text": "Um serviço de firewall gerenciado que protege os aplicativos da web contra ameaças, como injeções de SQL e ataques de cross-site scripting (XSS)."
+    },
+    {
+      "id": "d",
+      "text": "Um conjunto de regras de segurança que define quais tráfegos de rede são permitidos ou negados para recursos no Azure."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. O Azure Web Application Firewall (WAF) ajuda a proteger aplicações web contra ataques comuns, incluindo SQL injection e XSS.\n\na) Incorreta. Isso descreve monitoramento/telemetria (ex.: Azure Monitor), não proteção WAF.\n\nb) Incorreta. Isso descreve backup/recuperação (ex.: Azure Backup), não WAF.\n\nd) Incorreta. Isso descreve controle de tráfego de rede por regras (ex.: NSG), não um firewall de camada de aplicação voltado a ataques web.\n\nReferência (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

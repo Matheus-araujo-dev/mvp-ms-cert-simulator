@@ -1,5 +1,8 @@
 import { NextResponse } from "next/server";
-import { loadAz900FixedSimulation, loadAz900QuestionPtBr } from "@/lib/content/az900-fixed";
+import {
+  loadAz900FixedSimulation,
+  loadAz900QuestionPtBr,
+} from "@/lib/content/az900-fixed";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -30,19 +33,25 @@ export async function POST(req: Request) {
   const answers = body?.answers ?? {};
 
   if (!simulationId) {
-    return NextResponse.json({ error: "simulationId é obrigatório." }, { status: 400 });
+    return NextResponse.json(
+      { error: "simulationId é obrigatório." },
+      { status: 400 },
+    );
   }
 
-  const sim = await loadAz900FixedSimulation(simulationId);
+  const sim = loadAz900FixedSimulation(simulationId);
   if (!sim) {
-    return NextResponse.json({ error: "Simulado não encontrado." }, { status: 404 });
+    return NextResponse.json(
+      { error: "Simulado não encontrado." },
+      { status: 404 },
+    );
   }
 
-  const byQuestion = [];
+  const byQuestion: any[] = [];
   let correctCount = 0;
 
   for (const qid of sim.questionIds) {
-    const q = await loadAz900QuestionPtBr(qid);
+    const q = loadAz900QuestionPtBr(qid);
     if (!q) {
       byQuestion.push({
         id: qid,

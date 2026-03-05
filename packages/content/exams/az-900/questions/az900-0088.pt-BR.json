@@ -1,0 +1,26 @@
+{
+  "id": "az900-0088",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são as principais vantagens de usar o modelo Opex em Cloud Computing em comparação com o modelo Capex?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Maior controle de custos e maior previsibilidade financeira."
+    },
+    {
+      "id": "b",
+      "text": "Menor flexibilidade para ajustar recursos conforme a demanda."
+    },
+    { "id": "c", "text": "Custos fixos e previsíveis ao longo do tempo." },
+    {
+      "id": "d",
+      "text": "Melhor para projetos de longo prazo com requisitos de recursos estáveis."
+    }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta. O modelo OpEx na nuvem está associado a pagar conforme o uso, evitando grandes investimentos iniciais (CapEx). Isso permite ajustar gastos conforme consumo e usar ferramentas de gestão de custos para acompanhar e controlar despesas.\n\nb) Incorreta. O que a nuvem normalmente traz é MAIS flexibilidade para ajustar recursos (escala), não menos.\n\nc) Incorreta. “Custos fixos e previsíveis” é mais associado ao modelo CapEx (compra antecipada) e a ambientes com capacidade estática.\n\nd) Incorreta. “Melhor para longo prazo com requisitos estáveis” também é um argumento típico a favor de CapEx/capacidade fixa, não a principal vantagem do OpEx.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/training/modules/describe-cloud-concepts/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "az900-0155",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "As regiões do Azure são independentes umas das outras, não compartilhando recursos ou serviços entre si?",
+  "options": [
+    { "id": "a", "text": "A) Verdadeiro" },
+    { "id": "b", "text": "B) Falso" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Por que a alternativa correta é correta:\n- B) Falso: a afirmação é absoluta (“não compartilhando recursos ou serviços”). Na prática, o Azure é organizado em **geografias**, há **regiões emparelhadas (region pairs)** para resiliência e existem serviços/recursos com comportamento **regional + replicação dentro da geografia**. Isso torna a frase “não compartilham” incorreta.\n\nPor que as incorretas estão incorretas:\n- A) Verdadeiro: ignora conceitos de geografia/replicação e o uso de pares de regiões para continuidade/resiliência.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/reliability/regions-overview\n- https://learn.microsoft.com/en-us/azure/compliance/offerings/\n- https://learn.microsoft.com/en-us/azure/well-architected/design-guides/regions-availability-zones",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

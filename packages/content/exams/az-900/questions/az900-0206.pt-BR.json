@@ -1,0 +1,19 @@
+﻿{
+  "id": "az900-0206",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": {
+    "intro": "Sua empresa está desenvolvendo um aplicativo de e-commerce e deseja armazenar e processar grandes volumes de dados de clientes.\n\nQual serviço do Azure você recomendaria para essa necessidade?"
+  },
+  "options": [
+    { "id": "a", "text": "Azure Blob Storage" },
+    { "id": "b", "text": "Azure Data Lake Storage" },
+    { "id": "c", "text": "Azure SQL Database" },
+    { "id": "d", "text": "Azure Cosmos DB" }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "A alternativa **d** é a correta porque o **Azure Cosmos DB** é um banco de dados NoSQL projetado para alta escala/alto volume, baixa latência e (quando necessário) distribuição global, o que costuma encaixar bem em cenários de e-commerce com grande volume de dados.\n\nPor que as outras estão incorretas:\n- **a)** Blob Storage é armazenamento de objetos (arquivos/dados não estruturados). Não é um banco de dados para consultas/entidades do app no mesmo nível de Cosmos DB.\n- **b)** Data Lake Storage é voltado a analytics/big data (armazenamento para workloads analíticos), não como banco operacional principal do aplicativo.\n- **c)** Azure SQL Database é relacional e pode servir muitos cenários, mas a questão pede a opção típica quando o foco é grande volume/escala NoSQL (como a proposta do Cosmos DB).\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/cosmos-db/introduction\n- https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\n- https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction\n- https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

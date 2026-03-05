@@ -1,0 +1,29 @@
+{
+  "id": "az900-0110",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é o emparelhamento de regiões (region pairing) no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A capacidade de migrar recursos entre diferentes regiões do Azure."
+    },
+    {
+      "id": "b",
+      "text": "A configuração de uma rede privada virtual (VNET) para conectar duas regiões distintas."
+    },
+    {
+      "id": "c",
+      "text": "A replicação e a sincronização de recursos entre duas regiões específicas para resiliência e redundância."
+    },
+    {
+      "id": "d",
+      "text": "A criação de uma relação de confiança entre contas em diferentes regiões do Azure."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. O Azure associa algumas regiões em pares (region pairs). Um número pequeno de serviços usa esses pares para dar suporte a replicação/redundância geográfica e alguns aspectos de recuperação de desastre.\n\na) Incorreta. Migração entre regiões pode existir como tarefa/estratégia, mas não define “region pairing”.\n\nb) Incorreta. VNet peering/conectividade entre redes não é o conceito de region pairing.\n\nd) Incorreta. Relação de confiança entre contas/tenants não é o que region pairing significa.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/reliability/regions-paired",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "az900-0081",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é o Azure API Management?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Um serviço de monitoramento de desempenho que rastreia o tráfego de rede e a latência entre os recursos do Azure."
+    },
+    {
+      "id": "b",
+      "text": "Uma plataforma para criação, gerenciamento e proteção de APIs (Interfaces de Programação de Aplicativos) que oferece recursos como autenticação, autorização e limites de taxa de solicitações."
+    },
+    {
+      "id": "c",
+      "text": "Um serviço de backup e recuperação de dados que protege máquinas virtuais e bancos de dados na nuvem."
+    },
+    {
+      "id": "d",
+      "text": "Um conjunto de regras de segurança que define quais tráfegos de rede são permitidos ou negados para recursos no Azure."
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Correta. O Azure API Management é uma plataforma para publicar e gerenciar APIs. A documentação descreve políticas para controlar comportamento (incluindo limitação de taxa) e capacidades de autenticação/autorização para proteger acesso às APIs.\n\na) Incorreta. Isso descreve monitoramento (ex.: Azure Monitor), não gerenciamento de APIs.\n\nc) Incorreta. Isso descreve backup/recuperação, não gerenciamento de APIs.\n\nd) Incorreta. Isso descreve regras de tráfego de rede (ex.: NSG), não gestão de APIs em gateway.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts\n- https://learn.microsoft.com/en-us/azure/api-management/authentication-authorization-overview\n- https://learn.microsoft.com/en-us/azure/api-management/rate-limit-policy",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

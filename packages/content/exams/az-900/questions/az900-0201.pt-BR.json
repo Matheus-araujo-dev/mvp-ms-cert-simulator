@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0201",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é o Azure Arc?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Uma região específica do Azure que oferece recursos exclusivos de nuvem híbrida."
+    },
+    {
+      "id": "b",
+      "text": "B) Uma ferramenta de migração de dados de datacenter para o Azure."
+    },
+    {
+      "id": "c",
+      "text": "C) Um serviço que permite gerenciar recursos em ambientes locais e em várias nuvens."
+    },
+    {
+      "id": "d",
+      "text": "D) Uma plataforma de desenvolvimento para criar aplicativos híbridos."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "Correta (C): O Azure Arc estende gerenciamento e serviços do Azure para recursos fora do Azure (on-premises e outras nuvens), permitindo governança e administração consistentes.\n\nIncorretas:\nA) Arc não é uma “região”.\nB) Migração é outro conjunto de ferramentas (ex.: Azure Migrate).\nD) Arc não é uma plataforma de desenvolvimento; é uma camada de gerenciamento/controle.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/azure-arc/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

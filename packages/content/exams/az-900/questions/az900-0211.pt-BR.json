@@ -1,0 +1,36 @@
+﻿{
+  "id": "az900-0211",
+  "domainId": "cloud",
+  "type": "multi",
+  "prompt": {
+    "intro": "No contexto de serviços de computação da Azure, selecione as 3 alternativas que os correlacionem com as suas verdadeiras funções:",
+    "observation": "Selecione 3 alternativas."
+  },
+  "options": [
+    {
+      "id": "a",
+      "text": "Azure App Service - Permite implantar e escalar aplicativos web, APIs e back-ends móveis de forma rápida e fácil."
+    },
+    {
+      "id": "b",
+      "text": "Azure Kubernetes Service (AKS) - Fornece um ambiente gerenciado para implantar, gerenciar e escalar aplicativos em contêineres usando o Kubernetes."
+    },
+    {
+      "id": "c",
+      "text": "Azure Functions - Permite executar código em resposta a eventos específicos sem a necessidade de provisionar ou gerenciar infraestrutura."
+    },
+    {
+      "id": "d",
+      "text": "Azure Batch - Oferece a capacidade de criar e gerenciar máquinas virtuais em uma variedade de sistemas operacionais para executar cargas de trabalho diversificadas."
+    },
+    {
+      "id": "e",
+      "text": "Azure Virtual Machines - Oferece gerenciamento de processamento em lote de alta escala e paralelismo, adequado para cargas de trabalho que exigem processamento intensivo."
+    }
+  ],
+  "correctOptionIds": ["a", "b", "c"],
+  "explanation": "Corretas:\n- (a) App Service é PaaS para hospedar apps web/APIs e escalar sem você gerenciar servidores.\n- (b) AKS é Kubernetes gerenciado para executar e escalar workloads em contêineres.\n- (c) Azure Functions é compute serverless (execução por eventos), sem provisionar infraestrutura.\n\nIncorretas:\n- (d) A descrição está errada para Azure Batch: Batch é um serviço para executar trabalhos em lote e HPC em grande escala; ele orquestra pools de compute, mas não é “o serviço de criar/gerenciar VMs” como função principal.\n- (e) A descrição está errada para Azure Virtual Machines: VMs são o serviço para provisionar e executar máquinas virtuais (compute IaaS). Quem é focado em processamento em lote/paralelismo em grande escala é o Azure Batch.\n\nReferências (Microsoft Learn):\n- App Service: https://learn.microsoft.com/en-us/azure/app-service/overview\n- AKS: https://learn.microsoft.com/en-us/azure/aks/what-is-aks\n- Azure Functions: https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview\n- Azure Batch: https://learn.microsoft.com/en-us/azure/batch/batch-technical-overview\n- Azure Virtual Machines: https://learn.microsoft.com/en-us/azure/virtual-machines/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

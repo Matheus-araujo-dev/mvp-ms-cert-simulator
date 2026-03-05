@@ -1,0 +1,15 @@
+{
+  "id": "az900-0153",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Azure SQL Database é uma oferta PaaS do Azure que fornece um serviço de banco de dados totalmente gerenciado.",
+  "options": [
+    { "id": "a", "text": "Verdadeiro" },
+    { "id": "b", "text": "Falso" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta. Azure SQL Database é um banco de dados relacional como serviço (PaaS), com tarefas de gerenciamento (patching, backups, alta disponibilidade conforme configuração) tratadas pela plataforma.\n\nb) Incorreta. A descrição “PaaS totalmente gerenciado” é exatamente como o serviço é apresentado.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

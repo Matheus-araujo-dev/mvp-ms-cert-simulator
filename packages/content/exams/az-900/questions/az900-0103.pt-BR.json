@@ -1,0 +1,23 @@
+{
+  "id": "az900-0103",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual é o método recomendado para acessar remotamente uma Máquina Virtual (VM) Linux da Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Área de Trabalho Remota (Remote Desktop Protocol - RDP)."
+    },
+    {
+      "id": "b",
+      "text": "Conexão de área de trabalho virtual (Virtual Desktop Infrastructure - VDI)."
+    },
+    { "id": "c", "text": "SSH (Secure Shell)." },
+    { "id": "d", "text": "Windows PowerShell remoto." }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Para VMs Linux no Azure, o método mais comum/recomendado de acesso remoto é via SSH, usando um cliente SSH (ou Azure Cloud Shell/portal).\n\na) Incorreta. RDP é tipicamente usado para Windows; Linux pode até ter soluções gráficas, mas não é o método padrão/recomendado para administração remota.\n\nb) Incorreta. VDI é uma abordagem de área de trabalho virtual, não o método padrão para administrar uma VM Linux.\n\nd) Incorreta. PowerShell remoto não é o método padrão para acesso a Linux; o padrão é SSH.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/pt-br/azure/virtual-machines/linux-vm-connect",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

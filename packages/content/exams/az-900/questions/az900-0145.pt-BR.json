@@ -1,0 +1,29 @@
+{
+  "id": "az900-0145",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quando você usaria o TCO (Total Cost of Ownership) e a Azure Pricing Calculator no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "O TCO é usado antes de implantar recursos para estimar os custos ao longo do tempo, enquanto a Azure Pricing Calculator é usada para monitorar os gastos após a implantação."
+    },
+    {
+      "id": "b",
+      "text": "O TCO é usado para comparar preços entre diferentes provedores de nuvem, enquanto a Azure Pricing Calculator é usada para calcular o custo total de operação e propriedade de recursos no Azure."
+    },
+    {
+      "id": "c",
+      "text": "O TCO é usado para estimar os custos totais de aquisição de recursos, enquanto a Azure Pricing Calculator é usada para identificar oportunidades de otimização de custos após a implantação."
+    },
+    {
+      "id": "d",
+      "text": "O TCO é usado para calcular os custos de recursos antes de implantá-los, enquanto a Azure Pricing Calculator é usada para estimar os custos ao longo do tempo de operação e propriedade desses recursos."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "d) Correta. O TCO Calculator é usado para estimar o custo total de propriedade (muito comum ao comparar um cenário on-premises vs. Azure). Já o Pricing Calculator estima custos de serviços do Azure com base em configurações e consumo previstos.\n\na) Incorreta. Pricing Calculator não é ferramenta de “monitorar gastos após implantação” (isso é Cost Management). Além disso, TCO é mais usado para estimar TCO (incluindo comparação) do que “custos ao longo do tempo” do Azure em si.\n\nb) Incorreta. TCO não é uma calculadora de comparação entre provedores; o foco é comparar TCO (tipicamente on-premises vs. Azure). E o Pricing Calculator não calcula “TCO completo” (com todos os itens on-prem), ele estima custo de serviços do Azure.\n\nc) Incorreta. Identificar oportunidades de otimização após implantação é mais alinhado a Cost Management/Advisor.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/pricing-calculator\n- https://learn.microsoft.com/en-us/training/modules/describe-cloud-concepts/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

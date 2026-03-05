@@ -1,0 +1,17 @@
+{
+  "id": "az900-0089",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual dos seguintes serviços Azure é um exemplo de Plataforma como Serviço (PaaS) voltado para desenvolvimento de aplicativos web, onde os desenvolvedor só precisam se preocupar com o desenvolvimento da aplicação, enquanto a Azure fornece todo o ambiente para executá-la?",
+  "options": [
+    { "id": "a", "text": "Azure Kubernetes Service (AKS)." },
+    { "id": "b", "text": "Azure Functions." },
+    { "id": "c", "text": "Azure App Service." },
+    { "id": "d", "text": "Azure Virtual Machines." }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. O Azure App Service é PaaS para hospedar aplicativos web e APIs, onde a plataforma gerencia infraestrutura, patches e runtime, e o time foca no código e configurações do app.\n\na) Incorreta. AKS é um serviço gerenciado de Kubernetes para orquestrar contêineres. Embora seja gerenciado, ainda exige preocupações de cluster/orquestração e não é o PaaS “clássico” para web app descrito.\n\nb) Incorreta. Azure Functions é serverless (FaaS). Pode hospedar código de back-end, mas não é o serviço PaaS típico de hospedagem de web apps com o modelo descrito.\n\nd) Incorreta. VMs são IaaS: você gerencia sistema operacional, patches e boa parte da configuração do ambiente.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/app-service/overview\n- https://learn.microsoft.com/en-us/azure/aks/what-is-aks\n- https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview\n- https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

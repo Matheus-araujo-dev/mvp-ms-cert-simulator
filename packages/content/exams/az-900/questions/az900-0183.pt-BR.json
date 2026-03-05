@@ -1,0 +1,17 @@
+﻿{
+  "id": "az900-0183",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual é o limite máximo de tamanho de um Blob no Azure Blob Storage?",
+  "options": [
+    { "id": "a", "text": "A) 1 TB" },
+    { "id": "b", "text": "B) 5 TB" },
+    { "id": "c", "text": "C) 10 TB" },
+    { "id": "d", "text": "D) 100 TB" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "✅ Correta (b): Em materiais de limites/quotas do Azure, há referência ao limite de até 5 TB para um único blob em Azure Blob Storage em determinados contextos.\n\n❌ Incorreta (a): 1 TB é menor do que o limite documentado nesse contexto.\n\n❌ Incorreta (c) e (d): 10 TB e 100 TB excedem o limite citado nessas páginas de limites.\n\nObservação importante: Os limites podem variar conforme o tipo de blob e o cenário; também existem documentos de metas de escalabilidade/performance do Blob Storage com limites diferentes por tipo.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/media-services/latest/azure-subscription-service-limits\n- https://learn.microsoft.com/en-us/azure/storage/blobs/scalability-targets#blobs",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

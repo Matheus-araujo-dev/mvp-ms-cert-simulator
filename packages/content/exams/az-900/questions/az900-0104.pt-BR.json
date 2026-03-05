@@ -1,0 +1,29 @@
+{
+  "id": "az900-0104",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são as principais características das regiões federadas (governamentais) da Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Acesso aberto ao público em geral e serviços comuns a outras regiões da Azure."
+    },
+    {
+      "id": "b",
+      "text": "Padrões de segurança menos rigorosos para facilitar o uso por empresas privadas."
+    },
+    {
+      "id": "c",
+      "text": "Restrições de acesso, com requisitos de elegibilidade, para atender somente a entidades governamentais."
+    },
+    {
+      "id": "d",
+      "text": "Maior capacidade de armazenamento e desempenho em comparação com outras regiões."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Regiões governamentais (como Azure Government) têm acesso restrito e exigem validação/eligibilidade, pois são destinadas a entidades governamentais (e parceiros elegíveis) e atendem requisitos regulatórios específicos.\n\na) Incorreta. Regiões governamentais não são abertas ao público geral; existe processo de elegibilidade.\n\nb) Incorreta. A proposta não é “menos rigor” — é o contrário: foco em requisitos e conformidade do setor público.\n\nd) Incorreta. A finalidade principal não é “mais capacidade/desempenho” vs. regiões públicas, e sim requisitos/isolamento/eligibilidade.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-welcome",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

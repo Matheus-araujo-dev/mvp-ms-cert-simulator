@@ -1,0 +1,29 @@
+{
+  "id": "az900-0149",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é o Azure Policy?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Um serviço de armazenamento de objetos para dados não estruturados."
+    },
+    {
+      "id": "b",
+      "text": "Um mecanismo para criar e gerenciar políticas de conformidade em recursos do Azure."
+    },
+    {
+      "id": "c",
+      "text": "Um serviço de gerenciamento de identidade e acesso para proteger recursos na nuvem."
+    },
+    {
+      "id": "d",
+      "text": "Um serviço para dimensionar automaticamente recursos com base na demanda."
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Correta. Azure Policy é usado para impor padrões e avaliar conformidade em escala (por exemplo, negar configurações não permitidas e auditar recursos).\n\na) Incorreta. Isso descreve Blob Storage.\n\nc) Incorreta. Isso descreve Microsoft Entra ID (identidade e acesso).\n\nd) Incorreta. Isso descreve recursos de autoscale/scale sets/app service etc., não o Azure Policy.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/governance/policy/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

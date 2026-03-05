@@ -1,0 +1,15 @@
+{
+  "id": "az900-0100",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "A seleção da região do Azure para implantação de recursos é feita automaticamente com base na localização geográfica do usuário final.",
+  "options": [
+    { "id": "a", "text": "Verdadeiro" },
+    { "id": "b", "text": "Falso" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Correta. Em geral, você escolhe a região (location) ao criar/provisionar o recurso. A recomendação é selecionar regiões próximas aos usuários para reduzir latência, mas não é “automático” com base no usuário final.\n\na) Incorreta. A região não é selecionada automaticamente pelo Azure com base no usuário final; a escolha faz parte do provisionamento do recurso (e da arquitetura).\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/reliability/regions-overview\n- https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/regions",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

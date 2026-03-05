@@ -1,0 +1,15 @@
+{
+  "id": "az900-0148",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Azure Security Center é projetado apenas para recursos baseados em nuvem, como máquinas virtuais e serviços do Azure.",
+  "options": [
+    { "id": "a", "text": "Verdadeiro" },
+    { "id": "b", "text": "Falso" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Correta. O Azure Security Center (hoje Microsoft Defender for Cloud) não se limita apenas a recursos nativos do Azure: ele também pode ajudar a proteger ambientes híbridos e multicloud (por exemplo, integrando recursos fora do Azure).\n\na) Incorreta. A solução é descrita como proteção e gestão de postura para ambientes além do Azure.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

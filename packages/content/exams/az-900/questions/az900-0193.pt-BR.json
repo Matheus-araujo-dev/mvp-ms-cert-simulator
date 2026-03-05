@@ -1,0 +1,17 @@
+﻿{
+  "id": "az900-0193",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Você precisa criar tags em recursos e categorizá-los para fins de análise de custos. Qual recurso da Azure pode ser utilizado para essa finalidade?",
+  "options": [
+    { "id": "a", "text": "A) Azure Cost Management + Billing." },
+    { "id": "b", "text": "B) Azure Monitor." },
+    { "id": "c", "text": "C) Azure Advisor." },
+    { "id": "d", "text": "D) Azure Policy." }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Correta (A): O Azure Cost Management + Billing é usado para analisar custos, orçamentos e alocação/visualização por dimensões como tags.\n\nIncorretas:\nB) Azure Monitor é focado em métricas, logs e observabilidade.\nC) Azure Advisor fornece recomendações (custo, confiabilidade, desempenho, segurança), mas não é a ferramenta principal para análise de custo por tags.\nD) Azure Policy aplica regras de conformidade; não é o recurso principal de análise de custos.\n\nReferências (Microsoft Learn):\nhttps://learn.microsoft.com/en-us/azure/cost-management-billing/cost-management-billing-overview\nhttps://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

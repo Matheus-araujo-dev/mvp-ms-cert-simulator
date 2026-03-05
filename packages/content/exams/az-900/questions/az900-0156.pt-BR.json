@@ -1,0 +1,29 @@
+{
+  "id": "az900-0156",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é uma nuvem híbrida no contexto do Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Um ambiente em que todos os recursos e serviços estão hospedados exclusivamente em datacenters locais."
+    },
+    {
+      "id": "b",
+      "text": "B) Uma combinação de recursos e serviços hospedados tanto no Azure como em datacenters locais."
+    },
+    {
+      "id": "c",
+      "text": "C) Um ambiente em que todos os recursos e serviços estão hospedados exclusivamente no Azure."
+    },
+    {
+      "id": "d",
+      "text": "D) Uma combinação de recursos e serviços hospedados em diferentes provedores de nuvem pública."
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Por que a alternativa correta é correta:\n- B) Combinação Azure + datacenter local: isso descreve exatamente **nuvem híbrida** (mistura de nuvem pública com infraestrutura local).\n\nPor que as incorretas estão incorretas:\n- A) Apenas datacenter local: isso descreve ambiente on-premises/privado, não híbrido.\n- C) Apenas Azure: isso descreve nuvem pública, não híbrida.\n- D) Vários provedores de nuvem pública: isso é **multicloud**, não híbrida (híbrida envolve local + nuvem pública).\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/architecture/guide/technology-choices/hybrid-considerations\n- https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/hybrid/strategy",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

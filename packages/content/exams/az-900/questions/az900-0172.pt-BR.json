@@ -1,0 +1,17 @@
+﻿{
+  "id": "az900-0172",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Serviço do Azure para fazer backup e recuperar máquinas virtuais protegidas pelo Azure Backup ________________.",
+  "options": [
+    { "id": "a", "text": "A) Armazenamento" },
+    { "id": "b", "text": "B) Content Delivery Network (CDN)" },
+    { "id": "c", "text": "C) Monitoramento e Diagnóstico" },
+    { "id": "d", "text": "D) Azure Site Recovery" }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "✅ Correta (d): O Azure Site Recovery é o serviço voltado para recuperação de desastre (replicação, failover e failback) de máquinas virtuais e workloads, usando o portal para orquestrar recuperação.\n\n❌ Incorreta (a): “Armazenamento” é um conjunto de serviços de storage; por si só não orquestra recuperação/failover de VMs.\n\n❌ Incorreta (b): CDN distribui conteúdo; não faz backup/recuperação de VMs.\n\n❌ Incorreta (c): Monitoramento/Diagnóstico observa recursos; não executa backup/recuperação.\n\nObservação: Azure Backup é o serviço específico de backup; Site Recovery é a parte de recuperação de desastre/orquestração de failover. A questão enfatiza “recuperar VMs”, que é o foco do Site Recovery.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/site-recovery/site-recovery-overview\n- https://learn.microsoft.com/pt-br/azure/backup/backup-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0190",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são algumas das vantagens da nuvem híbrida em comparação com uma abordagem exclusivamente em nuvem pública?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Controle total sobre a infraestrutura, maior escalabilidade e menor custo."
+    },
+    {
+      "id": "b",
+      "text": "B) Facilidade de implantação, maior segurança e menor latência de rede."
+    },
+    {
+      "id": "c",
+      "text": "C) Acesso a uma ampla gama de serviços em nuvem, maior agilidade e custos flexíveis."
+    },
+    {
+      "id": "d",
+      "text": "D) Integração com sistemas legados, conformidade com regulamentações e flexibilidade para mudanças."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "Correta (D): A nuvem híbrida combina recursos locais e de nuvem, facilitando integração com legado, atendimento a requisitos de conformidade e flexibilidade de migração/adoção.\n\nIncorretas:\nA) “Controle total” e “menor custo” não são garantias; híbrido normalmente aumenta complexidade.\nB) “Facilidade de implantação” e “menor latência” podem ocorrer em alguns cenários, mas não definem o principal benefício do modelo híbrido.\nC) Esse texto descreve mais benefícios gerais de nuvem pública.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-describe-cloud-deployment-models",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

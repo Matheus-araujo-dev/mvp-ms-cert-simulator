@@ -1,0 +1,15 @@
+﻿{
+  "id": "az900-0199",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "As regiões do Azure são distribuídas em todos os continentes do mundo.",
+  "options": [
+    { "id": "a", "text": "a) Verdadeiro" },
+    { "id": "b", "text": "b) Falso" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Correta (a): O Azure possui presença global com regiões distribuídas em múltiplas geografias ao redor do mundo.\n\nIncorreta (b): É falso porque contradiz a descrição de infraestrutura global do Azure.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/global-infrastructure/geographies",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

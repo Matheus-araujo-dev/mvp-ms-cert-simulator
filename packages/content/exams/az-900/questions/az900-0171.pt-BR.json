@@ -1,0 +1,17 @@
+﻿{
+  "id": "az900-0171",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Serviço para criar e implantar APIs seguras para permitir o acesso aos dados e funcionalidades dos seus aplicativos ________________.",
+  "options": [
+    { "id": "a", "text": "A) Azure Functions" },
+    { "id": "b", "text": "B) Monitoramento e Diagnóstico" },
+    { "id": "c", "text": "C) Banco de Dados Cosmos DB" },
+    { "id": "d", "text": "D) Azure API Management" }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "✅ Correta (d): Azure API Management é uma plataforma para publicar, proteger, gerenciar e monitorar APIs, com recursos como gateway, autenticação/autorização, políticas e limitação de taxa.\n\n❌ Incorreta (a): Functions pode expor endpoints (APIs), mas não oferece, por si só, o conjunto de governança/segurança/políticas de um API Gateway gerenciado.\n\n❌ Incorreta (b): Monitoramento/Diagnóstico observa sistemas; não cria/gerencia a camada de API gateway.\n\n❌ Incorreta (c): Cosmos DB é banco NoSQL, não plataforma de gerenciamento de APIs.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0198",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais dos seguintes recursos o Azure Security Center oferece?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Firewall de rede, DNS privado e balanceamento de carga."
+    },
+    {
+      "id": "b",
+      "text": "B) Gerenciamento de identidade e acesso, certificados SSL e diretório ativo."
+    },
+    {
+      "id": "c",
+      "text": "C) Proteção de máquinas virtuais, firewall de aplicativos web e detecção de ameaças."
+    },
+    {
+      "id": "d",
+      "text": "D) Balanceamento de carga, discos gerenciados e virtual network."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "Correta (C): O Azure Security Center (atualmente Microsoft Defender for Cloud) é voltado para postura de segurança e proteção contra ameaças em workloads (como VMs), com detecção e recomendações. Ele se integra ao ecossistema de segurança para proteção de aplicações.\n\nIncorretas:\nA) Firewall/DNS/balanceamento são serviços de rede específicos, não o foco do Security Center.\nB) Identidade/SSL/diretório ativo são temas do Microsoft Entra ID/Key Vault/certificados, não do Security Center.\nD) VNet/discos/balanceamento são recursos de infraestrutura, não um serviço de postura/detecção de ameaças.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

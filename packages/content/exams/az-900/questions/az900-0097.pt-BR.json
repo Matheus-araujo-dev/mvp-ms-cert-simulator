@@ -1,0 +1,15 @@
+{
+  "id": "az900-0097",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Azure Security Center fornece suporte para detecção de ameaças em tempo real e oferece recomendações para correção de vulnerabilidades?",
+  "options": [
+    { "id": "a", "text": "Verdadeiro" },
+    { "id": "b", "text": "Falso" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta. O Azure Security Center (hoje dentro do Microsoft Defender for Cloud) oferece gerenciamento de postura de segurança e recomendações para reduzir riscos, além de recursos de proteção/detecção.\n\nb) Incorreta. A afirmação é verdadeira: Defender for Cloud (antigo Security Center) fornece recomendações e capacidades de proteção/detecção.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction\n- https://learn.microsoft.com/en-us/azure/defender-for-cloud/review-security-recommendations",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

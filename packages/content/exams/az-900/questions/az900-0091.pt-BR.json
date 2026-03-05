@@ -1,0 +1,29 @@
+{
+  "id": "az900-0091",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são alguns dos benefícios do uso de serviços Software como Serviço (SaaS) em comparação com a implantação de software localmente?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Maior controle sobre a configuração do software e maior segurança dos dados."
+    },
+    {
+      "id": "b",
+      "text": "Menor custo, maior flexibilidade e maior controle sobre a infraestrutura."
+    },
+    {
+      "id": "c",
+      "text": "Implantação rápida e fácil de aplicativos sem a necessidade de gerenciar a infraestrutura."
+    },
+    {
+      "id": "d",
+      "text": "Escalabilidade automática e maior desempenho devido à execução em servidores físicos dedicados."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Em SaaS, o provedor entrega o aplicativo pronto para uso e gerencia a infraestrutura/plataforma; o cliente consome o software com implantação e administração simplificadas.\n\na) Incorreta. SaaS normalmente dá MENOS controle fino do ambiente/configuração do que on-premises. Segurança é compartilhada, mas não é correto dizer que SaaS dá “maior controle” de configuração.\n\nb) Incorreta. “Maior controle sobre a infraestrutura” é o oposto de SaaS: em SaaS você não gerencia infraestrutura.\n\nd) Incorreta. SaaS pode escalar, mas “servidores físicos dedicados” não é característica inerente de SaaS e não define o benefício principal frente ao on-prem.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,25 @@
+﻿{
+  "id": "az900-0174",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais tipos de suporte estão disponíveis no Plano Básico do Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Suporte para assinaturas gratuitas, suporte técnico 24x7 e suporte para solução de problemas"
+    },
+    {
+      "id": "b",
+      "text": "B) Suporte para assinaturas gratuitas, suporte técnico 24x7 e suporte de atendimento"
+    },
+    {
+      "id": "c",
+      "text": "C) Suporte para assinaturas gratuitas, suporte de atendimento e suporte para solução de problemas"
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "✅ Correta (b): O plano Básico cobre suporte para assinaturas/faturamento (atendimento) e acesso a recursos de suporte para contas e assinaturas. A ideia central é que o Básico não é o plano mais completo para incidentes técnicos complexos, mas cobre necessidades de suporte base.\n\n❌ Incorreta (a): “suporte para solução de problemas” (troubleshooting técnico avançado) é associado a planos pagos superiores.\n\n❌ Incorreta (c): mistura atendimento com troubleshooting como se fossem equivalentes no plano Básico.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/training/modules/describe-azure-support-plans/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

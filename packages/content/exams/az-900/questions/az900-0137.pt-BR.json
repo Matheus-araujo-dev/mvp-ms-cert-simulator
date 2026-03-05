@@ -1,0 +1,29 @@
+{
+  "id": "az900-0137",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual é o objetivo principal do \"Service Health\" (Status do Serviço) no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Fornecer informações sobre a saúde de servidores físicos no data center."
+    },
+    {
+      "id": "b",
+      "text": "Oferecer descontos em serviços afetados por interrupções."
+    },
+    {
+      "id": "c",
+      "text": "Notificar sobre problemas de segurança na plataforma do Azure."
+    },
+    {
+      "id": "d",
+      "text": "Manter os usuários atualizados sobre interrupções e problemas de serviço que afetam o Azure."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "d) Correta. O Azure Service Health comunica incidentes, manutenções planejadas e avisos que afetam serviços do Azure e/ou seus recursos.\n\na) Incorreta. Service Health não é um painel de “saúde de servidor físico” por máquina; ele informa status de serviços/incident(es).\n\nb) Incorreta. Descontos/créditos não definem o objetivo do Service Health.\n\nc) Incorreta. Alertas de segurança e recomendações são tratados em serviços de segurança (ex.: Microsoft Defender for Cloud), não como objetivo principal do Service Health.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/service-health/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

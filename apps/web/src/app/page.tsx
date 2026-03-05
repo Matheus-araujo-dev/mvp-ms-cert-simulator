@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { loadAz900ManifestPtBr } from "@/lib/content/az900";
 
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+
 export default function Az900HomePage() {
   const manifest = loadAz900ManifestPtBr();
 
@@ -14,7 +17,8 @@ export default function Az900HomePage() {
             <div className="font-semibold">{sim.title}</div>
 
             <div className="text-sm text-gray-600">
-              {sim.questionCount} questões • {sim.timeLimitMinutes} min (modo prova)
+              {sim.questionCount} questões • {sim.timeLimitMinutes} min (modo
+              prova)
             </div>
 
             <div className="pt-2 flex gap-2">

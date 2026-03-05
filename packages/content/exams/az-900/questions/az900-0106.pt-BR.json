@@ -1,0 +1,29 @@
+{
+  "id": "az900-0106",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual é o propósito principal dos Grupos de Recursos no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Fornecer uma hierarquia de gerenciamento para agrupar várias Assinaturas."
+    },
+    {
+      "id": "b",
+      "text": "Limitar o número de recursos que podem ser implantados em uma única Assinatura."
+    },
+    {
+      "id": "c",
+      "text": "Isolar recursos para fins de faturamento e controle de acesso."
+    },
+    {
+      "id": "d",
+      "text": "Organizar e gerenciar recursos relacionados em uma única Assinatura."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "d) Correta. Um grupo de recursos é um contêiner que reúne recursos relacionados para que você possa gerenciá-los como um conjunto (ciclo de vida, implantação, atualização e exclusão).\n\na) Incorreta. A hierarquia para agrupar assinaturas é feita com grupos de gerenciamento (management groups), não com grupos de recursos.\n\nb) Incorreta. Grupos de recursos não existem para “limitar quantidade” de recursos.\n\nc) Incorreta. Grupos de recursos ajudam na organização e podem facilitar governança (RBAC/tags/locks), mas não são “o mecanismo” de faturamento; faturamento é por assinatura/conta de cobrança. Controle de acesso pode ser aplicado em vários escopos (incluindo RG), mas o propósito principal é agrupar/gerenciar recursos relacionados.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

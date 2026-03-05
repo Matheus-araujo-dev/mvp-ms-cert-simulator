@@ -1,0 +1,29 @@
+{
+  "id": "az900-0126",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é o Azure Databricks?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Um serviço de análise de big data para processamento de streaming em tempo real."
+    },
+    {
+      "id": "b",
+      "text": "Uma plataforma de nuvem para o desenvolvimento e execução de aplicativos de aprendizado de máquina."
+    },
+    {
+      "id": "c",
+      "text": "Um serviço de análise de big data com recursos de processamento em lote e em tempo real."
+    },
+    {
+      "id": "d",
+      "text": "Um serviço de análise de big data que oferece recursos de processamento de linguagem natural."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Azure Databricks é uma plataforma de análises (baseada em Apache Spark) usada para cenários de big data e analytics, com suporte a workloads em lote e também processamento próximo de tempo real.\n\na) Incorreta. Databricks pode trabalhar com streaming, mas não é “apenas” um serviço de streaming; o escopo é analytics/big data amplo.\n\nb) Incorreta. Embora Databricks possa ser usado para ML, a descrição “plataforma para ML” é mais diretamente associada ao Azure Machine Learning.\n\nd) Incorreta. Processamento de linguagem natural é outro domínio (serviços de IA); não define o Azure Databricks.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/databricks/introduction/\n- https://learn.microsoft.com/pt-br/azure/machine-learning/overview-what-is-azure-machine-learning?view=azureml-api-2",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

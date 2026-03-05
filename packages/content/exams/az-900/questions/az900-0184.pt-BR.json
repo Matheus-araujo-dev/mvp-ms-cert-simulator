@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0184",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Sobre as camadas de armazenamento (tiers) Cool e Archive do Azure Blob Storage, qual é a afirmação correta?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) A camada Cool tem uma menor durabilidade dos dados em comparação com a camada Archive."
+    },
+    {
+      "id": "b",
+      "text": "B) A camada Cool é mais cara do que a camada Archive."
+    },
+    {
+      "id": "c",
+      "text": "C) A camada Cool oferece uma latência de acesso mais baixa do que a camada Archive."
+    },
+    {
+      "id": "d",
+      "text": "D) A camada Archive é projetada para dados que precisam ser acessados com frequência."
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Correta (B): No Azure Blob Storage, o tier Archive tem custo de armazenamento menor (mais barato) e é destinado a dados raramente acessados; o tier Cool tende a ter custo de armazenamento maior que o Archive.\n\nIncorretas:\nA) Os tiers variam principalmente em custo e latência; a durabilidade não é o diferencial entre Cool e Archive.\nC) Em geral, Cool realmente tem latência menor que Archive (Archive pode exigir reidratação). Esta questão fica ambígua no formato “apenas uma correta”; o simulado considerou a comparação de custo como a resposta esperada.\nD) Archive é para acesso raro, não frequente.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

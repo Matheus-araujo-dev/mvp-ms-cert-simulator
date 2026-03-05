@@ -1,0 +1,20 @@
+{
+  "id": "az900-0072",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual serviço do Azure fornece recursos para criar e gerenciar clusters de máquinas virtuais para processamento paralelo e de alto desempenho?",
+  "options": [
+    { "id": "a", "text": "Serviço de Kubernetes do Azure" },
+    { "id": "b", "text": "Batch do Azure" },
+    {
+      "id": "c",
+      "text": "Máquinas Virtuais Escala de Conjunto de Dimensionamento"
+    },
+    { "id": "d", "text": "Banco de Dados Cosmos DB" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Batch do Azure é correto porque o Azure Batch é feito para executar jobs batch paralelos e de HPC em escala, criando/gerenciando pools de nós de computação (VMs) e agendando tarefas para execução nesses nós.\n\na) Serviço de Kubernetes do Azure (AKS) é incorreto porque é orquestração de contêineres; não é o serviço focado em agendamento e execução de jobs batch/HPC em pools de VMs.\n\nc) Máquinas Virtuais em Conjuntos de Dimensionamento (VM Scale Sets) é incorreto porque o VMSS gerencia e escala um grupo de VMs, mas não fornece, por si só, o modelo de serviço de job scheduler/workflow de tarefas batch/HPC que o Batch oferece.\n\nd) Banco de Dados Cosmos DB é incorreto porque é banco de dados NoSQL gerenciado, não um serviço para computação paralela/HPC.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/batch/batch-technical-overview\n- https://learn.microsoft.com/en-us/azure/aks/what-is-aks\n- https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview\n- https://learn.microsoft.com/en-us/azure/cosmos-db/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

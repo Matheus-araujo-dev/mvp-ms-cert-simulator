@@ -1,0 +1,17 @@
+{
+  "id": "az900-0143",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Qual serviço do Azure permite monitorar e analisar os custos de recursos em tempo real?",
+  "options": [
+    { "id": "a", "text": "Azure Cost Management + Billing." },
+    { "id": "b", "text": "Azure Monitor." },
+    { "id": "c", "text": "Azure Advisor." },
+    { "id": "d", "text": "Azure Policy." }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta. Azure Cost Management + Billing é o conjunto de ferramentas para analisar custos, acompanhar gastos e criar budgets/alertas.\n\nb) Incorreta. Azure Monitor é para métricas, logs e monitoramento operacional (saúde/desempenho), não para análise de custos.\n\nc) Incorreta. Azure Advisor dá recomendações (incluindo custo), mas não é a ferramenta principal para análise/monitoramento de gastos.\n\nd) Incorreta. Azure Policy aplica e avalia conformidade, não custos.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/cost-management-billing/cost-management-billing-overview\n- https://learn.microsoft.com/en-us/azure/azure-monitor/overview\n- https://learn.microsoft.com/en-us/azure/advisor/advisor-overview\n- https://learn.microsoft.com/en-us/azure/governance/policy/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

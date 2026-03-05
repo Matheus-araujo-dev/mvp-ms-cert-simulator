@@ -1,0 +1,17 @@
+{
+  "id": "az900-0067",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Oferece recursos para criar e gerenciar redes virtuais privadas em nuvem",
+  "options": [
+    { "id": "a", "text": "Serviço de Kubernetes do Azure" },
+    { "id": "b", "text": "Azure Active Directory (Azure AD)" },
+    { "id": "c", "text": "Rede Virtual" },
+    { "id": "d", "text": "Banco de Dados SQL do Azure" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Rede Virtual (Azure Virtual Network) é correto porque a VNet é o bloco fundamental para rede privada no Azure, permitindo que recursos se comuniquem com segurança entre si, com a internet e com ambientes on-premises.\n\na) Serviço de Kubernetes do Azure (AKS) é incorreto porque AKS é para orquestração de contêineres, não para criar/gerenciar redes virtuais privadas (embora use VNets como parte da arquitetura).\n\nb) Azure Active Directory (Azure AD / Microsoft Entra ID) é incorreto porque é um serviço de identidade e gerenciamento de acesso (IAM), não um serviço de rede.\n\nd) Banco de Dados SQL do Azure é incorreto porque é um serviço de banco de dados relacional gerenciado (PaaS), não um serviço para redes virtuais.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview\n- https://learn.microsoft.com/en-us/azure/aks/what-is-aks\n- https://learn.microsoft.com/en-us/entra/fundamentals/what-is-entra\n- https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

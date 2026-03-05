@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0191",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é o Well-Architected Framework da Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Um serviço de computação em nuvem para implantação e gerenciamento de aplicativos."
+    },
+    {
+      "id": "b",
+      "text": "B) Um conjunto de práticas recomendadas para projetar arquiteturas de nuvem altamente disponíveis, seguras e eficientes."
+    },
+    {
+      "id": "c",
+      "text": "C) Uma ferramenta de análise de custos para estimar o preço de implantação de recursos na nuvem."
+    },
+    {
+      "id": "d",
+      "text": "D) Uma biblioteca de códigos de amostra e exemplos de arquiteturas de aplicativos na nuvem."
+    }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "Correta (B): O Azure Well-Architected Framework é um conjunto de orientações e práticas recomendadas (pilares) para construir arquiteturas com qualidade (confiabilidade, segurança, otimização de custos, etc.).\n\nIncorretas:\nA) Isso descreve um serviço específico, não um framework.\nC) Isso descreve ferramentas de estimativa/gestão de custos, não o WAF.\nD) WAF não é uma biblioteca de códigos; é um conjunto de recomendações.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/well-architected/",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

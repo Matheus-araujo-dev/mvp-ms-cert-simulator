@@ -1,0 +1,26 @@
+{
+  "id": "az900-0085",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são os três tipos de informações fornecidas pelo \"Service Health\" (Integridade do Serviço) no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Notícias, atualizações de recursos e eventos comunitários."
+    },
+    {
+      "id": "b",
+      "text": "Anúncios de produtos, casos de sucesso e treinamentos."
+    },
+    {
+      "id": "c",
+      "text": "Notificações de marketing, descontos e ofertas especiais."
+    },
+    { "id": "d", "text": "Incidentes, avisos e manutenções planejadas." }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "d) Correta. O Azure Service Health informa problemas/incident(es) de serviço, manutenções planejadas e avisos (health advisories) que podem afetar seus recursos.\n\na) Incorreta. Isso descreve conteúdo informativo/comunidade, não categorias do Service Health.\n\nb) Incorreta. Isso descreve marketing/produto/treinamentos, não categorias do Service Health.\n\nc) Incorreta. Isso é marketing (ofertas/descontos), não Service Health.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/service-health/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

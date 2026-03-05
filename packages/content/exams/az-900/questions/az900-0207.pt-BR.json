@@ -1,0 +1,22 @@
+﻿{
+  "id": "az900-0207",
+  "domainId": "cloud",
+  "type": "multi",
+  "prompt": {
+    "intro": "Sua Organização precisa armazenar e compartilhar arquivos grandes, como vídeos e imagens, entre sua equipe interna e parceiros externos.\n\nQuais serviços do Azure você recomendaria para atender a essa necessidade?",
+    "observation": "Selecione 2 alternativas."
+  },
+  "options": [
+    { "id": "a", "text": "Azure Blob Storage" },
+    { "id": "b", "text": "Azure Files" },
+    { "id": "c", "text": "Azure Data Lake Storage" },
+    { "id": "d", "text": "Azure Content Delivery Network (CDN)" },
+    { "id": "e", "text": "Azure Queue Storage" },
+    { "id": "f", "text": "Azure File Storage" }
+  ],
+  "correctOptionIds": ["a", "f"],
+  "explanation": "As alternativas **a** e **f** são as corretas porque:\n- **Azure Blob Storage** é indicado para armazenar grandes volumes de dados não estruturados (vídeos, imagens e outros objetos) com alta escalabilidade.\n- **Azure File Storage/Azure Files** é indicado quando você precisa de compartilhamento de arquivos (file shares) para acesso por múltiplos usuários/sistemas.\n\nPor que as outras estão incorretas:\n- **b)** Azure Files (aqui aparece duplicado com “Azure File Storage” no print). A questão marcou como correta a opção **f**.\n- **c)** Data Lake Storage é mais voltado a analytics/big data do que compartilhamento de arquivos para parceiros.\n- **d)** CDN é para distribuição/aceleração de conteúdo (edge/cache), não para servir como repositório principal de armazenamento/compartilhamento.\n- **e)** Queue Storage é mensageria (fila), não armazenamento/compartilhamento de arquivos.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\n- https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction\n- https://learn.microsoft.com/en-us/azure/cdn/cdn-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

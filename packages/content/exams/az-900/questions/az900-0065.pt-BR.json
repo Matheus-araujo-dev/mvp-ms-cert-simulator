@@ -1,0 +1,20 @@
+{
+  "id": "az900-0065",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Oferece recursos para criar, implantar e gerenciar máquinas virtuais em grande escala",
+  "options": [
+    { "id": "a", "text": "Serviço de Kubernetes do Azure" },
+    { "id": "b", "text": "Armazenamento" },
+    {
+      "id": "c",
+      "text": "Conjuntos de Dimensionamento de Máquinas Virtuais do Azure"
+    },
+    { "id": "d", "text": "Rede de Distribuição de Conteúdo" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Conjuntos de Dimensionamento de Máquinas Virtuais (VM Scale Sets) é correto porque permite criar e gerenciar um grupo de instâncias de VMs e aumentar/diminuir automaticamente a quantidade de VMs conforme demanda ou agenda, suportando execução em grande escala.\n\na) Serviço de Kubernetes do Azure (AKS) é incorreto porque AKS orquestra aplicações em contêineres (Kubernetes), não é o serviço focado em criar/gerenciar frotas de VMs diretamente.\n\nb) Armazenamento é incorreto porque Azure Storage é um serviço para armazenar dados (blobs, arquivos, filas, tabelas etc.), não para provisionar e gerenciar VMs.\n\nd) Rede de Distribuição de Conteúdo (CDN) é incorreto porque CDN é para cache/distribuição de conteúdo em servidores de borda para reduzir latência, não para criar/gerenciar VMs.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview\n- https://learn.microsoft.com/en-us/azure/aks/what-is-aks\n- https://learn.microsoft.com/en-us/azure/storage/common/storage-introduction\n- https://learn.microsoft.com/en-us/azure/architecture/best-practices/cdn",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

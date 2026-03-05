@@ -27,16 +27,24 @@ export async function POST(req: Request) {
   }
 
   const questionId = (body?.questionId ?? "").trim();
-  const answerOptionIds = Array.isArray(body?.answerOptionIds) ? body.answerOptionIds : [];
+  const answerOptionIds = Array.isArray(body?.answerOptionIds)
+    ? body.answerOptionIds
+    : [];
 
   if (!questionId) {
-    return NextResponse.json({ error: "questionId é obrigatório." }, { status: 400 });
+    return NextResponse.json(
+      { error: "questionId é obrigatório." },
+      { status: 400 },
+    );
   }
 
-  const q = await loadAz900QuestionPtBr(questionId);
+  const q = loadAz900QuestionPtBr(questionId);
 
   if (!q) {
-    return NextResponse.json({ error: "Questão não encontrada." }, { status: 404 });
+    return NextResponse.json(
+      { error: "Questão não encontrada." },
+      { status: 404 },
+    );
   }
 
   const user = answerOptionIds.map(String);
@@ -46,6 +54,7 @@ export async function POST(req: Request) {
     questionId,
     correct,
     correctOptionIds: q.correctOptionIds,
+    answeredOptionIds: user,
     explanation: q.explanation ?? "",
   });
 }

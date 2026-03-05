@@ -1,0 +1,29 @@
+{
+  "id": "az900-0132",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são os principais benefícios do uso do Azure Content Delivery Network (CDN)?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Aumento da capacidade de recursos das VMs, garantia do desempenho dos aplicativos e redução do risco de falta de recursos."
+    },
+    {
+      "id": "b",
+      "text": "Proteção contra ataques DDoS distribuídos, mitigação em tempo real e escalonamento de recursos de forma elástica."
+    },
+    {
+      "id": "c",
+      "text": "Melhoria do desempenho e da velocidade de carregamento de sites, redução da latência e economia de largura de banda."
+    },
+    {
+      "id": "d",
+      "text": "Bloqueio de endereços IP suspeitos, criptografia de dados em trânsito e monitoramento de integridade da rede."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. CDN melhora desempenho e reduz latência ao cachear conteúdo próximo aos usuários, além de reduzir tráfego/banda no servidor de origem.\n\na) Incorreta. CDN não aumenta capacidade de VM; é distribuição/cache de conteúdo.\n\nb) Incorreta. Mitigação DDoS é de serviços de proteção DDoS/WAF, não o benefício principal de CDN.\n\nd) Incorreta. Bloqueio de IP e criptografia em trânsito são controles de rede/segurança, não os benefícios centrais de CDN.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/architecture/best-practices/cdn",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

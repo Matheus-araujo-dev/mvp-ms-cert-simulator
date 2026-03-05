@@ -1,0 +1,20 @@
+﻿{
+  "id": "az900-0173",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Serviço do Azure para criar e gerenciar bancos de dados relacionais MySQL, PostgreSQL e MariaDB ________________.",
+  "options": [
+    { "id": "a", "text": "A) Banco de Dados SQL do Azure" },
+    { "id": "b", "text": "B) Monitoramento e Diagnóstico" },
+    { "id": "c", "text": "C) Azure Functions" },
+    {
+      "id": "d",
+      "text": "D) Serviço de Banco de Dados do Azure para MySQL e PostgreSQL"
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "✅ Correta (d): Os serviços gerenciados do Azure para bancos relacionais open-source incluem Azure Database for MySQL e Azure Database for PostgreSQL (família de DBaaS gerenciado). Isso atende ao cenário de gerenciar MySQL e PostgreSQL sem administrar infraestrutura.\n\n❌ Incorreta (a): Azure SQL Database é um banco relacional gerenciado baseado no SQL Server, não o serviço específico para MySQL/PostgreSQL.\n\n❌ Incorreta (b): Monitoramento/Diagnóstico não é serviço de banco de dados.\n\n❌ Incorreta (c): Functions é computação serverless; não é banco relacional.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/mysql/flexible-server/overview\n- https://learn.microsoft.com/pt-br/azure/postgresql/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "az900-0123",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Serviço de análise de big data em tempo real que permite processar e analisar streams de dados em tempo real ______",
+  "options": [
+    { "id": "a", "text": "Monitoramento e Diagnóstico" },
+    { "id": "b", "text": "Serviço de Aplicativo" },
+    { "id": "c", "text": "Azure Stream Analytics" },
+    { "id": "d", "text": "Banco de Dados Cosmos DB" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. Azure Stream Analytics é um serviço totalmente gerenciado para processar e analisar dados de streaming em tempo real.\n\na) Incorreta. Monitoramento/diagnóstico é observabilidade, não processamento de streams.\n\nb) Incorreta. App Service é hospedagem PaaS de apps/APIs, não analytics de streaming.\n\nd) Incorreta. Cosmos DB é banco NoSQL; pode armazenar resultados, mas não é o motor de processamento/consulta contínua de streams.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/stream-analytics/stream-analytics-introduction\n- https://learn.microsoft.com/pt-br/azure/azure-monitor/overview\n- https://learn.microsoft.com/pt-br/azure/app-service/overview\n- https://learn.microsoft.com/pt-br/azure/cosmos-db/introduction",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

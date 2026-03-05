@@ -1,0 +1,29 @@
+﻿{
+  "id": "az900-0180",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Quais são alguns dos benefícios do uso de Grupos de Escalonamento de VMs (VMSS) no Azure?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A) Simplificação do gerenciamento de certificados SSL/TLS, maior disponibilidade dos recursos e menor latência de rede."
+    },
+    {
+      "id": "b",
+      "text": "B) Possibilidade de balanceamento de carga de tráfego entre regiões do Azure, maior escalabilidade e menor custo operacional."
+    },
+    {
+      "id": "c",
+      "text": "C) Maior segurança contra ameaças cibernéticas, menor tempo de inatividade e suporte a tarefas de manutenção automatizadas."
+    },
+    {
+      "id": "d",
+      "text": "D) Dimensionamento automático com base na demanda da carga de trabalho, alta disponibilidade dos aplicativos e facilitação das atualizações de imagem e configuração."
+    }
+  ],
+  "correctOptionIds": ["d"],
+  "explanation": "✅ Correta (d): VM Scale Sets permitem criar/gerenciar um grupo de VMs com balanceamento e autoscale, aumentando/diminuindo instâncias conforme demanda e facilitando operações como atualizações.\n\n❌ Incorreta (a): gerenciamento de SSL/TLS não é o foco de VMSS.\n\n❌ Incorreta (b): balanceamento *entre regiões* não é o benefício central do VMSS (é um recurso regional; cenários multi-região dependem de arquitetura adicional).\n\n❌ Incorreta (c): segurança e manutenção automatizada existem no Azure, mas não definem VMSS como benefício principal.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/azure/virtual-machine-scale-sets/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

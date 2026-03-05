@@ -1,0 +1,17 @@
+﻿{
+  "id": "az900-0169",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Plataforma de nuvem para o desenvolvimento, execução e dimensionamento de aplicativos de jogos em tempo real ________________.",
+  "options": [
+    { "id": "a", "text": "A) Monitoramento e Diagnóstico" },
+    { "id": "b", "text": "B) Content Delivery Network (CDN)" },
+    { "id": "c", "text": "C) Azure Game Services" },
+    { "id": "d", "text": "D) Banco de Dados Cosmos DB" }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "✅ Correta (c): “Azure Game Services” costuma se referir ao conjunto de serviços gerenciados para backend de jogos (por exemplo, Azure PlayFab), que oferece serviços de backend, análises em tempo real e recursos de live ops.\n\n❌ Incorreta (a): Monitoramento e Diagnóstico é observabilidade, não plataforma de backend/serviços de jogos.\n\n❌ Incorreta (b): CDN melhora entrega de conteúdo (assets), mas não é a plataforma de backend/execução/escala de serviços de jogo.\n\n❌ Incorreta (d): Cosmos DB é banco NoSQL; pode ser usado em jogos, mas não é a suíte/plataforma completa de serviços de jogos.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/pt-br/gaming/playfab/get-started/what-is-playfab",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

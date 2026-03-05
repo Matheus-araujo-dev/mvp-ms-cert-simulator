@@ -1,0 +1,17 @@
+{
+  "id": "az900-0064",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "Serviço usado para executar cargas de trabalho de contêineres em escala",
+  "options": [
+    { "id": "a", "text": "Instâncias de Contêiner do Azure" },
+    { "id": "b", "text": "Kubernetes do Azure" },
+    { "id": "c", "text": "Lote" },
+    { "id": "d", "text": "Funções do Azure" }
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "b) Kubernetes do Azure (AKS) é correto porque o Azure Kubernetes Service (AKS) é um serviço gerenciado de Kubernetes feito para implantar, gerenciar e dimensionar aplicações em contêineres com orquestração (cluster, pods/serviços e escalabilidade).\n\na) Instâncias de Contêiner do Azure (ACI) é incorreto porque o ACI é focado em executar contêineres de forma serverless/isolada, sem oferecer um plano completo de orquestração de contêineres como um cluster Kubernetes.\n\nc) Lote (Azure Batch) é incorreto porque o Azure Batch é voltado a execução de trabalhos em lote (batch) e computação paralela/HPC com agendamento de tarefas em pools de VMs, não é a solução padrão para orquestração de contêineres em escala.\n\nd) Funções do Azure é incorreto porque Azure Functions é computação serverless orientada a eventos para executar código sob demanda, e não um serviço de orquestração/gestão de workloads de contêineres em escala.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/aks/what-is-aks\n- https://learn.microsoft.com/en-us/azure/container-instances/container-instances-overview\n- https://learn.microsoft.com/en-us/azure/batch/batch-technical-overview\n- https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

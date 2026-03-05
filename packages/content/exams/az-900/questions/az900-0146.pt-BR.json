@@ -1,0 +1,15 @@
+{
+  "id": "az900-0146",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O Azure Functions é um serviço de computação sem servidor que permite executar código em resposta a eventos.",
+  "options": [
+    { "id": "a", "text": "Verdadeiro" },
+    { "id": "b", "text": "Falso" }
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "a) Correta. Azure Functions é um serviço serverless (orientado a eventos) para executar código em resposta a triggers, sem você gerenciar servidores.\n\nb) Incorreta. A afirmação é verdadeira segundo a definição oficial do serviço.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

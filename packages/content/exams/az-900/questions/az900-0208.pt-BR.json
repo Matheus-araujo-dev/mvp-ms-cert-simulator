@@ -1,0 +1,33 @@
+﻿{
+  "id": "az900-0208",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": {
+    "intro": "Você precisa criar um processo de Monitoramento em serviços e aplicativos da sua conta.\n\nA partir de qual ícone você pode iniciar esse processo?",
+    "observation": "Selecione o número à esquerda do ícone.",
+    "figure": {
+      "description": "Print do portal do Azure (barra de serviços + barra superior) com números sobre alguns ícones.",
+      "labels": [
+        "1) + Criar um recurso (inicia a criação/adição de serviços, incluindo recursos relacionados a monitoramento).",
+        "2) Máquinas virtuais.",
+        "3) Azure Cloud Shell.",
+        "4) Filtro de diretório e assinatura.",
+        "5) Notificações (mensagens/alertas do portal).",
+        "6) Configurações do portal."
+      ]
+    }
+  },
+  "options": [
+    { "id": "1", "text": "1" },
+    { "id": "2", "text": "2" },
+    { "id": "3", "text": "3" },
+    { "id": "4", "text": "4" },
+    { "id": "5", "text": "5" },
+    { "id": "6", "text": "6" }
+  ],
+  "correctOptionIds": ["1"],
+  "explanation": "A alternativa **1** é a correta porque, no portal do Azure, o caminho típico para iniciar a adoção/configuração de recursos (incluindo serviços usados em monitoramento, como componentes do ecossistema de **Azure Monitor**) começa por **Criar um recurso**.\n\nPor que as outras estão incorretas:\n- **2)** é um atalho para VMs (compute), não para iniciar a criação/configuração de monitoramento.\n- **3)** Cloud Shell é um terminal no portal, não o ponto de partida do processo de criação de recursos.\n- **4)** muda diretório/assinatura (escopo), não inicia monitoramento.\n- **5)** é onde você visualiza notificações/alertas, não onde cria/configura o processo de monitoramento.\n- **6)** configurações de aparência/conta do portal, não monitoramento.\n\nReferências (Microsoft Learn):\n- https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-overview\n- https://learn.microsoft.com/en-us/azure/azure-monitor/overview",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "az900-0084",
+  "domainId": "cloud",
+  "type": "single",
+  "prompt": "O que é o Azure Data Factory?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Um serviço de monitoramento de desempenho que rastreia o tráfego de rede e a latência entre os recursos do Azure."
+    },
+    {
+      "id": "b",
+      "text": "Um serviço de backup e recuperação de dados que protege máquinas virtuais e bancos de dados na nuvem."
+    },
+    {
+      "id": "c",
+      "text": "Um serviço de integração de dados totalmente gerenciado que permite orquestrar e automatizar o movimento e a transformação de dados em vários sistemas."
+    },
+    {
+      "id": "d",
+      "text": "Uma plataforma de análise de big data que permite executar consultas complexas em dados não estruturados."
+    }
+  ],
+  "correctOptionIds": ["c"],
+  "explanation": "c) Correta. O Azure Data Factory é um serviço de integração de dados totalmente gerenciado usado para criar pipelines que orquestram e automatizam a movimentação e a transformação de dados entre diferentes armazenamentos e serviços.\n\na) Incorreta. Isso descreve serviços de monitoramento/observabilidade (por exemplo, Azure Monitor), não integração e orquestração de dados.\n\nb) Incorreta. Isso descreve backup e recuperação (por exemplo, Azure Backup), não pipelines de integração de dados.\n\nd) Incorreta. Isso descreve plataformas de analytics/big data (por exemplo, Azure Synapse/Databricks), não o serviço de orquestração de pipelines de integração.\n\nReferência (Microsoft Learn): https://learn.microsoft.com/en-us/azure/data-factory/introduction",
+  "tags": [],
+  "difficulty": 1,
+  "locale": "pt-BR"
+}
